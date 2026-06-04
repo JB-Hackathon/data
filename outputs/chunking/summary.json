@@ -1,0 +1,11 @@
+{
+  "documents": 31,
+  "success_documents": 31,
+  "chunks_before_filter": 941,
+  "filtered_chunks": 30,
+  "chunks": 911,
+  "docling_chunks": 548,
+  "fallback_chunks": 363,
+  "max_tokens": 2048,
+  "overlap_tokens": 0
+}

@@ -1,0 +1,4753 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815(\uae08\uc735\uc704\uc6d0\ud68c\uace0\uc2dc)(\uc81c2026-17\ud638)(20260506)",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 7214482588094660417,
+    "filename": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815(\uae08\uc735\uc704\uc6d0\ud68c\uace0\uc2dc)(\uc81c2026-17\ud638)(20260506).pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/138"
+      },
+      {
+        "$ref": "#/texts/139"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 231.5,
+            "t": 759.616,
+            "r": 363.5,
+            "b": 748.8433041301627,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 156.07,
+            "t": 737.462,
+            "r": 438.9309999999996,
+            "b": 729.3824780976221,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "[\uc2dc\ud589 2026. 5. 6.] [\uae08\uc735\uc704\uc6d0\ud68c\uace0\uc2dc \uc81c2026-17\ud638, 2026. 5. 6., \uc77c\ubd80\uac1c\uc815]",
+      "text": "[\uc2dc\ud589 2026. 5. 6.] [\uae08\uc735\uc704\uc6d0\ud68c\uace0\uc2dc \uc81c2026-17\ud638, 2026. 5. 6., \uc77c\ubd80\uac1c\uc815]"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 401.53,
+            "t": 693.962,
+            "r": 559.0030000000004,
+            "b": 685.8824780976221,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "\uae08\uc735\uc704\uc6d0\ud68c(\uc911\uc18c\uae08\uc735\uacfc), 02-2100-2991",
+      "text": "\uae08\uc735\uc704\uc6d0\ud68c(\uc911\uc18c\uae08\uc735\uacfc), 02-2100-2991"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 44.0,
+            "t": 664.68,
+            "r": 335.84,
+            "b": 655.7027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "\uc81c2\uc870(\uc815\uc758) \u2460 \uc774 \uaddc\uc815\uc5d0\uc11c \uc0ac\uc6a9\ud558\ub294 \uc6a9\uc5b4\uc758 \uc815\uc758\ub294 \ub2e4\uc74c\uacfc \uac19\ub2e4.",
+      "text": "\uc81c2\uc870(\uc815\uc758) \u2460 \uc774 \uaddc\uc815\uc5d0\uc11c \uc0ac\uc6a9\ud558\ub294 \uc6a9\uc5b4\uc758 \uc815\uc758\ub294 \ub2e4\uc74c\uacfc \uac19\ub2e4."
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 644.68,
+            "r": 563.4711300000004,
+            "b": 595.7027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "1. \"\ucc44\uad8c\"\uc774\ub77c \ud568\uc740 \ub300\ucd9c\uae08(\uba85\uce6d \ub4f1 \ud615\uc2dd\uc5d0 \ubd88\uad6c\ud558\uace0 \uacbd\uc81c\uc801 \uc2e4\uc9c8\uc774 \uc774\uc790\uc218\ucde8 \ub4f1\uc744 \ubaa9\uc801\uc73c\ub85c \ubc18\ud658\uc744 \uc57d\uc815\ud558\uace0 \uc790 \uae08\uc744 \ub300\uc5ec\ud558\uc5ec \ubc1c\uc0dd\ud55c \ub300\ucd9c\ucc44\uad8c \ubc0f \ub300\uc9c0\uae09\uae08 \ub4f1\uc758 \uad6c\uc0c1\ucc44\uad8c), \ud560\uc778\uc5b4\uc74c, \ud560\ubd80\uae08\uc735, \ud329\ud1a0\ub9c1, \uc9c0\uae09\ubcf4\uc99d\ub300\uc9c0\uae09\uae08, \ub2e8\uae30\ub300\uc5ec\uae08\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\ucc44\uad8c\"\uc774\ub77c \ud568\uc740 \ub300\ucd9c\uae08(\uba85\uce6d \ub4f1 \ud615\uc2dd\uc5d0 \ubd88\uad6c\ud558\uace0 \uacbd\uc81c\uc801 \uc2e4\uc9c8\uc774 \uc774\uc790\uc218\ucde8 \ub4f1\uc744 \ubaa9\uc801\uc73c\ub85c \ubc18\ud658\uc744 \uc57d\uc815\ud558\uace0 \uc790 \uae08\uc744 \ub300\uc5ec\ud558\uc5ec \ubc1c\uc0dd\ud55c \ub300\ucd9c\ucc44\uad8c \ubc0f \ub300\uc9c0\uae09\uae08 \ub4f1\uc758 \uad6c\uc0c1\ucc44\uad8c), \ud560\uc778\uc5b4\uc74c, \ud560\ubd80\uae08\uc735, \ud329\ud1a0\ub9c1, \uc9c0\uae09\ubcf4\uc99d\ub300\uc9c0\uae09\uae08, \ub2e8\uae30\ub300\uc5ec\uae08\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 584.68,
+            "r": 504.06999999999994,
+            "b": 575.7027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "2. \"\ub9ac\uc2a4\uc790\uc0b0\"\uc774\ub77c \ud568\uc740 \uc6b4\uc6a9\ub9ac\uc2a4\uc790\uc0b0, \uae08\uc735\ub9ac\uc2a4\ucc44\uad8c, \uc120\uae09\ub9ac\uc2a4\uc790\uc0b0, \ub80c\ud0c8\uc790\uc0b0, \uad00\ub828 \ubbf8\uc218\uae08\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\ub9ac\uc2a4\uc790\uc0b0\"\uc774\ub77c \ud568\uc740 \uc6b4\uc6a9\ub9ac\uc2a4\uc790\uc0b0, \uae08\uc735\ub9ac\uc2a4\ucc44\uad8c, \uc120\uae09\ub9ac\uc2a4\uc790\uc0b0, \ub80c\ud0c8\uc790\uc0b0, \uad00\ub828 \ubbf8\uc218\uae08\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 564.68,
+            "r": 560.6494800000002,
+            "b": 535.7027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "3. \"\uce74\ub4dc\uc790\uc0b0\"\uc774\ub77c \ud568\uc740 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\u318d\uc9c1\ubd88\uce74\ub4dc\ud68c\uc6d0 \ub610\ub294 \uc120\ubd88\uce74\ub4dc \uc18c\uc9c0\uc790\uac00 \uc2e0\uc6a9\uce74\ub4dc\u318d\uc9c1\ubd88\uce74\ub4dc \ub610\ub294 \uc120\ubd88\uce74 \ub4dc\ub97c \uc774\uc6a9\ud568\uc5d0 \ub530\ub77c \ubc1c\uc0dd\ud558\ub294 \ucc44\uad8c\uc73c\ub85c \ub2e4\uc74c \uac01 \ubaa9\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\ub97c \ub9d0\ud55c\ub2e4.",
+      "text": "\"\uce74\ub4dc\uc790\uc0b0\"\uc774\ub77c \ud568\uc740 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\u318d\uc9c1\ubd88\uce74\ub4dc\ud68c\uc6d0 \ub610\ub294 \uc120\ubd88\uce74\ub4dc \uc18c\uc9c0\uc790\uac00 \uc2e0\uc6a9\uce74\ub4dc\u318d\uc9c1\ubd88\uce74\ub4dc \ub610\ub294 \uc120\ubd88\uce74 \ub4dc\ub97c \uc774\uc6a9\ud568\uc5d0 \ub530\ub77c \ubc1c\uc0dd\ud558\ub294 \ucc44\uad8c\uc73c\ub85c \ub2e4\uc74c \uac01 \ubaa9\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\ub97c \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.0,
+            "t": 524.68,
+            "r": 560.0803299999995,
+            "b": 495.70275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "\uac00. \uc2e0\uc6a9\ud310\ub9e4\uc790\uc0b0: \uc2e0\uc6a9\uce74\ub4dc\ub85c \ubb3c\ud488\uc744 \uad6c\uc785\ud558\uac70\ub098 \uc6a9\uc5ed\uc744 \uc81c\uacf5\ubc1b\ub294 \ub4f1\uc73c\ub85c \uc778\ud558\uc5ec \ubc1c\uc0dd\ud55c \ucc44\uad8c \uc911 \ub2e4\ubaa9\uc744 \uc81c\uc678 \ud55c \ucc44\uad8c",
+      "text": "\uac00. \uc2e0\uc6a9\ud310\ub9e4\uc790\uc0b0: \uc2e0\uc6a9\uce74\ub4dc\ub85c \ubb3c\ud488\uc744 \uad6c\uc785\ud558\uac70\ub098 \uc6a9\uc5ed\uc744 \uc81c\uacf5\ubc1b\ub294 \ub4f1\uc73c\ub85c \uc778\ud558\uc5ec \ubc1c\uc0dd\ud55c \ucc44\uad8c \uc911 \ub2e4\ubaa9\uc744 \uc81c\uc678 \ud55c \ucc44\uad8c",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.0,
+            "t": 484.68,
+            "r": 560.5950000000005,
+            "b": 455.70275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "\ub098. \uce74\ub4dc\ub300\ucd9c\uc790\uc0b0: \ub2e8\uae30\uce74\ub4dc\ub300\ucd9c(\ud604\uae08\uc11c\ube44\uc2a4), \uc7a5\uae30\uce74\ub4dc\ub300\ucd9c(\uce74\ub4dc\ub860) \ub4f1 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc5d0 \ub300\ud55c \uc790\uae08\uc758 \uc735\ud1b5\uc73c\ub85c \uc778\ud558\uc5ec \ubc1c\uc0dd\ud55c \ucc44\uad8c \uc911 \ub2e4\ubaa9\uc744 \uc81c\uc678\ud55c \ucc44\uad8c",
+      "text": "\ub098. \uce74\ub4dc\ub300\ucd9c\uc790\uc0b0: \ub2e8\uae30\uce74\ub4dc\ub300\ucd9c(\ud604\uae08\uc11c\ube44\uc2a4), \uc7a5\uae30\uce74\ub4dc\ub300\ucd9c(\uce74\ub4dc\ub860) \ub4f1 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc5d0 \ub300\ud55c \uc790\uae08\uc758 \uc735\ud1b5\uc73c\ub85c \uc778\ud558\uc5ec \ubc1c\uc0dd\ud55c \ucc44\uad8c \uc911 \ub2e4\ubaa9\uc744 \uc81c\uc678\ud55c \ucc44\uad8c",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.0,
+            "t": 444.68,
+            "r": 560.1793599999995,
+            "b": 415.70275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "\ub2e4. \uc77c\ubd80\uacb0\uc81c\uae08\uc561\uc774\uc6d4\uc57d\uc815\uc790\uc0b0(\ub9ac\ubcfc\ube59\uc790\uc0b0): \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc774 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc640 \ubcc4\ub3c4 \uc57d\uc815\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9 \ub300\uae08\uc758 \uc77c\ubd80\ub9cc \uacb0\uc81c\ud558\uace0 \uc794\uc5ec\uae08\uc561\uc5d0 \ub300\ud55c \uacb0\uc81c\ub97c \uc774\uc6d4\ud568\uc5d0 \ub530\ub77c \ubc1c\uc0dd\ud558\ub294 \ucc44\uad8c",
+      "text": "\ub2e4. \uc77c\ubd80\uacb0\uc81c\uae08\uc561\uc774\uc6d4\uc57d\uc815\uc790\uc0b0(\ub9ac\ubcfc\ube59\uc790\uc0b0): \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc774 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc640 \ubcc4\ub3c4 \uc57d\uc815\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9 \ub300\uae08\uc758 \uc77c\ubd80\ub9cc \uacb0\uc81c\ud558\uace0 \uc794\uc5ec\uae08\uc561\uc5d0 \ub300\ud55c \uacb0\uc81c\ub97c \uc774\uc6d4\ud568\uc5d0 \ub530\ub77c \ubc1c\uc0dd\ud558\ub294 \ucc44\uad8c",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.0,
+            "t": 404.68,
+            "r": 560.0803299999998,
+            "b": 375.70275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "\ub77c. \uadf8 \ubc16\uc758 \uce74\ub4dc\uc790\uc0b0: \uc9c1\ubd88\uce74\ub4dc\ud68c\uc6d0 \ub610\ub294 \uc120\ubd88\uce74\ub4dc \uc18c\uc9c0\uc790\uac00 \uc9c1\ubd88\uce74\ub4dc \ub610\ub294 \uc120\ubd88\uce74\ub4dc\ub97c \uc774\uc6a9\ud568\uc5d0 \ub530\ub77c \ubc1c\uc0dd\ud558 \ub294 \ucc44\uad8c \ubc0f \uac00\ubaa9\ubd80\ud130 \ub2e4\ubaa9\uae4c\uc9c0\uc758 \uc5b4\ub290 \ud558\ub098\uc5d0 \ud574\ub2f9\ud558\uc9c0 \uc54a\ub294 \uce74\ub4dc\uc790\uc0b0",
+      "text": "\ub77c. \uadf8 \ubc16\uc758 \uce74\ub4dc\uc790\uc0b0: \uc9c1\ubd88\uce74\ub4dc\ud68c\uc6d0 \ub610\ub294 \uc120\ubd88\uce74\ub4dc \uc18c\uc9c0\uc790\uac00 \uc9c1\ubd88\uce74\ub4dc \ub610\ub294 \uc120\ubd88\uce74\ub4dc\ub97c \uc774\uc6a9\ud568\uc5d0 \ub530\ub77c \ubc1c\uc0dd\ud558 \ub294 \ucc44\uad8c \ubc0f \uac00\ubaa9\ubd80\ud130 \ub2e4\ubaa9\uae4c\uc9c0\uc758 \uc5b4\ub290 \ud558\ub098\uc5d0 \ud574\ub2f9\ud558\uc9c0 \uc54a\ub294 \uce74\ub4dc\uc790\uc0b0",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 364.68,
+            "r": 561.0787699999996,
+            "b": 335.70275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "4. \"\ud22c\uc790\"\ub77c \ud568\uc740 \ud22c\uc790\uc99d\uad8c(\u300c\uc790\ubcf8\uc2dc\uc7a5\uacfc \uae08\uc735\ud22c\uc790\uc5c5\uc5d0 \uad00\ud55c \ubc95\ub960\u300d\uc81c4\uc870\uc758 \uc99d\uad8c\uc744 \ub9d0\ud558\uba70, \ud30c\uc0dd\uacb0\ud569\uc99d\uad8c \ubc0f \uc99d\uad8c \uc608\ud0c1\uc99d\uad8c\uc744 \uc81c\uc678\ud55c\ub2e4)\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\ud22c\uc790\"\ub77c \ud568\uc740 \ud22c\uc790\uc99d\uad8c(\u300c\uc790\ubcf8\uc2dc\uc7a5\uacfc \uae08\uc735\ud22c\uc790\uc5c5\uc5d0 \uad00\ud55c \ubc95\ub960\u300d\uc81c4\uc870\uc758 \uc99d\uad8c\uc744 \ub9d0\ud558\uba70, \ud30c\uc0dd\uacb0\ud569\uc99d\uad8c \ubc0f \uc99d\uad8c \uc608\ud0c1\uc99d\uad8c\uc744 \uc81c\uc678\ud55c\ub2e4)\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 324.68000000000006,
+            "r": 560.4328799999995,
+            "b": 295.7027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "5. \"\uc5ec\uc2e0\uc131\uac00\uc9c0\uae09\uae08\"\uc774\ub77c \ud568\uc740 \uc81c1\ud638 \ub0b4\uc9c0 \uc81c4\ud638\uc640 \uad00\ub828\ud558\uc5ec \ubc1c\uc0dd\ud55c \uac00\uc9c0\uae09\uae08\uc911 \uac70\ub798\ucc98\uac00 \ubd80\ub2f4\ud558\uc5ec\uc57c \ud558\ub294 \uae08\uc561 \uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\uc5ec\uc2e0\uc131\uac00\uc9c0\uae09\uae08\"\uc774\ub77c \ud568\uc740 \uc81c1\ud638 \ub0b4\uc9c0 \uc81c4\ud638\uc640 \uad00\ub828\ud558\uc5ec \ubc1c\uc0dd\ud55c \uac00\uc9c0\uae09\uae08\uc911 \uac70\ub798\ucc98\uac00 \ubd80\ub2f4\ud558\uc5ec\uc57c \ud558\ub294 \uae08\uc561 \uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 284.68000000000006,
+            "r": 275.82,
+            "b": 275.7027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "6. \"\ucc44\uad8c\ub4f1\"\uc774\ub77c \ud568\uc740 \uc81c1\ud638 \ub0b4\uc9c0 \uc81c5\ud638\ub97c \ub9d0\ud55c\ub2e4.",
+      "text": "\"\ucc44\uad8c\ub4f1\"\uc774\ub77c \ud568\uc740 \uc81c1\ud638 \ub0b4\uc9c0 \uc81c5\ud638\ub97c \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 264.68000000000006,
+            "r": 561.2099999999997,
+            "b": 235.70275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "7. \"\uc5f0\uccb4\ucc44\uad8c\ub4f1\"\uc774\ub77c \ud568\uc740 \uc57d\uc815\uae30\uc77c\uc5d0 \uc0c1\ud658\ub418\uc9c0 \uc544\ub2c8\ud55c \ucc44\uad8c\ub4f1\uc744 \ub9d0\ud558\uba70 \ub2e4\uc74c \uac01\ubaa9\uc758 1\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\ub97c \ud3ec\ud568 \ud55c\ub2e4.",
+      "text": "\"\uc5f0\uccb4\ucc44\uad8c\ub4f1\"\uc774\ub77c \ud568\uc740 \uc57d\uc815\uae30\uc77c\uc5d0 \uc0c1\ud658\ub418\uc9c0 \uc544\ub2c8\ud55c \ucc44\uad8c\ub4f1\uc744 \ub9d0\ud558\uba70 \ub2e4\uc74c \uac01\ubaa9\uc758 1\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\ub97c \ud3ec\ud568 \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.0,
+            "t": 224.68000000000006,
+            "r": 520.3,
+            "b": 215.70275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "\uac00. \uc57d\uc815\uae30\uc77c \uc774\ub0b4\ub77c\ub3c4 \uc774\uc790 \ub4f1\uc774 \ub0a9\uc785\ub418\uc9c0 \uc544\ub2c8\ud558\ub294 \ub4f1\uc758 \uc0ac\uc720\ub85c \uae30\ud55c\uc774\uc775 \uc0c1\uc2e4\uc0ac\uc720\uac00 \ubc1c\uc0dd\ud55c \ucc44\uad8c\ub4f1",
+      "text": "\uac00. \uc57d\uc815\uae30\uc77c \uc774\ub0b4\ub77c\ub3c4 \uc774\uc790 \ub4f1\uc774 \ub0a9\uc785\ub418\uc9c0 \uc544\ub2c8\ud558\ub294 \ub4f1\uc758 \uc0ac\uc720\ub85c \uae30\ud55c\uc774\uc775 \uc0c1\uc2e4\uc0ac\uc720\uac00 \ubc1c\uc0dd\ud55c \ucc44\uad8c\ub4f1",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.0,
+            "t": 204.68000000000006,
+            "r": 282.21999999999997,
+            "b": 195.70275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\ub098. \ubd84\ud560\uc0c1\ud658\uae30\uc77c\uc5d0 \uc0c1\ud658\ub418\uc9c0 \uc544\ub2c8\ud55c \ubd84\ud560\uc0c1\ud658\uae08",
+      "text": "\ub098. \ubd84\ud560\uc0c1\ud658\uae30\uc77c\uc5d0 \uc0c1\ud658\ub418\uc9c0 \uc544\ub2c8\ud55c \ubd84\ud560\uc0c1\ud658\uae08",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 184.68000000000006,
+            "r": 559.6291399999994,
+            "b": 155.70275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "8. \"\ucc44\uad8c\ucd94\uc2ec\"\uc774\ub77c \ud568\uc740 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac \ub4f1\uc774 \ub2f9\ud574 \ud68c\uc0ac\uc758 \ucc44\uad8c\uc744 \uc9c1\uc811 \ub610\ub294 \uc704\ud0c1\ud558\uc5ec \ud68c\uc218\ud558\uac70\ub098 \ud68c\uc218\ub97c \uc704\ud0c1 \ubc1b\uc740 \uc81c3\uc790\uc758 \ucc44\uad8c\uc744 \ud68c\uc218\ud558\ub294 \uac83\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\ucc44\uad8c\ucd94\uc2ec\"\uc774\ub77c \ud568\uc740 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac \ub4f1\uc774 \ub2f9\ud574 \ud68c\uc0ac\uc758 \ucc44\uad8c\uc744 \uc9c1\uc811 \ub610\ub294 \uc704\ud0c1\ud558\uc5ec \ud68c\uc218\ud558\uac70\ub098 \ud68c\uc218\ub97c \uc704\ud0c1 \ubc1b\uc740 \uc81c3\uc790\uc758 \ucc44\uad8c\uc744 \ud68c\uc218\ud558\ub294 \uac83\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.0,
+            "t": 144.68000000000006,
+            "r": 559.6291399999994,
+            "b": 115.70275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "9. \"\ubc95\uc778\uc2e0\uc6a9\uce74\ub4dc\"\ub77c \ud568\uc740 \ubc95\uc778 \ub4f1 \ubd80\uac00\uac00\uce58\uc138\ubc95 \ub4f1\uc5d0 \uc758\ud55c \uc0ac\uc5c5\uc790\ub4f1\ub85d\uc744 \ud55c \uc0ac\uc5c5\uc790\uc5d0\uac8c \ubc1c\uae09\ub41c \uc2e0\uc6a9\uce74\ub4dc\ub97c \ub9d0\ud55c \ub2e4.",
+      "text": "\"\ubc95\uc778\uc2e0\uc6a9\uce74\ub4dc\"\ub77c \ud568\uc740 \ubc95\uc778 \ub4f1 \ubd80\uac00\uac00\uce58\uc138\ubc95 \ub4f1\uc5d0 \uc758\ud55c \uc0ac\uc5c5\uc790\ub4f1\ub85d\uc744 \ud55c \uc0ac\uc5c5\uc790\uc5d0\uac8c \ubc1c\uae09\ub41c \uc2e0\uc6a9\uce74\ub4dc\ub97c \ub9d0\ud55c \ub2e4.",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            1                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            1                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 778.18,
+            "r": 563.3655499999999,
+            "b": 729.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "10. \"\uc2e0\uae30\uc220\uc0ac\uc5c5 \ud22c\uc790\uc870\ud569 \uc790\uae08\uc758 \uad00\ub9ac\u318d\uc6b4\uc6a9\"\uc774\ub77c \ud568\uc740 \uc2e0\uae30\uc220\uc0ac\uc5c5\uc790(\u300c\uae30\uc220\uc2e0\uc6a9\ubcf4\uc99d\uae30\uae08\ubc95\u300d \uc2dc\ud589\ub839 \uc81c3\uc870\uc81c 1\ud56d \uac01 \ud638\uc758 \uc0ac\uc5c5\uc744 \uc601\uc704\ud558\ub294 \uc678\uad6d\uae30\uc5c5\uc744 \ud3ec\ud568\ud55c\ub2e4)\uc5d0 \ub300\ud55c \ud22c\uc790, \ud2b9\ud5c8\uad8c, \uc2e4\uc6a9\uc2e0\uc548\uad8c, \ub514\uc790\uc778\uad8c \ub4f1 \uae30\uc220\uad00\ub828 \uc790\uc0b0\uc758 \uc778\uc218, \uae30\ud0c0 \uc2e0\uae30\uc220\uc0ac\uc5c5 \ud22c\uc790\uc870\ud569\uc758 \uc124\ub9bd\ubaa9\uc801 \ub2ec\uc131\uc5d0 \ud544\uc694\ud55c \uc790\uae08\uc758 \uad00\ub9ac\u318d\uc6b4\uc6a9\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\uc2e0\uae30\uc220\uc0ac\uc5c5 \ud22c\uc790\uc870\ud569 \uc790\uae08\uc758 \uad00\ub9ac\u318d\uc6b4\uc6a9\"\uc774\ub77c \ud568\uc740 \uc2e0\uae30\uc220\uc0ac\uc5c5\uc790(\u300c\uae30\uc220\uc2e0\uc6a9\ubcf4\uc99d\uae30\uae08\ubc95\u300d \uc2dc\ud589\ub839 \uc81c3\uc870\uc81c 1\ud56d \uac01 \ud638\uc758 \uc0ac\uc5c5\uc744 \uc601\uc704\ud558\ub294 \uc678\uad6d\uae30\uc5c5\uc744 \ud3ec\ud568\ud55c\ub2e4)\uc5d0 \ub300\ud55c \ud22c\uc790, \ud2b9\ud5c8\uad8c, \uc2e4\uc6a9\uc2e0\uc548\uad8c, \ub514\uc790\uc778\uad8c \ub4f1 \uae30\uc220\uad00\ub828 \uc790\uc0b0\uc758 \uc778\uc218, \uae30\ud0c0 \uc2e0\uae30\uc220\uc0ac\uc5c5 \ud22c\uc790\uc870\ud569\uc758 \uc124\ub9bd\ubaa9\uc801 \ub2ec\uc131\uc5d0 \ud544\uc694\ud55c \uc790\uae08\uc758 \uad00\ub9ac\u318d\uc6b4\uc6a9\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 718.18,
+            "r": 561.2099999999997,
+            "b": 669.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            139
+          ]
+        }
+      ],
+      "orig": "11. \"\ucc44\ubb34\ubcf4\uc99d\"\uc774\ub77c \ud568\uc740 \uba85\uce6d\uc758 \uc5ec\ud558\ub97c \ubd88\ubb38\ud558\uace0 \ud0c0\uc778\uc758 \ucc44\ubb34\uc774\ud589\uc744 \uc9c1\uc811 \ub610\ub294 \uac04\uc811\uc73c\ub85c \ubcf4\uc7a5\ud558\uae30 \uc704\ud558\uc5ec \ud589\ud558 \ub294 \ubcf4\uc99d\u318d\ubc30\uc11c\u318d\ub2f4\ubcf4\uc81c\uacf5\u318d\ucc44\ubb34\uc778\uc218\u318d\ucd94\uac00\ud22c\uc790\uc758\ubb34\u318d\ub9e4\uc785\ubcf4\uc7a5\uc57d\uc815\u318d\uc720\ub3d9\uc131\uacf5\uae09\uacc4\uc57d\u318d\uc2e0\uc6a9\ud30c\uc0dd\uc0c1\ud488\uc5d0\uc11c\uc758 \ubcf4\uc7a5\uc758 \ub9e4\ub3c4, \uadf8 \ubc16\uc5d0 \uc774\uc5d0 \uc900\ud558\ub294 \uac83\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\ucc44\ubb34\ubcf4\uc99d\"\uc774\ub77c \ud568\uc740 \uba85\uce6d\uc758 \uc5ec\ud558\ub97c \ubd88\ubb38\ud558\uace0 \ud0c0\uc778\uc758 \ucc44\ubb34\uc774\ud589\uc744 \uc9c1\uc811 \ub610\ub294 \uac04\uc811\uc73c\ub85c \ubcf4\uc7a5\ud558\uae30 \uc704\ud558\uc5ec \ud589\ud558 \ub294 \ubcf4\uc99d\u318d\ubc30\uc11c\u318d\ub2f4\ubcf4\uc81c\uacf5\u318d\ucc44\ubb34\uc778\uc218\u318d\ucd94\uac00\ud22c\uc790\uc758\ubb34\u318d\ub9e4\uc785\ubcf4\uc7a5\uc57d\uc815\u318d\uc720\ub3d9\uc131\uacf5\uae09\uacc4\uc57d\u318d\uc2e0\uc6a9\ud30c\uc0dd\uc0c1\ud488\uc5d0\uc11c\uc758 \ubcf4\uc7a5\uc758 \ub9e4\ub3c4, \uadf8 \ubc16\uc5d0 \uc774\uc5d0 \uc900\ud558\ub294 \uac83\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 658.18,
+            "r": 561.1406699999999,
+            "b": 589.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "12. \"\uc7a5\uae30\uc5f0\uccb4\uac00\ub2a5\uc131\"\uc774\ub780 \ucc28\uc8fc\uc758 \uac1c\uc778\uc2e0\uc6a9\uc815\ubcf4\ub97c \uc870\ud68c\ud55c \ub0a0\ub85c\ubd80\ud130 12\uac1c\uc6d4 \uc774\ub0b4\uc5d0 \ucc28\uc8fc\uc5d0\uac8c 3\uac1c\uc6d4 \uc774\uc0c1 \uae08\uc735\uac70 \ub798 \ub4f1 \uc0c1\uac70\ub798\uc640 \uad00\ub828\ud55c \ucc44\ubb34\uc758 \uc5f0\uccb4 \ub610\ub294 \uc774\uc5d0 \uc0c1\ub2f9\ud558\ub294 \ud589\uc704\uac00 \ubc1c\uc0dd\ud560 \ud655\ub960\ub85c\uc11c \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c2\uc870\uc81c5\ud638\uac00\ubaa9\uc5d0 \ub530\ub978 \uac1c\uc778\uc2e0\uc6a9\ud3c9\uac00\ud68c\uc0ac(\u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c5\uc870\uc81c1\ud56d\uc5d0 \ub530\ub978 \uc804\ubb38\uac1c\uc778\uc2e0\uc6a9\ud3c9\uac00\uc5c5\uc744 \uc601\uc704\ud558\ub294 \ud68c\uc0ac\ub294 \uc81c\uc678\ud55c\ub2e4)\uac00 \uc0b0\uc815\ud55c \uac12\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\"\uc7a5\uae30\uc5f0\uccb4\uac00\ub2a5\uc131\"\uc774\ub780 \ucc28\uc8fc\uc758 \uac1c\uc778\uc2e0\uc6a9\uc815\ubcf4\ub97c \uc870\ud68c\ud55c \ub0a0\ub85c\ubd80\ud130 12\uac1c\uc6d4 \uc774\ub0b4\uc5d0 \ucc28\uc8fc\uc5d0\uac8c 3\uac1c\uc6d4 \uc774\uc0c1 \uae08\uc735\uac70 \ub798 \ub4f1 \uc0c1\uac70\ub798\uc640 \uad00\ub828\ud55c \ucc44\ubb34\uc758 \uc5f0\uccb4 \ub610\ub294 \uc774\uc5d0 \uc0c1\ub2f9\ud558\ub294 \ud589\uc704\uac00 \ubc1c\uc0dd\ud560 \ud655\ub960\ub85c\uc11c \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c2\uc870\uc81c5\ud638\uac00\ubaa9\uc5d0 \ub530\ub978 \uac1c\uc778\uc2e0\uc6a9\ud3c9\uac00\ud68c\uc0ac(\u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c5\uc870\uc81c1\ud56d\uc5d0 \ub530\ub978 \uc804\ubb38\uac1c\uc778\uc2e0\uc6a9\ud3c9\uac00\uc5c5\uc744 \uc601\uc704\ud558\ub294 \ud68c\uc0ac\ub294 \uc81c\uc678\ud55c\ub2e4)\uac00 \uc0b0\uc815\ud55c \uac12\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 578.18,
+            "r": 563.0636400000003,
+            "b": 549.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc774 \uaddc\uc815\uc5d0\uc11c \ubcc4\ub3c4\ub85c \uc815\ud558\uc9c0 \uc544\ub2c8\ud55c \uc6a9\uc5b4\ub294 \ubc95 \ubc0f \uc2dc\ud589\ub839\u318d\uc2dc\ud589\uaddc\uce59\uacfc \uae08\uc735\uc704\uc124\uce58\ubc95 \ubc0f \ub3d9 \ubc95 \uc2dc\ud589\ub839 \ub4f1\uc5d0\uc11c \uc815\ud558\ub294 \ubc14\uc5d0 \uc758\ud55c\ub2e4.",
+      "text": "\u2461 \uc774 \uaddc\uc815\uc5d0\uc11c \ubcc4\ub3c4\ub85c \uc815\ud558\uc9c0 \uc544\ub2c8\ud55c \uc6a9\uc5b4\ub294 \ubc95 \ubc0f \uc2dc\ud589\ub839\u318d\uc2dc\ud589\uaddc\uce59\uacfc \uae08\uc735\uc704\uc124\uce58\ubc95 \ubc0f \ub3d9 \ubc95 \uc2dc\ud589\ub839 \ub4f1\uc5d0\uc11c \uc815\ud558\ub294 \ubc14\uc5d0 \uc758\ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.0,
+            "t": 528.18,
+            "r": 557.3799999999999,
+            "b": 499.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "\uc81c23\uc870\uc7582(\uac70\ub798\uc870\uac74\uc758 \uacf5\uc2dc) \u2460 \ud560\ubd80\uae08\uc735\uc5c5\uc790\ub294 \ubc95 \uc81c39\uc870\uc81c1\ud638\uc5d0 \ub530\ub978 \uc774\uc790\uc728, \uc5f0\uccb4\uc774\uc790\uc728 \ubc0f \uac01\uc885 \uc694\uc728\uc744 \uc5ec\uc2e0\uc804 \ubb38\uae08\uc735\uc5c5\ud611\ud68c \uc778\ud130\ub137 \ud648\ud398\uc774\uc9c0\uc5d0 \uac8c\uc2dc\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c23\uc870\uc7582(\uac70\ub798\uc870\uac74\uc758 \uacf5\uc2dc) \u2460 \ud560\ubd80\uae08\uc735\uc5c5\uc790\ub294 \ubc95 \uc81c39\uc870\uc81c1\ud638\uc5d0 \ub530\ub978 \uc774\uc790\uc728, \uc5f0\uccb4\uc774\uc790\uc728 \ubc0f \uac01\uc885 \uc694\uc728\uc744 \uc5ec\uc2e0\uc804 \ubb38\uae08\uc735\uc5c5\ud611\ud68c \uc778\ud130\ub137 \ud648\ud398\uc774\uc9c0\uc5d0 \uac8c\uc2dc\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 488.18,
+            "r": 558.5099999999999,
+            "b": 479.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "\u2461 \uac10\ub3c5\uc6d0\uc7a5\uc740 \ud560\ubd80\uc0c1\ud488\uc758 \uc885\ub958, \uacf5\uc2dc \ub0b4\uc6a9\u318d\uc8fc\uae30 \ub4f1 \uc81c1\ud56d\uc5d0 \ub530\ub978 \uac8c\uc2dc\uc640 \uad00\ub828\ud558\uc5ec \ud544\uc694\ud55c \uc0ac\ud56d\uc744 \uc815\ud560 \uc218 \uc788\ub2e4.",
+      "text": "\u2461 \uac10\ub3c5\uc6d0\uc7a5\uc740 \ud560\ubd80\uc0c1\ud488\uc758 \uc885\ub958, \uacf5\uc2dc \ub0b4\uc6a9\u318d\uc8fc\uae30 \ub4f1 \uc81c1\ud56d\uc5d0 \ub530\ub978 \uac8c\uc2dc\uc640 \uad00\ub828\ud558\uc5ec \ud544\uc694\ud55c \uc0ac\ud56d\uc744 \uc815\ud560 \uc218 \uc788\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.0,
+            "t": 458.18,
+            "r": 548.7099999999999,
+            "b": 429.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870(\uc2e0\uc6a9\uce74\ub4dc\uc758 \ubc1c\uae09) \u2460 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c3\ud56d\uc81c1\ud638\uc5d0 \ub530\ub978 \uac1c\uc778\uc2e0\uc6a9\ud3c9\uc810 \uae30\uc900\uc740 \ub2e4\uc74c \uac01 \ud638 \uc911 \uc5b4\ub290 \ud558\ub098\ub97c \ucda9\uc871\ud558\ub294 \uacbd\uc6b0\ub85c\uc11c \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac\uac00 \uc815\ud558\uc5ec \uacf5\uc2dc\ud558\ub294 \uae30\uc900\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\uc81c24\uc870(\uc2e0\uc6a9\uce74\ub4dc\uc758 \ubc1c\uae09) \u2460 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c3\ud56d\uc81c1\ud638\uc5d0 \ub530\ub978 \uac1c\uc778\uc2e0\uc6a9\ud3c9\uc810 \uae30\uc900\uc740 \ub2e4\uc74c \uac01 \ud638 \uc911 \uc5b4\ub290 \ud558\ub098\ub97c \ucda9\uc871\ud558\ub294 \uacbd\uc6b0\ub85c\uc11c \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac\uac00 \uc815\ud558\uc5ec \uacf5\uc2dc\ud558\ub294 \uae30\uc900\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 418.18,
+            "r": 272.23999999999995,
+            "b": 409.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "1. \uac1c\uc778\uc2e0\uc6a9\ud3c9\uc810\uc774 \uc0c1\uc704 100\ubd84\uc758 93\uc5d0 \ud574\ub2f9\ud560 \uac83",
+      "text": "\uac1c\uc778\uc2e0\uc6a9\ud3c9\uc810\uc774 \uc0c1\uc704 100\ubd84\uc758 93\uc5d0 \ud574\ub2f9\ud560 \uac83",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 398.18,
+            "r": 281.23999999999995,
+            "b": 389.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "2. \uc7a5\uae30\uc5f0\uccb4\uac00\ub2a5\uc131\uc774 1\ub9cc\ubd84\uc758 65 \uc774\ud558\uc5d0 \ud574\ub2f9\ud560 \uac83",
+      "text": "\uc7a5\uae30\uc5f0\uccb4\uac00\ub2a5\uc131\uc774 1\ub9cc\ubd84\uc758 65 \uc774\ud558\uc5d0 \ud574\ub2f9\ud560 \uac83",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 378.18,
+            "r": 486.2799999999999,
+            "b": 369.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c3\ud56d\uc81c1\ud638\ub098\ubaa9\uc5d0 \ub530\ub978 \uc18c\uc561 \uc2e0\uc6a9\uacb0\uc81c \uc774\uc6a9\ud55c\ub3c4\ub294 \uc6d4 \ucd5c\uace0 30\ub9cc\uc6d0\uc73c\ub85c \ud55c\ub2e4.",
+      "text": "\u2461 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c3\ud56d\uc81c1\ud638\ub098\ubaa9\uc5d0 \ub530\ub978 \uc18c\uc561 \uc2e0\uc6a9\uacb0\uc81c \uc774\uc6a9\ud55c\ub3c4\ub294 \uc6d4 \ucd5c\uace0 30\ub9cc\uc6d0\uc73c\ub85c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.0,
+            "t": 348.18,
+            "r": 423.81,
+            "b": 339.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7582(\ud3c9\uade0\uc5f0\ud68c\ube44) \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c1\ud638\uc758 \ud3c9\uade0\uc5f0\ud68c\ube44\ub294 1\ub9cc\uc6d0\uc73c\ub85c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc7582(\ud3c9\uade0\uc5f0\ud68c\ube44) \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c1\ud638\uc758 \ud3c9\uade0\uc5f0\ud68c\ube44\ub294 1\ub9cc\uc6d0\uc73c\ub85c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.0,
+            "t": 318.18000000000006,
+            "r": 555.67,
+            "b": 269.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            136
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7583(\uae38\uac70\ub9ac\uc758\ubc94\uc704) \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c2\ud638 \ubc0f \uc81c6\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc758 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0 \ubaa8 \uc9d1\ud589\uc704\uac00 \uae08\uc9c0\ub418\ub294 \"\uae38\uac70\ub9ac\"\ub77c \ud568\uc740 \ub2e4\uc74c \uac01\ud638\uc758 1\uc5d0 \ud574\ub2f9\ud558\ub294 \ub3c4\ub85c \u318d\uc0ac\ub3c4(\u79c1\u9053) \ub610\ub294 \ud1b5\ub85c\ub97c \ub9d0\ud55c\ub2e4.<\uac1c\uc815 2026. 5. 6.>",
+      "text": "\uc81c24\uc870\uc7583(\uae38\uac70\ub9ac\uc758\ubc94\uc704) \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c2\ud638 \ubc0f \uc81c6\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc758 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0 \ubaa8 \uc9d1\ud589\uc704\uac00 \uae08\uc9c0\ub418\ub294 \"\uae38\uac70\ub9ac\"\ub77c \ud568\uc740 \ub2e4\uc74c \uac01\ud638\uc758 1\uc5d0 \ud574\ub2f9\ud558\ub294 \ub3c4\ub85c \u318d\uc0ac\ub3c4(\u79c1\u9053) \ub610\ub294 \ud1b5\ub85c\ub97c \ub9d0\ud55c\ub2e4.<\uac1c\uc815 2026. 5. 6.>",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 258.18000000000006,
+            "r": 329.78,
+            "b": 249.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "1. \ub3c4\ub85c\ubc95 \uc81c2\uc870 \ubc0f \uc0ac\ub3c4\ubc95 \uc81c2\uc870\uc758 \uaddc\uc815\uc5d0 \uc758\ud55c \ub3c4\ub85c \ubc0f \uc0ac\ub3c4",
+      "text": "\ub3c4\ub85c\ubc95 \uc81c2\uc870 \ubc0f \uc0ac\ub3c4\ubc95 \uc81c2\uc870\uc758 \uaddc\uc815\uc5d0 \uc758\ud55c \ub3c4\ub85c \ubc0f \uc0ac\ub3c4",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 238.18000000000006,
+            "r": 561.7103,
+            "b": 209.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "2. \uacf5\uc6d0, \uc5ed, \uc5ec\uac1d\uc790\ub3d9\ucc28\ud130\ubbf8\ub110, \ub180\uc774\ub3d9\uc0b0, \uc0c1\uac00, \uc804\uc2dc\uad00, \uc6b4\ub3d9\uc7a5, \ud559\uad50 \ub4f1 \uacf5\uacf5\uc758 \uc2dc\uc124 \ub610\ub294 \uc7a5\uc18c \ub0b4\uc5d0\uc11c \ub2e4\uc218\uc778\uc774 \ud1b5\ud589\ud558\ub294 \ud1b5\ub85c",
+      "text": "\uacf5\uc6d0, \uc5ed, \uc5ec\uac1d\uc790\ub3d9\ucc28\ud130\ubbf8\ub110, \ub180\uc774\ub3d9\uc0b0, \uc0c1\uac00, \uc804\uc2dc\uad00, \uc6b4\ub3d9\uc7a5, \ud559\uad50 \ub4f1 \uacf5\uacf5\uc758 \uc2dc\uc124 \ub610\ub294 \uc7a5\uc18c \ub0b4\uc5d0\uc11c \ub2e4\uc218\uc778\uc774 \ud1b5\ud589\ud558\ub294 \ud1b5\ub85c",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.0,
+            "t": 188.18000000000006,
+            "r": 549.7099999999999,
+            "b": 179.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7584(\uc0ac\uc804 \ub3d9\uc758\uc808\ucc28 \ubc0f \uc0ac\uc5c5\uc7a5\uc758 \ubc94\uc704) \u2460 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c3\ud638 \ubc0f \uc81c6\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc0ac\uc5c5\uc7a5 \uc678",
+      "text": "\uc81c24\uc870\uc7584(\uc0ac\uc804 \ub3d9\uc758\uc808\ucc28 \ubc0f \uc0ac\uc5c5\uc7a5\uc758 \ubc94\uc704) \u2460 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c3\ud638 \ubc0f \uc81c6\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc0ac\uc5c5\uc7a5 \uc678",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 168.18000000000006,
+            "r": 557.65,
+            "b": 139.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "\uc758 \uc7a5\uc18c\uc5d0\uc11c \uc0ac\uc804\ub3d9\uc758\ub97c \uc5bb\uc740 \ubc29\ubb38\uc744 \ud1b5\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0\uc744 \ubaa8\uc9d1\ud558\uace0\uc790 \ud558\ub294 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790(\uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc640 \ud68c \uc6d0\ubaa8\uc9d1\uacc4\uc57d\uc744 \uccb4\uacb0\ud55c \"\ubaa8\uc9d1\uc778\"\uc744 \ud3ec\ud568\ud55c\ub2e4. \uc774\ud558 \uc774\uc870\uc5d0\uc11c \uac19\ub2e4)\ub294 \ub2e4\uc74c \uac01\ud638\uc5d0\uc11c \uc815\ud55c \uc808\ucc28\ub97c \uc900\uc218\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc758 \uc7a5\uc18c\uc5d0\uc11c \uc0ac\uc804\ub3d9\uc758\ub97c \uc5bb\uc740 \ubc29\ubb38\uc744 \ud1b5\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0\uc744 \ubaa8\uc9d1\ud558\uace0\uc790 \ud558\ub294 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790(\uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc640 \ud68c \uc6d0\ubaa8\uc9d1\uacc4\uc57d\uc744 \uccb4\uacb0\ud55c \"\ubaa8\uc9d1\uc778\"\uc744 \ud3ec\ud568\ud55c\ub2e4. \uc774\ud558 \uc774\uc870\uc5d0\uc11c \uac19\ub2e4)\ub294 \ub2e4\uc74c \uac01\ud638\uc5d0\uc11c \uc815\ud55c \uc808\ucc28\ub97c \uc900\uc218\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.0,
+            "t": 128.18000000000006,
+            "r": 560.0905999999998,
+            "b": 99.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "1. \ubc29\ubb38\uc5d0 \ub300\ud55c \ub3d9\uc758\ub97c \uc5bb\uae30 \uc804\uc5d0 \ubc29\ubb38\uc0c1\ub300\ubc29\uc5d0\uac8c \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0\uac00\uc785\uc744 \uc2e0\uccad\ubc1b\uc744 \ubaa9\uc801\uc73c\ub85c \ubc29\ubb38\ud558\uaca0\ub2e4\ub294 \ub0b4\uc6a9\uacfc \ubc29\ubb38\uc790\u318d\ubc29\ubb38\uc2dc\uac04\u318d\ubc29\ubb38\uc7a5\uc18c \ub4f1\uc744 \uc0c1\uc138\ud788 \uc54c\ub824\uc904 \uac83",
+      "text": "\ubc29\ubb38\uc5d0 \ub300\ud55c \ub3d9\uc758\ub97c \uc5bb\uae30 \uc804\uc5d0 \ubc29\ubb38\uc0c1\ub300\ubc29\uc5d0\uac8c \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0\uac00\uc785\uc744 \uc2e0\uccad\ubc1b\uc744 \ubaa9\uc801\uc73c\ub85c \ubc29\ubb38\ud558\uaca0\ub2e4\ub294 \ub0b4\uc6a9\uacfc \ubc29\ubb38\uc790\u318d\ubc29\ubb38\uc2dc\uac04\u318d\ubc29\ubb38\uc7a5\uc18c \ub4f1\uc744 \uc0c1\uc138\ud788 \uc54c\ub824\uc904 \uac83",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            2                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            2                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 778.18,
+            "r": 559.1857699999999,
+            "b": 749.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "2. \ubc29\ubb38\uc0c1\ub300\ubc29\uc73c\ub85c\ubd80\ud130 \uc11c\uc2e0, \uc774\uba54\uc77c \ub4f1 \uc0ac\ud6c4\uc5d0 \uac1d\uad00\uc801\uc73c\ub85c \ud655\uc778\ud560 \uc218 \uc788\ub294 \ubc29\ubc95\uc73c\ub85c \ubc29\ubb38\uc5d0 \ub300\ud55c \uc0ac\uc804 \ub3d9\uc758\ub97c \uc5bb \uc744 \uac83",
+      "text": "\ubc29\ubb38\uc0c1\ub300\ubc29\uc73c\ub85c\ubd80\ud130 \uc11c\uc2e0, \uc774\uba54\uc77c \ub4f1 \uc0ac\ud6c4\uc5d0 \uac1d\uad00\uc801\uc73c\ub85c \ud655\uc778\ud560 \uc218 \uc788\ub294 \ubc29\ubc95\uc73c\ub85c \ubc29\ubb38\uc5d0 \ub300\ud55c \uc0ac\uc804 \ub3d9\uc758\ub97c \uc5bb \uc744 \uac83",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 738.18,
+            "r": 562.96612,
+            "b": 689.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c3\ud638 \ubc0f \uc81c6\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc0ac\uc804\ub3d9\uc758 \uc5c6\uc774 \ubc29\ubb38\uc744 \ud1b5\ud558\uc5ec \ud68c\uc6d0\uc744 \ubaa8\uc9d1\ud560 \uc218 \uc788\ub294 \"\uc0ac\uc5c5\uc7a5\"\uc774\ub77c \ud568\uc740 \"\uc8fc\uac70\uc804\uc6a9\uc2dc\uc124\uacfc \ubd84\ub9ac\ub41c \uc0ac\uc5c5\uc7a5(\uc624\ud53c\uc2a4\ud154 \ubc0f \uc8fc\uc0c1\ubcf5\ud569\uac74\ubb3c\uc758 \uc5c5\ubb34\uc6a9\uc2dc\uc124\uc744 \ud3ec\ud568\ud55c\ub2e4)\"\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\u2461 \uc2dc\ud589\ub839 \uc81c6\uc870\uc7587\uc81c5\ud56d\uc81c3\ud638 \ubc0f \uc81c6\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc0ac\uc804\ub3d9\uc758 \uc5c6\uc774 \ubc29\ubb38\uc744 \ud1b5\ud558\uc5ec \ud68c\uc6d0\uc744 \ubaa8\uc9d1\ud560 \uc218 \uc788\ub294 \"\uc0ac\uc5c5\uc7a5\"\uc774\ub77c \ud568\uc740 \"\uc8fc\uac70\uc804\uc6a9\uc2dc\uc124\uacfc \ubd84\ub9ac\ub41c \uc0ac\uc5c5\uc7a5(\uc624\ud53c\uc2a4\ud154 \ubc0f \uc8fc\uc0c1\ubcf5\ud569\uac74\ubb3c\uc758 \uc5c5\ubb34\uc6a9\uc2dc\uc124\uc744 \ud3ec\ud568\ud55c\ub2e4)\"\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 44.0,
+            "t": 668.18,
+            "r": 555.6099999999999,
+            "b": 619.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7585(\uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900 \ubc0f \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815\uc2dc \uc900\uc218\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870 \uc81c4\ud638\u318d\uc81c5\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0 \ubc0f \uc2e0\uc6a9\uce74\ub4dc \ubc1c\uae09\uc2e0\uccad\uc790(\uc774\ud558 \uc774 \uc870\uc5d0\uc11c \"\ud68c\uc6d0 \ub4f1\"\uc774\ub77c \ud55c\ub2e4)\uc758 \uacb0\uc81c\ub2a5\ub825\uc744 \uc2ec\uc0ac\ud558\uae30 \uc704\ud558\uc5ec \uc815\ud558 \ub294 \uae30\uc900\uc5d0\ub294 \ub2e4\uc74c \uac01\ud638\uc758 \uc0ac\ud56d\uc774 \ud3ec\ud568\ub418\uc5b4\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc7585(\uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900 \ubc0f \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815\uc2dc \uc900\uc218\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870 \uc81c4\ud638\u318d\uc81c5\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0 \ubc0f \uc2e0\uc6a9\uce74\ub4dc \ubc1c\uae09\uc2e0\uccad\uc790(\uc774\ud558 \uc774 \uc870\uc5d0\uc11c \"\ud68c\uc6d0 \ub4f1\"\uc774\ub77c \ud55c\ub2e4)\uc758 \uacb0\uc81c\ub2a5\ub825\uc744 \uc2ec\uc0ac\ud558\uae30 \uc704\ud558\uc5ec \uc815\ud558 \ub294 \uae30\uc900\uc5d0\ub294 \ub2e4\uc74c \uac01\ud638\uc758 \uc0ac\ud56d\uc774 \ud3ec\ud568\ub418\uc5b4\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 608.18,
+            "r": 286.12,
+            "b": 599.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "1. \uc18c\ub4dd, \uc7ac\uc0b0, \ucc44\ubb34 \ub4f1 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uc2dc \ubc18\uc601\ud560 \uc0ac\ud56d",
+      "text": "\uc18c\ub4dd, \uc7ac\uc0b0, \ucc44\ubb34 \ub4f1 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uc2dc \ubc18\uc601\ud560 \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 588.18,
+            "r": 536.3299999999999,
+            "b": 579.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "2. \uc18c\ub4dd\u318d\uc7ac\uc0b0\uacfc \ucc44\ubb34 \ub4f1\uc744 \uace0\ub824\ud558\uc5ec \uc0b0\uc815\ud55c \ucc98\ubd84\uac00\ub2a5 \uc18c\ub4dd\uc5d0 \ub530\ub978 \uc6d4 \ud3c9\uade0 \uacb0\uc81c\ub2a5\ub825 \ud3c9\uac00 \uae30\uc900\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\uc18c\ub4dd\u318d\uc7ac\uc0b0\uacfc \ucc44\ubb34 \ub4f1\uc744 \uace0\ub824\ud558\uc5ec \uc0b0\uc815\ud55c \ucc98\ubd84\uac00\ub2a5 \uc18c\ub4dd\uc5d0 \ub530\ub978 \uc6d4 \ud3c9\uade0 \uacb0\uc81c\ub2a5\ub825 \ud3c9\uac00 \uae30\uc900\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 568.18,
+            "r": 290.25,
+            "b": 559.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "3. \uc81c1\ud638 \ubc0f \ubc95 \uc81c14\uc870\uc81c2\ud56d\uc758 \uc0ac\ud56d\uc744 \ud655\uc778\ud558\ub294 \ubc29\ubc95",
+      "text": "\uc81c1\ud638 \ubc0f \ubc95 \uc81c14\uc870\uc81c2\ud56d\uc758 \uc0ac\ud56d\uc744 \ud655\uc778\ud558\ub294 \ubc29\ubc95",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 548.18,
+            "r": 516.7899999999998,
+            "b": 539.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ud68c\uc6d0\ub4f1\uc758 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900\uc744 \uc6b4\uc6a9\ud568\uc5d0 \uc788\uc5b4 \ub2e4\uc74c \uac01\ud638\uc758 \uc0ac\ud56d\uc744 \uc900\uc218\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ud68c\uc6d0\ub4f1\uc758 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900\uc744 \uc6b4\uc6a9\ud568\uc5d0 \uc788\uc5b4 \ub2e4\uc74c \uac01\ud638\uc758 \uc0ac\ud56d\uc744 \uc900\uc218\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 528.18,
+            "r": 329.24999999999994,
+            "b": 519.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "1. \uc81c1\ud56d\uc81c1\ud638\uc758 \uc0ac\ud56d\uc744 \uac1d\uad00\uc801\uc778 \uc790\ub8cc\uc5d0 \uadfc\uac70\ud558\uc5ec \ud655\uc778\ud560 \uac83",
+      "text": "\uc81c1\ud56d\uc81c1\ud638\uc758 \uc0ac\ud56d\uc744 \uac1d\uad00\uc801\uc778 \uc790\ub8cc\uc5d0 \uadfc\uac70\ud558\uc5ec \ud655\uc778\ud560 \uac83",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 508.18,
+            "r": 402.75999999999993,
+            "b": 499.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "2. \uc81c1\ud56d\uc81c1\ud638\uc758 \uc0ac\ud56d\uc744 \ud569\ub9ac\uc801\uc73c\ub85c \ubc18\uc601\ud558\uc5ec \ud68c\uc6d0\ub4f1\uc758 \uacb0\uc81c\ub2a5\ub825\uc744 \ud3c9\uac00\ud560 \uac83",
+      "text": "\uc81c1\ud56d\uc81c1\ud638\uc758 \uc0ac\ud56d\uc744 \ud569\ub9ac\uc801\uc73c\ub85c \ubc18\uc601\ud558\uc5ec \ud68c\uc6d0\ub4f1\uc758 \uacb0\uc81c\ub2a5\ub825\uc744 \ud3c9\uac00\ud560 \uac83",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 488.18,
+            "r": 405.79999999999995,
+            "b": 479.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "3. \ud68c\uc6d0 \ub4f1\uc774 \uc790\uae30\uc758 \uacb0\uc81c\ub2a5\ub825 \ubcc0\ub3d9\uc5d0 \uad00\ud55c \uc790\ub8cc\ub97c \uc81c\ucd9c\ud560 \uacbd\uc6b0 \uc801\uadf9 \ubc18\uc601\ud560 \uac83",
+      "text": "\ud68c\uc6d0 \ub4f1\uc774 \uc790\uae30\uc758 \uacb0\uc81c\ub2a5\ub825 \ubcc0\ub3d9\uc5d0 \uad00\ud55c \uc790\ub8cc\ub97c \uc81c\ucd9c\ud560 \uacbd\uc6b0 \uc801\uadf9 \ubc18\uc601\ud560 \uac83",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 468.18,
+            "r": 560.4926200000002,
+            "b": 439.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "\u2462 \ubc95 \uc81c24\uc870\uc81c5\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ud68c\uc6d0\uc758 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\ud55c\ub3c4\ub97c \ucc45\uc815\ud568\uc5d0 \uc788\uc5b4 \uacfc\ub3c4\ud55c \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815\uc73c \ub85c \uc778\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uac00 \ub0a8\uc6a9\ub418\uc9c0 \uc54a\ub3c4\ub85d \ub2e4\uc74c \uac01\ud638\uc758 \uc0ac\ud56d\uc744 \uc900\uc218\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2462 \ubc95 \uc81c24\uc870\uc81c5\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ud68c\uc6d0\uc758 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\ud55c\ub3c4\ub97c \ucc45\uc815\ud568\uc5d0 \uc788\uc5b4 \uacfc\ub3c4\ud55c \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815\uc73c \ub85c \uc778\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uac00 \ub0a8\uc6a9\ub418\uc9c0 \uc54a\ub3c4\ub85d \ub2e4\uc74c \uac01\ud638\uc758 \uc0ac\ud56d\uc744 \uc900\uc218\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 428.18,
+            "r": 561.6677900000003,
+            "b": 379.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "1. \ud68c\uc6d0 \ub4f1\uc774 \uc2e0\uccad\ud55c \ubc94\uc704 \ub0b4\uc5d0\uc11c \uc774\uc6a9\ud55c\ub3c4\ub97c \ucc45\uc815\ud558\uace0, \ud68c\uc6d0\uc5d0\uac8c \uc774\uc6a9\ud55c\ub3c4\uc758 \uc99d\uc561\uc744 \uc2e0\uccad\ud558\ub3c4\ub85d \uad8c\uc720\ud558\uc9c0 \uc544\ub2c8 \ud560 \uac83. \ub2e4\ub9cc, \ud68c\uc6d0\uc774 \uc774\uc6a9\ud55c\ub3c4 \uc99d\uc561\uc774 \uac00\ub2a5\ud560 \uacbd\uc6b0 \uc774\ub97c \uc548\ub0b4\ud558\uc5ec \uc904 \uac83\uc744 \uc0ac\uc804\uc5d0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc5d0\uac8c \uc2e0\uccad\ud55c \uacbd \uc6b0\uc5d0\ub294 \uadf8\ub7ec\ud558\uc9c0 \uc544\ub2c8\ud558\ub2e4",
+      "text": "\ud68c\uc6d0 \ub4f1\uc774 \uc2e0\uccad\ud55c \ubc94\uc704 \ub0b4\uc5d0\uc11c \uc774\uc6a9\ud55c\ub3c4\ub97c \ucc45\uc815\ud558\uace0, \ud68c\uc6d0\uc5d0\uac8c \uc774\uc6a9\ud55c\ub3c4\uc758 \uc99d\uc561\uc744 \uc2e0\uccad\ud558\ub3c4\ub85d \uad8c\uc720\ud558\uc9c0 \uc544\ub2c8 \ud560 \uac83. \ub2e4\ub9cc, \ud68c\uc6d0\uc774 \uc774\uc6a9\ud55c\ub3c4 \uc99d\uc561\uc774 \uac00\ub2a5\ud560 \uacbd\uc6b0 \uc774\ub97c \uc548\ub0b4\ud558\uc5ec \uc904 \uac83\uc744 \uc0ac\uc804\uc5d0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc5d0\uac8c \uc2e0\uccad\ud55c \uacbd \uc6b0\uc5d0\ub294 \uadf8\ub7ec\ud558\uc9c0 \uc544\ub2c8\ud558\ub2e4",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 368.18,
+            "r": 559.2506599999999,
+            "b": 339.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "2. \uc81c1\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud574 \ud3c9\uac00\ud55c \ud68c\uc6d0\ub4f1\uc758 \uc6d4 \ud3c9\uade0\uacb0\uc81c\ub2a5\ub825\uacfc \uc2e0\uc6a9\ub3c4\uc640 \uc774\uc6a9\uc2e4\uc801 \ub4f1\uc744 \uc885\ud569\uc801\uc73c\ub85c \uc2ec\uc0ac\ud55c \ud6c4 \uc801\uc815 \ud55c \ubc94\uc704 \ub0b4\uc5d0\uc11c \uc774\uc6a9\ud55c\ub3c4\ub97c \ucc45\uc815\ud558\uace0 \ub9e4\ub144 1\ud68c \uc774\uc0c1 \uc815\uae30\uc801\uc73c\ub85c \uc774\uc6a9\ud55c\ub3c4\uc758 \uc801\uc815\uc131\uc744 \uc810\uac80\ud560 \uac83",
+      "text": "\uc81c1\ud56d\uc758 \uaddc\uc815\uc5d0 \uc758\ud574 \ud3c9\uac00\ud55c \ud68c\uc6d0\ub4f1\uc758 \uc6d4 \ud3c9\uade0\uacb0\uc81c\ub2a5\ub825\uacfc \uc2e0\uc6a9\ub3c4\uc640 \uc774\uc6a9\uc2e4\uc801 \ub4f1\uc744 \uc885\ud569\uc801\uc73c\ub85c \uc2ec\uc0ac\ud55c \ud6c4 \uc801\uc815 \ud55c \ubc94\uc704 \ub0b4\uc5d0\uc11c \uc774\uc6a9\ud55c\ub3c4\ub97c \ucc45\uc815\ud558\uace0 \ub9e4\ub144 1\ud68c \uc774\uc0c1 \uc815\uae30\uc801\uc73c\ub85c \uc774\uc6a9\ud55c\ub3c4\uc758 \uc801\uc815\uc131\uc744 \uc810\uac80\ud560 \uac83",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 328.18000000000006,
+            "r": 360.77,
+            "b": 319.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "3. \uc81c2\ud638\uc5d0 \ub530\ub978 \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815\uc5d0 \uad00\ud55c \uc2ec\uc0ac\uae30\ub85d\uacfc \uc790\ub8cc\ub97c \ubcf4\uad00\ud560 \uac83",
+      "text": "\uc81c2\ud638\uc5d0 \ub530\ub978 \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815\uc5d0 \uad00\ud55c \uc2ec\uc0ac\uae30\ub85d\uacfc \uc790\ub8cc\ub97c \ubcf4\uad00\ud560 \uac83",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 308.18000000000006,
+            "r": 560.4926200000002,
+            "b": 299.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "\u2463 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ubc95 \uc81c24\uc870\uc81c4\ud638\uc5d0 \ub530\ub978 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\ub300\uae08 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900\uc744 \uc81c\uc815 \ub610\ub294 \ubcc0\uacbd\ud55c \uacbd\uc6b0\uc5d0\ub294",
+      "text": "\u2463 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ubc95 \uc81c24\uc870\uc81c4\ud638\uc5d0 \ub530\ub978 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\ub300\uae08 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900\uc744 \uc81c\uc815 \ub610\ub294 \ubcc0\uacbd\ud55c \uacbd\uc6b0\uc5d0\ub294",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 288.18000000000006,
+            "r": 268.16862999999995,
+            "b": 279.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\uadf8 \ub0b4\uc6a9\uc744 \uc989\uc2dc \uac10\ub3c5\uc6d0\uc7a5\uc5d0\uac8c \ubcf4\uace0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uadf8 \ub0b4\uc6a9\uc744 \uc989\uc2dc \uac10\ub3c5\uc6d0\uc7a5\uc5d0\uac8c \ubcf4\uace0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.0,
+            "t": 268.18000000000006,
+            "r": 560.10344,
+            "b": 239.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "\u2464 \uac10\ub3c5\uc6d0\uc7a5\uc740 \uc81c4\ud56d\uc5d0 \ub530\ub77c \ubcf4\uace0\ubc1b\uc740 \uc2e0\uc6a9\uce74\ub4dc\uc774\uc6a9\ub300\uae08 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900\uc774 \uc81c1\ud56d\uc758 \uc900\uc218\uc0ac\ud56d\uc744 \uc704\ubc18\ud558\ub294 \uacbd \uc6b0 \ubcc0\uacbd\uc744 \uc694\uad6c\ud560 \uc218 \uc788\ub2e4.",
+      "text": "\u2464 \uac10\ub3c5\uc6d0\uc7a5\uc740 \uc81c4\ud56d\uc5d0 \ub530\ub77c \ubcf4\uace0\ubc1b\uc740 \uc2e0\uc6a9\uce74\ub4dc\uc774\uc6a9\ub300\uae08 \uacb0\uc81c\ub2a5\ub825 \uc2ec\uc0ac\uae30\uc900\uc774 \uc81c1\ud56d\uc758 \uc900\uc218\uc0ac\ud56d\uc744 \uc704\ubc18\ud558\ub294 \uacbd \uc6b0 \ubcc0\uacbd\uc744 \uc694\uad6c\ud560 \uc218 \uc788\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 44.0,
+            "t": 218.18000000000006,
+            "r": 558.1699999999998,
+            "b": 109.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            321
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7586(\uac00\ub9f9\uc810 \uad00\ub9ac\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870\uc81c7\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uacfc \uacc4\uc57d \uccb4\uacb0 \ub4f1\uc744 \ud1b5\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uc774 \uc2e0\uc6a9\uce74\ub4dc\uc5d0 \uc758\ud55c \uac70\ub798\ub97c \ud560 \ub54c\ub9c8\ub2e4 \uc2e0\uc6a9\uce74\ub4dc \uc0c1\uc758 \uc11c\uba85\uacfc \ub9e4\ucd9c\uc804\ud45c \uc0c1\uc758 \uc11c\uba85\uc774 \uc77c\uce58\ud558\ub294\uc9c0\ub97c \ud655\uc778\ud558\ub294 \ubc29\ubc95, \ube44\ubc00\ubc88\ud638 \uc785\ub825\uc7a5\uce58 \ub4f1\uc744 \ud1b5\ud574 \ube44\ubc00\ubc88\ud638 \ub4f1\uc744 \uc785\ub825\ud558\ub294 \ubc29\ubc95 \ub610\ub294 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc7a5\uc774 \uc815\ud558 \ub294 \uae30\uc900\uc5d0 \uc801\ud569\ud55c \uc778\uc99d\uc218\ub2e8 \ub4f1\uc744 \ud1b5\ud574 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc790\uc758 \uc0dd\uccb4\uc815\ubcf4\ub97c \ud655\uc778\ud558\ub294 \ubc29\ubc95 \ub4f1\uc758 \ubc29\ubc95\uc744 \ud1b5\ud574 \ubcf8\uc778\ud655\uc778 \uc744 \ud558\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4. \ub2e4\ub9cc, \uc804\uc790\uc0c1\uac70\ub798\uc758 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uac00\ub9f9\uc810\uc774 \uc804\uc790\uc778\uc99d, \ube44\ubc00\ubc88\ud638 \ub4f1\uc744 \ud1b5\ud574 \ubcf8\uc778\ud655 \uc778\uc744 \ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc7586(\uac00\ub9f9\uc810 \uad00\ub9ac\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870\uc81c7\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uacfc \uacc4\uc57d \uccb4\uacb0 \ub4f1\uc744 \ud1b5\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uc774 \uc2e0\uc6a9\uce74\ub4dc\uc5d0 \uc758\ud55c \uac70\ub798\ub97c \ud560 \ub54c\ub9c8\ub2e4 \uc2e0\uc6a9\uce74\ub4dc \uc0c1\uc758 \uc11c\uba85\uacfc \ub9e4\ucd9c\uc804\ud45c \uc0c1\uc758 \uc11c\uba85\uc774 \uc77c\uce58\ud558\ub294\uc9c0\ub97c \ud655\uc778\ud558\ub294 \ubc29\ubc95, \ube44\ubc00\ubc88\ud638 \uc785\ub825\uc7a5\uce58 \ub4f1\uc744 \ud1b5\ud574 \ube44\ubc00\ubc88\ud638 \ub4f1\uc744 \uc785\ub825\ud558\ub294 \ubc29\ubc95 \ub610\ub294 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc7a5\uc774 \uc815\ud558 \ub294 \uae30\uc900\uc5d0 \uc801\ud569\ud55c \uc778\uc99d\uc218\ub2e8 \ub4f1\uc744 \ud1b5\ud574 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc790\uc758 \uc0dd\uccb4\uc815\ubcf4\ub97c \ud655\uc778\ud558\ub294 \ubc29\ubc95 \ub4f1\uc758 \ubc29\ubc95\uc744 \ud1b5\ud574 \ubcf8\uc778\ud655\uc778 \uc744 \ud558\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4. \ub2e4\ub9cc, \uc804\uc790\uc0c1\uac70\ub798\uc758 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uac00\ub9f9\uc810\uc774 \uc804\uc790\uc778\uc99d, \ube44\ubc00\ubc88\ud638 \ub4f1\uc744 \ud1b5\ud574 \ubcf8\uc778\ud655 \uc778\uc744 \ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            3                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            3                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 778.18,
+            "r": 158.75,
+            "b": 769.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "1. \uc0ad\uc81c<2014. 12. 26.>",
+      "text": "\uc0ad\uc81c<2014. 12. 26.>",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 758.18,
+            "r": 158.75,
+            "b": 749.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "2. \uc0ad\uc81c<2014. 12. 26.>",
+      "text": "\uc0ad\uc81c<2014. 12. 26.>",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 738.18,
+            "r": 87.19,
+            "b": 729.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "3. \uc0ad\uc81c",
+      "text": "\uc0ad\uc81c",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 718.18,
+            "r": 560.10344,
+            "b": 709.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc81c1\ud56d\uc5d0\ub3c4 \ubd88\uad6c\ud558\uace0 \uc2e0\uc6a9\uce74\ub4dc\uc5d0 \uc758\ud55c \uac70\ub798\uae08\uc561\uc774 5\ub9cc\uc6d0 \uc774\ud558\ub85c\uc11c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc2e0\uc6a9\uce74\ub4dc\uc758 \ubd80\uc815\uc0ac\uc6a9\uc5d0 \ub530",
+      "text": "\u2461 \uc81c1\ud56d\uc5d0\ub3c4 \ubd88\uad6c\ud558\uace0 \uc2e0\uc6a9\uce74\ub4dc\uc5d0 \uc758\ud55c \uac70\ub798\uae08\uc561\uc774 5\ub9cc\uc6d0 \uc774\ud558\ub85c\uc11c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc2e0\uc6a9\uce74\ub4dc\uc758 \ubd80\uc815\uc0ac\uc6a9\uc5d0 \ub530",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 698.18,
+            "r": 494.7533200000001,
+            "b": 689.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "\ub978 \ucc45\uc784\uc744 \ubd80\ub2f4\ud558\uae30\ub85c \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uc5d0 \ud1b5\uc9c0\ud55c \uacbd\uc6b0\uc5d0\ub294 \ubcf8\uc778 \ud655\uc778\uc744 \ud558\uc9c0 \uc544\ub2c8\ud558\uac8c \ud560 \uc218 \uc788\ub2e4.",
+      "text": "\ub978 \ucc45\uc784\uc744 \ubd80\ub2f4\ud558\uae30\ub85c \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uc5d0 \ud1b5\uc9c0\ud55c \uacbd\uc6b0\uc5d0\ub294 \ubcf8\uc778 \ud655\uc778\uc744 \ud558\uc9c0 \uc544\ub2c8\ud558\uac8c \ud560 \uc218 \uc788\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 678.18,
+            "r": 561.6768300000002,
+            "b": 589.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            249
+          ]
+        }
+      ],
+      "orig": "\u2462 \ubc95 \uc81c24\uc870\uc81c7\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c20\uc870\uc81c1\ud56d\uc5d0\uc11c \uc815\ud558\ub294 \ub0b4 \ubd80\uad00\ub9ac\uaddc\uc815\uc744 \ub9c8\ub828\ud558\uace0 \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uc73c\ub85c \ud558\uc5ec\uae08 \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \uac70\ub798\uc5d0 \uc758\ud574 \uc5bb\uc740 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \uc81c\ubc18 \uc815 \ubcf4(\uacb0\uc81c\ub300\ud589\uc5c5\uccb4\uac00 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc73c\ub85c\ubd80\ud130 \uc9c1\uc811 \uc218\uc9d1\u318d\uc800\uc7a5\ud55c \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc5d0 \uad00\ud55c \uc815\ubcf4\ub294 \uc81c\uc678\ud55c\ub2e4)\uac00 \uc5c5\ubb34\uc678 \uc758 \ubaa9\uc801\uc5d0 \uc0ac\uc6a9\ub418\uac70\ub098 \uc678\ubd80\uc5d0 \uc720\ucd9c\ub418\ub294 \ub4f1\uc758 \uc704\ud5d8\uc5d0 \ub300\ud574 \ucc98\ubd84\u318d\uc18c\uac70 \ub610\ub294 \ud3d0\uae30 \ub4f1 \uae30\uc220\uc801\u318d\ubb3c\ub9ac\uc801 \ubcf4\uc548\ub300\ucc45\uc744 \uc218\ub9bd\ud558\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2462 \ubc95 \uc81c24\uc870\uc81c7\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c20\uc870\uc81c1\ud56d\uc5d0\uc11c \uc815\ud558\ub294 \ub0b4 \ubd80\uad00\ub9ac\uaddc\uc815\uc744 \ub9c8\ub828\ud558\uace0 \uc2e0\uc6a9\uce74\ub4dc\uac00\ub9f9\uc810\uc73c\ub85c \ud558\uc5ec\uae08 \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \uac70\ub798\uc5d0 \uc758\ud574 \uc5bb\uc740 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \uc81c\ubc18 \uc815 \ubcf4(\uacb0\uc81c\ub300\ud589\uc5c5\uccb4\uac00 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc73c\ub85c\ubd80\ud130 \uc9c1\uc811 \uc218\uc9d1\u318d\uc800\uc7a5\ud55c \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc5d0 \uad00\ud55c \uc815\ubcf4\ub294 \uc81c\uc678\ud55c\ub2e4)\uac00 \uc5c5\ubb34\uc678 \uc758 \ubaa9\uc801\uc5d0 \uc0ac\uc6a9\ub418\uac70\ub098 \uc678\ubd80\uc5d0 \uc720\ucd9c\ub418\ub294 \ub4f1\uc758 \uc704\ud5d8\uc5d0 \ub300\ud574 \ucc98\ubd84\u318d\uc18c\uac70 \ub610\ub294 \ud3d0\uae30 \ub4f1 \uae30\uc220\uc801\u318d\ubb3c\ub9ac\uc801 \ubcf4\uc548\ub300\ucc45\uc744 \uc218\ub9bd\ud558\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 578.18,
+            "r": 561.6768300000005,
+            "b": 529.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            127
+          ]
+        }
+      ],
+      "orig": "\u2463 \uacb0\uc81c\ub300\ud589\uc5c5\uccb4\uac00 \uce74\ub4dc\ud68c\uc6d0\ub4f1\uc73c\ub85c\ubd80\ud130 \uc9c1\uc811 \uc218\uc9d1\u318d\uc800\uc7a5\ud55c \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc5d0 \uad00\ud55c \uc815\ubcf4\uac00 \uc5c5\ubb34\uc678\uc758 \ubaa9\uc801\uc5d0 \uc0ac\uc6a9\ub418 \uac70\ub098 \uc678\ubd80\uc5d0 \uc720\ucd9c\ub418\ub294 \ub4f1\uc73c\ub85c \uc778\ud574 \uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc190\ud574\ub97c \uc785\uc744 \uacbd\uc6b0 \uacb0\uc81c\ub300\ud589\uc5c5\uccb4\ub294 \ud574\ub2f9 \uce74\ub4dc\ud68c\uc6d0\ub4f1 \uc5d0\uac8c \uc190\ud574 \ubc30\uc0c1\uc758 \ucc45\uc784\uc744 \uc9c4\ub2e4.",
+      "text": "\u2463 \uacb0\uc81c\ub300\ud589\uc5c5\uccb4\uac00 \uce74\ub4dc\ud68c\uc6d0\ub4f1\uc73c\ub85c\ubd80\ud130 \uc9c1\uc811 \uc218\uc9d1\u318d\uc800\uc7a5\ud55c \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc5d0 \uad00\ud55c \uc815\ubcf4\uac00 \uc5c5\ubb34\uc678\uc758 \ubaa9\uc801\uc5d0 \uc0ac\uc6a9\ub418 \uac70\ub098 \uc678\ubd80\uc5d0 \uc720\ucd9c\ub418\ub294 \ub4f1\uc73c\ub85c \uc778\ud574 \uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc190\ud574\ub97c \uc785\uc744 \uacbd\uc6b0 \uacb0\uc81c\ub300\ud589\uc5c5\uccb4\ub294 \ud574\ub2f9 \uce74\ub4dc\ud68c\uc6d0\ub4f1 \uc5d0\uac8c \uc190\ud574 \ubc30\uc0c1\uc758 \ucc45\uc784\uc744 \uc9c4\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 44.0,
+            "t": 508.18,
+            "r": 554.68,
+            "b": 479.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7587(\uc2e0\uc6a9\uc815\ubcf4 \ubcf4\ud638) \u2460 \ubc95 \uc81c24\uc870 \ubc0f \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c1\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \uc2e0\uc6a9\uc5d0 \uad00\ud55c \uc790\ub8cc \ub610\ub294 \uc81c\ubc18 \uc815\ubcf4\uac00 \uc5c5\ubb34\uc678\uc758 \ubaa9\uc801\uc5d0 \uc0ac\uc6a9\ub418\uac70\ub098 \uc678\ubd80\uc5d0 \uc720\ucd9c\ub418\uc9c0 \uc544\ub2c8\ud558\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc7587(\uc2e0\uc6a9\uc815\ubcf4 \ubcf4\ud638) \u2460 \ubc95 \uc81c24\uc870 \ubc0f \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c1\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \uc2e0\uc6a9\uc5d0 \uad00\ud55c \uc790\ub8cc \ub610\ub294 \uc81c\ubc18 \uc815\ubcf4\uac00 \uc5c5\ubb34\uc678\uc758 \ubaa9\uc801\uc5d0 \uc0ac\uc6a9\ub418\uac70\ub098 \uc678\ubd80\uc5d0 \uc720\ucd9c\ub418\uc9c0 \uc544\ub2c8\ud558\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 468.18,
+            "r": 562.5507299999997,
+            "b": 399.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \uc2e0\uc6a9\uc815\ubcf4\ub97c \uc81c3\uc790\uc5d0\uac8c \uc81c\uacf5\ud558\uae30 \uc704\ud558\uc5ec \uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c32\uc870\uc81c1\ud56d \ubc0f \uc81c2\ud56d\uc5d0\uc11c \uc815\ud558\ub294 \ub3d9\uc758\ub97c \uc5bb\uace0\uc790 \ud560 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc73c\ub85c\ubd80\ud130 \uc2e0\uc6a9\uce74\ub4dc\ub4f1\ubc1c\uae09\uc2e0\uccad\uc11c \uc640 \ubd84\ub9ac\ub41c \uc2e0\uc6a9\uc815\ubcf4\uc81c\uacf5\ub3d9\uc758\uc11c\uc5d0 \uc2e0\uc6a9\uc815\ubcf4\uc758 \uc81c\uacf5\ubaa9\uc801\ubcc4\ub85c \uac01\uac01 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \ub3d9\uc758\ub97c \uc5bb\uc5b4\uc57c \ud55c\ub2e4.<\uac1c\uc815 2021. 9. 30.>",
+      "text": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \uc2e0\uc6a9\uc815\ubcf4\ub97c \uc81c3\uc790\uc5d0\uac8c \uc81c\uacf5\ud558\uae30 \uc704\ud558\uc5ec \uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c32\uc870\uc81c1\ud56d \ubc0f \uc81c2\ud56d\uc5d0\uc11c \uc815\ud558\ub294 \ub3d9\uc758\ub97c \uc5bb\uace0\uc790 \ud560 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc73c\ub85c\ubd80\ud130 \uc2e0\uc6a9\uce74\ub4dc\ub4f1\ubc1c\uae09\uc2e0\uccad\uc11c \uc640 \ubd84\ub9ac\ub41c \uc2e0\uc6a9\uc815\ubcf4\uc81c\uacf5\ub3d9\uc758\uc11c\uc5d0 \uc2e0\uc6a9\uc815\ubcf4\uc758 \uc81c\uacf5\ubaa9\uc801\ubcc4\ub85c \uac01\uac01 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc758 \ub3d9\uc758\ub97c \uc5bb\uc5b4\uc57c \ud55c\ub2e4.<\uac1c\uc815 2021. 9. 30.>",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 388.18,
+            "r": 562.3949000000002,
+            "b": 339.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "\u2462 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc2e0\uc6a9\uc815\ubcf4\uc81c\uacf5\ub3d9\uc758\uc11c\uc5d0 \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c2\uc870\uc81c 5\ud638\uc758 \uc2e0\uc6a9\uc815\ubcf4\ud68c\uc0ac \ubc0f \uac19\uc740 \uc870 \uc81c6\ud638\uc758 \uc2e0\uc6a9\uc815\ubcf4\uc9d1\uc911\uae30\uad00 \uc774\uc678\uc758 \uc81c3\uc790\uc5d0 \ub300\ud55c \uc2e0\uc6a9\uc815\ubcf4\uc81c\uacf5 \ub3d9\uc758\ub97c \ud558\uc9c0 \uc54a\uc744 \uacbd\uc6b0 \ub3d9 \uac70\uc808\uc744 \uc0ac\uc720\ub85c \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \ubc1c\uae09\uc744 \uac70\uc808\ud558\uc5ec\uc11c\ub294 \uc544\ub2c8\ub41c\ub2e4.<\uac1c\uc815 2021. 9. 30.>",
+      "text": "\u2462 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc2e0\uc6a9\uc815\ubcf4\uc81c\uacf5\ub3d9\uc758\uc11c\uc5d0 \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c2\uc870\uc81c 5\ud638\uc758 \uc2e0\uc6a9\uc815\ubcf4\ud68c\uc0ac \ubc0f \uac19\uc740 \uc870 \uc81c6\ud638\uc758 \uc2e0\uc6a9\uc815\ubcf4\uc9d1\uc911\uae30\uad00 \uc774\uc678\uc758 \uc81c3\uc790\uc5d0 \ub300\ud55c \uc2e0\uc6a9\uc815\ubcf4\uc81c\uacf5 \ub3d9\uc758\ub97c \ud558\uc9c0 \uc54a\uc744 \uacbd\uc6b0 \ub3d9 \uac70\uc808\uc744 \uc0ac\uc720\ub85c \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \ubc1c\uae09\uc744 \uac70\uc808\ud558\uc5ec\uc11c\ub294 \uc544\ub2c8\ub41c\ub2e4.<\uac1c\uc815 2021. 9. 30.>",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 44.0,
+            "t": 318.18000000000006,
+            "r": 551.6899999999999,
+            "b": 289.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7588(\ucc44\uad8c\ucd94\uc2ec\uc2dc \uc900\uc218\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870\uc81c8\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ucc44\uad8c\uc744 \ucd94\uc2ec\ud568\uc5d0 \uc788\uc5b4\uc11c \ub2e4\uc74c \uac01\ud638\uc758 \ud589\uc704\uc744 \ud558\uc5ec\uc11c\ub294 \uc544\ub2c8\ub41c\ub2e4.",
+      "text": "\uc81c24\uc870\uc7588(\ucc44\uad8c\ucd94\uc2ec\uc2dc \uc900\uc218\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870\uc81c8\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ucc44\uad8c\uc744 \ucd94\uc2ec\ud568\uc5d0 \uc788\uc5b4\uc11c \ub2e4\uc74c \uac01\ud638\uc758 \ud589\uc704\uc744 \ud558\uc5ec\uc11c\ub294 \uc544\ub2c8\ub41c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 278.18000000000006,
+            "r": 335.27,
+            "b": 269.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "1. \ud3ed\ud589 \ub610\ub294 \ud611\ubc15\uc744 \uac00\ud558\uac70\ub098 \uc704\uacc4 \ub610\ub294 \uc704\ub825\uc744 \uc0ac\uc6a9\ud558\ub294 \ud589\uc704",
+      "text": "\ud3ed\ud589 \ub610\ub294 \ud611\ubc15\uc744 \uac00\ud558\uac70\ub098 \uc704\uacc4 \ub610\ub294 \uc704\ub825\uc744 \uc0ac\uc6a9\ud558\ub294 \ud589\uc704",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 258.18000000000006,
+            "r": 563.0401899999999,
+            "b": 209.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            146
+          ]
+        }
+      ],
+      "orig": "2. \ucc44\ubb34\uc790\uc758 \ucc44\ubb34\uc5d0 \uad00\ud55c \uc0ac\ud56d\uc744 \ucc44\ubb34\uc774\ud589 \uc758\ubb34\uac00 \uc788\ub294 \uacbd\uc6b0 \ub4f1 \uc815\ub2f9\ud55c \uc0ac\uc720 \uc5c6\uc774 \uadf8\uc758 \uad00\uacc4\uc778(\ucc44\ubb34\uc790\uc758 \ubcf4\uc99d\uc778, \ucc44\ubb34\uc790\uc758 \uce5c\uc871 \ubc0f \uc57d\ud63c\uc790, \ucc44\ubb34\uc790\uc640 \ub3d9\uac70\ud558\uac70\ub098 \uc0dd\uacc4\ub97c \uac19\uc774\ud558\ub294 \uc790, \ucc44\ubb34\uc790\uac00 \uadfc\ubb34\ud558\ub294 \uc7a5\uc18c\uc5d0 \ud568\uaed8 \uadfc\ubb34\ud558\ub294 \uc790\ub97c \ub9d0\ud55c\ub2e4. \uc774\ud558 \uac19\ub2e4)\uc5d0\uac8c \uc54c\ub9ac\ub294 \ud589\uc704",
+      "text": "\ucc44\ubb34\uc790\uc758 \ucc44\ubb34\uc5d0 \uad00\ud55c \uc0ac\ud56d\uc744 \ucc44\ubb34\uc774\ud589 \uc758\ubb34\uac00 \uc788\ub294 \uacbd\uc6b0 \ub4f1 \uc815\ub2f9\ud55c \uc0ac\uc720 \uc5c6\uc774 \uadf8\uc758 \uad00\uacc4\uc778(\ucc44\ubb34\uc790\uc758 \ubcf4\uc99d\uc778, \ucc44\ubb34\uc790\uc758 \uce5c\uc871 \ubc0f \uc57d\ud63c\uc790, \ucc44\ubb34\uc790\uc640 \ub3d9\uac70\ud558\uac70\ub098 \uc0dd\uacc4\ub97c \uac19\uc774\ud558\ub294 \uc790, \ucc44\ubb34\uc790\uac00 \uadfc\ubb34\ud558\ub294 \uc7a5\uc18c\uc5d0 \ud568\uaed8 \uadfc\ubb34\ud558\ub294 \uc790\ub97c \ub9d0\ud55c\ub2e4. \uc774\ud558 \uac19\ub2e4)\uc5d0\uac8c \uc54c\ub9ac\ub294 \ud589\uc704",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 198.18000000000006,
+            "r": 365.27,
+            "b": 189.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "3. \ucc44\ubb34\uc790 \ub610\ub294 \uadf8\uc758 \uad00\uacc4\uc778\uc5d0\uac8c \ucc44\ubb34\uc5d0 \uad00\ud55c \ud5c8\uc704\uc0ac\uc2e4\uc744 \uc54c\ub9ac\ub294 \ud589\uc704",
+      "text": "\ucc44\ubb34\uc790 \ub610\ub294 \uadf8\uc758 \uad00\uacc4\uc778\uc5d0\uac8c \ucc44\ubb34\uc5d0 \uad00\ud55c \ud5c8\uc704\uc0ac\uc2e4\uc744 \uc54c\ub9ac\ub294 \ud589\uc704",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 178.18000000000006,
+            "r": 153.25,
+            "b": 169.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "4. \uc0ad\uc81c<2005. 4. 13.>",
+      "text": "\uc0ad\uc81c<2005. 4. 13.>",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 158.18000000000006,
+            "r": 561.1835900000001,
+            "b": 149.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "5. \ucc44\ubb34\uc790\uac00 \uacb0\uc81c\ub2a5\ub825\uc99d\ube59\uc11c\ub958 \ub4f1\uc744 \uc704\uc870 \ub610\ub294 \ud5c8\uc704\ub85c \uc81c\ucd9c\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub97c \uc801\uadf9\uc801\uc73c\ub85c \uae30\ub9dd\ud558\uc9c0 \uc544\ub2c8\ud558\uc600",
+      "text": "\ucc44\ubb34\uc790\uac00 \uacb0\uc81c\ub2a5\ub825\uc99d\ube59\uc11c\ub958 \ub4f1\uc744 \uc704\uc870 \ub610\ub294 \ud5c8\uc704\ub85c \uc81c\ucd9c\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub97c \uc801\uadf9\uc801\uc73c\ub85c \uae30\ub9dd\ud558\uc9c0 \uc544\ub2c8\ud558\uc600",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 66.0,
+            "t": 138.18000000000006,
+            "r": 327.75857999999994,
+            "b": 129.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "\uc74c\uc5d0\ub3c4 \uc0ac\uae30\uc8c4\ub85c \uace0\uc18c\ud558\uaca0\ub2e4\uace0 \uc704\ud611\ud558\uac70\ub098 \uace0\uc18c\ud558\ub294 \ud589\uc704",
+      "text": "\uc74c\uc5d0\ub3c4 \uc0ac\uae30\uc8c4\ub85c \uace0\uc18c\ud558\uaca0\ub2e4\uace0 \uc704\ud611\ud558\uac70\ub098 \uace0\uc18c\ud558\ub294 \ud589\uc704",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.0,
+            "t": 118.18000000000006,
+            "r": 382.34999999999997,
+            "b": 109.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "6. \uc2ec\uc57c(\uc624\ud6c4 9\uc2dc\ubd80\ud130 \uc624\uc804 8\uc2dc\uae4c\uc9c0\ub97c \ub9d0\ud55c\ub2e4)\uc5d0 \ubc29\ubb38 \ub610\ub294 \uc804\ud654\ud558\ub294 \ud589\uc704",
+      "text": "\uc2ec\uc57c(\uc624\ud6c4 9\uc2dc\ubd80\ud130 \uc624\uc804 8\uc2dc\uae4c\uc9c0\ub97c \ub9d0\ud55c\ub2e4)\uc5d0 \ubc29\ubb38 \ub610\ub294 \uc804\ud654\ud558\ub294 \ud589\uc704",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            4                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            4                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 778.18,
+            "r": 560.0271999999993,
+            "b": 749.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "7. \uae30\ud0c0 \ube44\uc815\uc0c1\uc801\uc778 \ubc29\ubc95\uc73c\ub85c \ucc44\uad8c\uc744 \ucd94\uc2ec\ud558\uc5ec \ucc44\ubb34\uc790 \ub610\ub294 \uadf8\uc758 \uad00\uacc4\uc778\uc758 \uc0ac\uc0dd\ud65c \ub610\ub294 \uc5c5\ubb34\uc758 \ud3c9\uc628\uc744 \ud574\uce58\ub294 \ud589 \uc704",
+      "text": "\uae30\ud0c0 \ube44\uc815\uc0c1\uc801\uc778 \ubc29\ubc95\uc73c\ub85c \ucc44\uad8c\uc744 \ucd94\uc2ec\ud558\uc5ec \ucc44\ubb34\uc790 \ub610\ub294 \uadf8\uc758 \uad00\uacc4\uc778\uc758 \uc0ac\uc0dd\ud65c \ub610\ub294 \uc5c5\ubb34\uc758 \ud3c9\uc628\uc744 \ud574\uce58\ub294 \ud589 \uc704",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 738.18,
+            "r": 512.5689999999995,
+            "b": 729.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ucc44\uad8c\uc744 \uc591\ub3c4\ud560 \uacbd\uc6b0 \uc591\uc218\ubc1b\uc740 \uc790\uac00 \uc81c1\ud56d\uc758 \uaddc\uc815\uc744 \uc900\uc218\ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ucc44\uad8c\uc744 \uc591\ub3c4\ud560 \uacbd\uc6b0 \uc591\uc218\ubc1b\uc740 \uc790\uac00 \uc81c1\ud56d\uc758 \uaddc\uc815\uc744 \uc900\uc218\ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 44.0,
+            "t": 708.18,
+            "r": 555.9899999999999,
+            "b": 639.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc7589(\uce74\ub4dc\uc774\uc6a9 \ub300\uae08\uc5d0 \ub300\ud55c \uc774\uc758\uc81c\uae30 \uc808\ucc28 \ub4f1) \u2460 \ubc95 \uc81c24\uc870 \ubc0f \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c2\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0\uc774 \uc11c\uba74, \uc778\ud130\ub137, \ub610\ub294 \uc804\ud654\ub85c \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uae08\uc561\uc5d0 \ub300\ud558\uc5ec \uc774\uc758\ub97c \uc81c\uae30\ud560 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc \ubc1c \uae09\uacbd\uc704 \ubc0f \uc2e0\uc6a9\uce74\ub4dc \uc0ac\uc6a9\uc77c\uc2dc\u318d\uc0ac\uc6a9\ub0b4\uc5ed\u318d\uc0ac\uc6a9\uc8fc\uccb4 \ub4f1\uc744 \ucca0\uc800\ud788 \uc870\uc0ac\ud558\uc5ec \uadf8 \uacb0\uacfc\ub97c \ud68c\uc6d0\uc5d0\uac8c \uc11c\uba74, \uc778\ud130\ub137(\ud68c \uc6d0\uc5d0 \ub3c4\ub2ec\ub41c \uac83\uc774 \ud655\uc778\ub41c \uacbd\uc6b0\ub9cc \uc778\uc815) \ub610\ub294 \uc804\ud654\ub85c \ud1b5\uc9c0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc7589(\uce74\ub4dc\uc774\uc6a9 \ub300\uae08\uc5d0 \ub300\ud55c \uc774\uc758\uc81c\uae30 \uc808\ucc28 \ub4f1) \u2460 \ubc95 \uc81c24\uc870 \ubc0f \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c2\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc \ud68c\uc6d0\uc774 \uc11c\uba74, \uc778\ud130\ub137, \ub610\ub294 \uc804\ud654\ub85c \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uae08\uc561\uc5d0 \ub300\ud558\uc5ec \uc774\uc758\ub97c \uc81c\uae30\ud560 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc \ubc1c \uae09\uacbd\uc704 \ubc0f \uc2e0\uc6a9\uce74\ub4dc \uc0ac\uc6a9\uc77c\uc2dc\u318d\uc0ac\uc6a9\ub0b4\uc5ed\u318d\uc0ac\uc6a9\uc8fc\uccb4 \ub4f1\uc744 \ucca0\uc800\ud788 \uc870\uc0ac\ud558\uc5ec \uadf8 \uacb0\uacfc\ub97c \ud68c\uc6d0\uc5d0\uac8c \uc11c\uba74, \uc778\ud130\ub137(\ud68c \uc6d0\uc5d0 \ub3c4\ub2ec\ub41c \uac83\uc774 \ud655\uc778\ub41c \uacbd\uc6b0\ub9cc \uc778\uc815) \ub610\ub294 \uc804\ud654\ub85c \ud1b5\uc9c0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 628.18,
+            "r": 561.8620999999996,
+            "b": 579.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc774 \uc870\uc0ac\uacb0\uacfc \ud1b5\uc9c0\uc77c\ub85c\ubd80\ud130 7\uc77c\uc774\ub0b4\uc5d0 \uae08\uc735\uac10\ub3c5\uc6d0\uc5d0 \uc7ac\uc870\uc0ac\ub97c \uc694\uccad\ud558\ub294 \uacbd\uc6b0 \uae08 \uc735\uac10\ub3c5\uc6d0\uc758 \uc870\uc0ac\uac00 \uc644\ub8cc\ub420 \ub54c\uae4c\uc9c0 \uc2e0\uc6a9\uce74\ub4dc\ub300\uae08\uc744 \uccad\uad6c\ud560 \uc218 \uc5c6\uc73c\uba70 \uc2e0\uc6a9\uce74\ub4dc\ub300\uae08 \uc5f0\uccb4\ub97c \uc774\uc720\ub85c \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c25\uc870\uc5d0 \uc758\ud55c \uc2e0\uc6a9\uc815\ubcf4\uc9d1\uc911\uae30\uad00\uc5d0 \uc5f0\uccb4\ubc1c\uc0dd \uc815\ubcf4\ub97c \ub4f1\ub85d\ud560 \uc218 \uc5c6\ub2e4.",
+      "text": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc774 \uc870\uc0ac\uacb0\uacfc \ud1b5\uc9c0\uc77c\ub85c\ubd80\ud130 7\uc77c\uc774\ub0b4\uc5d0 \uae08\uc735\uac10\ub3c5\uc6d0\uc5d0 \uc7ac\uc870\uc0ac\ub97c \uc694\uccad\ud558\ub294 \uacbd\uc6b0 \uae08 \uc735\uac10\ub3c5\uc6d0\uc758 \uc870\uc0ac\uac00 \uc644\ub8cc\ub420 \ub54c\uae4c\uc9c0 \uc2e0\uc6a9\uce74\ub4dc\ub300\uae08\uc744 \uccad\uad6c\ud560 \uc218 \uc5c6\uc73c\uba70 \uc2e0\uc6a9\uce74\ub4dc\ub300\uae08 \uc5f0\uccb4\ub97c \uc774\uc720\ub85c \u300c\uc2e0\uc6a9\uc815\ubcf4\uc758 \uc774\uc6a9 \ubc0f \ubcf4\ud638\uc5d0 \uad00\ud55c \ubc95\ub960\u300d \uc81c25\uc870\uc5d0 \uc758\ud55c \uc2e0\uc6a9\uc815\ubcf4\uc9d1\uc911\uae30\uad00\uc5d0 \uc5f0\uccb4\ubc1c\uc0dd \uc815\ubcf4\ub97c \ub4f1\ub85d\ud560 \uc218 \uc5c6\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 44.0,
+            "t": 558.18,
+            "r": 557.1299999999999,
+            "b": 469.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            252
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc75811(\ud734\uba74\uc2e0\uc6a9\uce74\ub4dc\uc758 \ud574\uc9c0 \uc808\ucc28) \u2460 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c3\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uac00 \ud734\uba74\uc2e0 \uc6a9\uce74\ub4dc\ub85c \ub41c\uc9c0 1\uac1c\uc6d4 \uc774\ub0b4\uc5d0 \uc11c\uba74, \uc804\ud654, \uc804\uc790\ubb38\uc11c \uc911 1\uac00\uc9c0 \uc774\uc0c1\uc758 \ubc29\ubc95\uc73c\ub85c \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc758 \uacc4\uc57d \ud574\uc9c0 \ub610\ub294 \uc720 \uc9c0 \uc758\uc0ac\ub97c \ud655\uc778\ud558\uc5ec\uc57c \ud55c\ub2e4. \uc774 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ud68c\uc6d0\uc774 \uacc4\uc57d \uc720\uc9c0 \uc758\uc0ac\ub97c \ud1b5\ubcf4\ud558\uc9c0 \uc544\ub2c8\ud558\uba74 \uc81c3\ud56d\uc5d0 \ub530\ub77c \uacc4\uc57d\uc774 \uc815\uc9c0\ub418\uace0 \uc81c4\ud56d\uc5d0 \ub530\ub77c \ud734\uba74\uc2e0\uc6a9\uce74\ub4dc\ub294 \uac31\uc2e0 \ub610\ub294 \ub300\uccb4 \ubc1c\uae09\uc774 \uc81c\ud55c\ub41c\ub2e4\ub294 \ub0b4\uc6a9\uc744 \ud3ec\ud568\ud558\uc5ec \ud68c\uc6d0\uc5d0\uac8c \uc54c \ub824\uc57c \ud55c\ub2e4",
+      "text": "\uc81c24\uc870\uc75811(\ud734\uba74\uc2e0\uc6a9\uce74\ub4dc\uc758 \ud574\uc9c0 \uc808\ucc28) \u2460 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c3\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uac00 \ud734\uba74\uc2e0 \uc6a9\uce74\ub4dc\ub85c \ub41c\uc9c0 1\uac1c\uc6d4 \uc774\ub0b4\uc5d0 \uc11c\uba74, \uc804\ud654, \uc804\uc790\ubb38\uc11c \uc911 1\uac00\uc9c0 \uc774\uc0c1\uc758 \ubc29\ubc95\uc73c\ub85c \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc758 \uacc4\uc57d \ud574\uc9c0 \ub610\ub294 \uc720 \uc9c0 \uc758\uc0ac\ub97c \ud655\uc778\ud558\uc5ec\uc57c \ud55c\ub2e4. \uc774 \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ud68c\uc6d0\uc774 \uacc4\uc57d \uc720\uc9c0 \uc758\uc0ac\ub97c \ud1b5\ubcf4\ud558\uc9c0 \uc544\ub2c8\ud558\uba74 \uc81c3\ud56d\uc5d0 \ub530\ub77c \uacc4\uc57d\uc774 \uc815\uc9c0\ub418\uace0 \uc81c4\ud56d\uc5d0 \ub530\ub77c \ud734\uba74\uc2e0\uc6a9\uce74\ub4dc\ub294 \uac31\uc2e0 \ub610\ub294 \ub300\uccb4 \ubc1c\uae09\uc774 \uc81c\ud55c\ub41c\ub2e4\ub294 \ub0b4\uc6a9\uc744 \ud3ec\ud568\ud558\uc5ec \ud68c\uc6d0\uc5d0\uac8c \uc54c \ub824\uc57c \ud55c\ub2e4",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 458.18,
+            "r": 560.4744399999997,
+            "b": 429.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            73
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc81c1\ud56d\uc5d0 \ub530\ub77c \ud68c\uc6d0\uc774 \uc11c\uba74, \uc804\ud654, \uc804\uc790\ubb38\uc11c\ub85c \ud574\uc9c0 \uc758\uc0ac\ub97c \ubc1d\ud78c \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uacc4\uc57d\uc744 \uc989 \uc2dc \ud574\uc9c0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2461 \uc81c1\ud56d\uc5d0 \ub530\ub77c \ud68c\uc6d0\uc774 \uc11c\uba74, \uc804\ud654, \uc804\uc790\ubb38\uc11c\ub85c \ud574\uc9c0 \uc758\uc0ac\ub97c \ubc1d\ud78c \uacbd\uc6b0 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uacc4\uc57d\uc744 \uc989 \uc2dc \ud574\uc9c0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 418.18,
+            "r": 562.4066400000003,
+            "b": 389.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "\u2462 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc81c1\ud56d\uc5d0 \ub530\ub978 \ud1b5\ubcf4\uac00 \ud68c\uc6d0\uc5d0\uac8c \ub3c4\ub2ec\ud55c \ub0a0\ub85c\ubd80\ud130 1\uac1c\uc6d4\uc774 \uacbd\uacfc\ub420 \ub54c\uae4c\uc9c0 \ud68c\uc6d0\uc774 \uc2e0\uc6a9\uce74\ub4dc\uc5c5 \uc790\uc5d0\uac8c \uacc4\uc57d \uc720\uc9c0 \uc758\uc0ac\ub97c \ud1b5\ubcf4\ud558\uc9c0 \uc54a\uc740 \uacbd\uc6b0 \uc989\uc2dc \uc2e0\uc6a9\uce74\ub4dc\uc758 \uc774\uc6a9\uc744 \uc815\uc9c0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2462 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc81c1\ud56d\uc5d0 \ub530\ub978 \ud1b5\ubcf4\uac00 \ud68c\uc6d0\uc5d0\uac8c \ub3c4\ub2ec\ud55c \ub0a0\ub85c\ubd80\ud130 1\uac1c\uc6d4\uc774 \uacbd\uacfc\ub420 \ub54c\uae4c\uc9c0 \ud68c\uc6d0\uc774 \uc2e0\uc6a9\uce74\ub4dc\uc5c5 \uc790\uc5d0\uac8c \uacc4\uc57d \uc720\uc9c0 \uc758\uc0ac\ub97c \ud1b5\ubcf4\ud558\uc9c0 \uc54a\uc740 \uacbd\uc6b0 \uc989\uc2dc \uc2e0\uc6a9\uce74\ub4dc\uc758 \uc774\uc6a9\uc744 \uc815\uc9c0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 378.18,
+            "r": 560.8840899999996,
+            "b": 349.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "\u2463 \uc81c3\ud56d\uc5d0 \ub530\ub77c \uc774\uc6a9\uc815\uc9c0\uac00 \uc2dc\uc791\ub41c \ud734\uba74\uc2e0\uc6a9\uce74\ub4dc\uc758 \uacbd\uc6b0 \ud68c\uc6d0\uc774 \uc774\uc6a9\uc815\uc9c0\uc5d0 \ub300\ud55c \ud574\uc81c \uc2e0\uccad\uc744 \ud558\uc9c0 \uc54a\ub294 \ud55c \uc2dc \ud589\ub839 \uc81c6\uc870\uc7586\uc81c1\ud638\uc5d0 \ub530\ub978 \uac31\uc2e0 \ub610\ub294 \ub300\uccb4 \ubc1c\uae09\uc744 \ud560 \uc218 \uc5c6\ub2e4.",
+      "text": "\u2463 \uc81c3\ud56d\uc5d0 \ub530\ub77c \uc774\uc6a9\uc815\uc9c0\uac00 \uc2dc\uc791\ub41c \ud734\uba74\uc2e0\uc6a9\uce74\ub4dc\uc758 \uacbd\uc6b0 \ud68c\uc6d0\uc774 \uc774\uc6a9\uc815\uc9c0\uc5d0 \ub300\ud55c \ud574\uc81c \uc2e0\uccad\uc744 \ud558\uc9c0 \uc54a\ub294 \ud55c \uc2dc \ud589\ub839 \uc81c6\uc870\uc7586\uc81c1\ud638\uc5d0 \ub530\ub978 \uac31\uc2e0 \ub610\ub294 \ub300\uccb4 \ubc1c\uae09\uc744 \ud560 \uc218 \uc5c6\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 44.0,
+            "t": 328.18000000000006,
+            "r": 551.6299999999999,
+            "b": 279.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc75812(\uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \uc218\uc775\uc131 \uc720\uc9c0\ub97c \uc704\ud55c \uc0ac\ud56d) \u2460 \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c5\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc2e0\uc6a9 \uce74\ub4dc\ub4f1\uc758 \uc0c1\ud488\uc744 \uc124\uacc4 \ubc0f \ubcc0\uacbd\ud558\uace0\uc790 \ud558\ub294 \uacbd\uc6b0\uc5d0\ub294 \uc2e0\uc6a9\uce74\ub4dc\ub4f1 \uc0c1\ud488\uc758 \uc124\uacc4\uae30\uc900\uc744 \ud3ec\ud568\ud558\uc5ec \ud574\ub2f9 \uc0c1\ud488\uc758 \uc218\uc775 \uc131 \ubd84\uc11d\uc744 \uc2e4\uc2dc\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc75812(\uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \uc218\uc775\uc131 \uc720\uc9c0\ub97c \uc704\ud55c \uc0ac\ud56d) \u2460 \uc2dc\ud589\ub839 \uc81c7\uc870\uc7582\uc81c2\ud56d\uc81c5\ud638\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc2e0\uc6a9 \uce74\ub4dc\ub4f1\uc758 \uc0c1\ud488\uc744 \uc124\uacc4 \ubc0f \ubcc0\uacbd\ud558\uace0\uc790 \ud558\ub294 \uacbd\uc6b0\uc5d0\ub294 \uc2e0\uc6a9\uce74\ub4dc\ub4f1 \uc0c1\ud488\uc758 \uc124\uacc4\uae30\uc900\uc744 \ud3ec\ud568\ud558\uc5ec \ud574\ub2f9 \uc0c1\ud488\uc758 \uc218\uc775 \uc131 \ubd84\uc11d\uc744 \uc2e4\uc2dc\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 268.18000000000006,
+            "r": 458.7799999999999,
+            "b": 259.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc81c1\ud56d\uc5d0 \ub530\ub978 \uc218\uc775\uc131 \ubd84\uc11d\uacfc \uad00\ub828\ud55c \ub0b4\ubd80 \ud1b5\uc81c\uae30\uc900\uc744 \ub9c8\ub828\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \uc81c1\ud56d\uc5d0 \ub530\ub978 \uc218\uc775\uc131 \ubd84\uc11d\uacfc \uad00\ub828\ud55c \ub0b4\ubd80 \ud1b5\uc81c\uae30\uc900\uc744 \ub9c8\ub828\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 44.0,
+            "t": 238.18000000000006,
+            "r": 555.1399999999999,
+            "b": 189.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc75813(\ubaa8\uc9d1\uc9c8\uc11c \uc720\uc9c0\ub97c \uc704\ud55c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc758 \uc900\uc218\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870\uc7582\uc81c2\ud56d \ubc0f \uc2dc\ud589\ub839 \uc81c7\uc870\uc7583\uc81c2\ud56d\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ubaa8\uc9d1\uc9c8\uc11c\ub97c \uc720\uc9c0\ud558\uae30 \uc704\ud574 \uc784\uc9c1\uc6d0 \ubc0f \uc18c\uc18d \ubaa8\uc9d1\uc778\uc774 \uc9c1\ubb34\ub97c \uc218\ud589\ud560 \ub54c \uc9c0\ucf1c\uc57c \ud560 \uae30\ubcf8\uc801\uc778 \uc808\ucc28\uc640 \uae30\uc900\uc744 \uc815\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c24\uc870\uc75813(\ubaa8\uc9d1\uc9c8\uc11c \uc720\uc9c0\ub97c \uc704\ud55c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uc758 \uc900\uc218\uc0ac\ud56d) \u2460 \ubc95 \uc81c24\uc870\uc7582\uc81c2\ud56d \ubc0f \uc2dc\ud589\ub839 \uc81c7\uc870\uc7583\uc81c2\ud56d\uc5d0 \ub530\ub77c \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ubaa8\uc9d1\uc9c8\uc11c\ub97c \uc720\uc9c0\ud558\uae30 \uc704\ud574 \uc784\uc9c1\uc6d0 \ubc0f \uc18c\uc18d \ubaa8\uc9d1\uc778\uc774 \uc9c1\ubb34\ub97c \uc218\ud589\ud560 \ub54c \uc9c0\ucf1c\uc57c \ud560 \uae30\ubcf8\uc801\uc778 \uc808\ucc28\uc640 \uae30\uc900\uc744 \uc815\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 178.18000000000006,
+            "r": 378.7799999999999,
+            "b": 169.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc81c1\ud56d\uc5d0 \ub530\ub978 \uc808\ucc28\uc640 \uae30\uc900\uc5d0\ub294 \ub2e4\uc74c \uac01 \ud638\uc758 \uc0ac\ud56d\uc774 \ud3ec\ud568\ub418\uc5b4\uc57c \ud55c\ub2e4.",
+      "text": "\u2461 \uc81c1\ud56d\uc5d0 \ub530\ub978 \uc808\ucc28\uc640 \uae30\uc900\uc5d0\ub294 \ub2e4\uc74c \uac01 \ud638\uc758 \uc0ac\ud56d\uc774 \ud3ec\ud568\ub418\uc5b4\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 158.18000000000006,
+            "r": 559.3616499999998,
+            "b": 129.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "1. \ubc95 \uc81c14\uc870\uc7582\uc81c2\ud56d, \ubc95 \uc81c14\uc870\uc7585\uc81c2\ud56d \ubc0f \uc81c3\ud56d\uc5d0\uc11c \uc815\ud558\ub294 \uc900\uc218\uc0ac\ud56d \ubc0f \uadf8 \ubc16\uc758 \ubaa8\uc9d1\uc9c8\uc11c \uc720\uc9c0\ub97c \uc704\ud574 \uc2e0\uc6a9 \uce74\ub4dc\uc5c5\uc790\uc640 \uc18c\uc18d \ubaa8\uc9d1\uc778\uc774 \uc900\uc218\ud558\uc5ec\uc57c \ud560 \uc0ac\ud56d",
+      "text": "\ubc95 \uc81c14\uc870\uc7582\uc81c2\ud56d, \ubc95 \uc81c14\uc870\uc7585\uc81c2\ud56d \ubc0f \uc81c3\ud56d\uc5d0\uc11c \uc815\ud558\ub294 \uc900\uc218\uc0ac\ud56d \ubc0f \uadf8 \ubc16\uc758 \ubaa8\uc9d1\uc9c8\uc11c \uc720\uc9c0\ub97c \uc704\ud574 \uc2e0\uc6a9 \uce74\ub4dc\uc5c5\uc790\uc640 \uc18c\uc18d \ubaa8\uc9d1\uc778\uc774 \uc900\uc218\ud558\uc5ec\uc57c \ud560 \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.0,
+            "t": 118.18000000000006,
+            "r": 479.16999999999996,
+            "b": 109.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "2. \uc81c1\ud638\uc5d0 \ub530\ub978 \uc900\uc218\uc0ac\ud56d\uc758 \uc774\ud589\uc5ec\ubd80 \uc810\uac80\uc744 \uc704\ud55c \uc804\ub2f4 \uc810\uac80\ubd80\uc11c, \uc810\uac80 \ubc29\ubc95, \uc815\uae30\uc801 \uc810\uac80 \uc758\ubb34",
+      "text": "\uc81c1\ud638\uc5d0 \ub530\ub978 \uc900\uc218\uc0ac\ud56d\uc758 \uc774\ud589\uc5ec\ubd80 \uc810\uac80\uc744 \uc704\ud55c \uc804\ub2f4 \uc810\uac80\ubd80\uc11c, \uc810\uac80 \ubc29\ubc95, \uc815\uae30\uc801 \uc810\uac80 \uc758\ubb34",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            5                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            5                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 778.18,
+            "r": 401.2999999999999,
+            "b": 769.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            44
+          ]
+        }
+      ],
+      "orig": "3. \uc81c1\ud638\uc758 \uc900\uc218\uc0ac\ud56d \uc704\ubc18\uc774 \ubc1c\uc0dd\ud55c \uacbd\uc6b0 \uc7ac\ubc1c \ubc29\uc9c0\ub97c \uc704\ud55c \ub300\ucc45 \uc218\ub9bd \ubc0f \uc774\ud589",
+      "text": "\uc81c1\ud638\uc758 \uc900\uc218\uc0ac\ud56d \uc704\ubc18\uc774 \ubc1c\uc0dd\ud55c \uacbd\uc6b0 \uc7ac\ubc1c \ubc29\uc9c0\ub97c \uc704\ud55c \ub300\ucc45 \uc218\ub9bd \ubc0f \uc774\ud589",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 758.18,
+            "r": 441.2999999999999,
+            "b": 749.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "4. \uc81c1\ud638\ub97c \uc704\ubc18\ud55c \ubaa8\uc9d1\ud589\uc704\uc5d0 \ub300\ud574 \uc778\ud130\ub137 \ud648\ud398\uc774\uc9c0 \ubc0f \uc6b0\ud3b8 \ub4f1\uc744 \ud1b5\ud55c \uc2e0\uace0\uc81c\ub3c4 \uc6b4\uc601",
+      "text": "\uc81c1\ud638\ub97c \uc704\ubc18\ud55c \ubaa8\uc9d1\ud589\uc704\uc5d0 \ub300\ud574 \uc778\ud130\ub137 \ud648\ud398\uc774\uc9c0 \ubc0f \uc6b0\ud3b8 \ub4f1\uc744 \ud1b5\ud55c \uc2e0\uace0\uc81c\ub3c4 \uc6b4\uc601",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 44.0,
+            "t": 728.18,
+            "r": 556.8599999999999,
+            "b": 639.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "\uc81c24\uc870\uc75814(\uacb0\uc81c\ub300\ud589\uc5c5\uccb4\uc758 \uc900\uc218\uc0ac\ud56d) \uc2dc\ud589\ub839 \uc81c6\uc870\uc75816\uc5d0 \ub530\ub77c \uacb0\uc81c\ub300\ud589\uc5c5\uccb4\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc815\uae30\uc801\uc73c\ub85c \uae08 \uc561\uc744 \uc9c0\ubd88\ud558\ub294 \ubc29\uc2dd\uc73c\ub85c \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed(\u300c\uacf5\uacf5\uae30\uad00\uc758 \uc6b4\uc601\uc5d0 \uad00\ud55c \ubc95\ub960\u300d\uc5d0 \ub530\ub978 \uacf5\uacf5\uae30\uad00\uc774 \uc81c\uacf5\ud558\ub294 \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed,\u300c\uc804\uae30\ud1b5\uc2e0\uc0ac\uc5c5\ubc95\u300d\uc5d0 \ub530\ub978 \uc804\uae30\ud1b5\uc2e0\uc0ac\uc5c5\uc790\uac00 \uc81c\uacf5\ud558\ub294 \uc804\uae30\ud1b5\uc2e0\uc5ed\ubb34, \uadf8 \ubc16\uc5d0 \uc774\uc640 \uc720\uc0ac\ud55c \uac83\uc73c\ub85c \uae08\uc735\uc704\uc6d0 \ud68c\uac00 \uc815\ud558\uc5ec \uace0\uc2dc\ud558\ub294 \uacbd\uc6b0\ub294 \uc81c\uc678\ud55c\ub2e4)\uc744 \uad6c\uc785\ud558\uae30 \uc704\ud574 \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc73c\ub85c \uac70\ub798(\uc774\ud558 '\uc815\uae30\uacb0\uc81c' \ub77c \ud55c\ub2e4)\ud558\ub294 \uacbd \uc6b0 \ub2e4\uc74c \uac01 \ud638\uc758 \ubc29\ubc95 \ubc0f \uc808\ucc28\uc5d0 \ub530\ub978\ub2e4.",
+      "text": "\uc81c24\uc870\uc75814(\uacb0\uc81c\ub300\ud589\uc5c5\uccb4\uc758 \uc900\uc218\uc0ac\ud56d) \uc2dc\ud589\ub839 \uc81c6\uc870\uc75816\uc5d0 \ub530\ub77c \uacb0\uc81c\ub300\ud589\uc5c5\uccb4\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc815\uae30\uc801\uc73c\ub85c \uae08 \uc561\uc744 \uc9c0\ubd88\ud558\ub294 \ubc29\uc2dd\uc73c\ub85c \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed(\u300c\uacf5\uacf5\uae30\uad00\uc758 \uc6b4\uc601\uc5d0 \uad00\ud55c \ubc95\ub960\u300d\uc5d0 \ub530\ub978 \uacf5\uacf5\uae30\uad00\uc774 \uc81c\uacf5\ud558\ub294 \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed,\u300c\uc804\uae30\ud1b5\uc2e0\uc0ac\uc5c5\ubc95\u300d\uc5d0 \ub530\ub978 \uc804\uae30\ud1b5\uc2e0\uc0ac\uc5c5\uc790\uac00 \uc81c\uacf5\ud558\ub294 \uc804\uae30\ud1b5\uc2e0\uc5ed\ubb34, \uadf8 \ubc16\uc5d0 \uc774\uc640 \uc720\uc0ac\ud55c \uac83\uc73c\ub85c \uae08\uc735\uc704\uc6d0 \ud68c\uac00 \uc815\ud558\uc5ec \uace0\uc2dc\ud558\ub294 \uacbd\uc6b0\ub294 \uc81c\uc678\ud55c\ub2e4)\uc744 \uad6c\uc785\ud558\uae30 \uc704\ud574 \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc73c\ub85c \uac70\ub798(\uc774\ud558 '\uc815\uae30\uacb0\uc81c' \ub77c \ud55c\ub2e4)\ud558\ub294 \uacbd \uc6b0 \ub2e4\uc74c \uac01 \ud638\uc758 \ubc29\ubc95 \ubc0f \uc808\ucc28\uc5d0 \ub530\ub978\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 628.18,
+            "r": 562.0129800000004,
+            "b": 579.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "1. \uc815\uae30\uacb0\uc81c \ubc29\uc2dd\uc73c\ub85c \uad6c\uc785\ud558\ub294 \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed\uc5d0 \ub300\ud574 \uacb0\uc81c \uc2b9\uc778 \uc694\uccad \uc608\uc815\uc778 \uae08\uc561\uc774 \uc99d\uac00\ud558\uac70\ub098 \uc720\ub8cc\uc804\ud658 \ub418\ub294 \uacbd\uc6b0, \uc774\uc640 \uad00\ub828\ud55c \uc0ac\ud56d\uc744 \uc815\uae30\uacb0\uc81c \uc2b9\uc778\uc694\uccad 7\uc77c \uc804\uae4c\uc9c0 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc5d0\uac8c \uc6b0\ud3b8, \ubb38\uc790\uba54\uc2dc\uc9c0, \uc804\uc790\uc6b0\ud3b8 \ub4f1 \uc774\uc640 \uc720\uc0ac\ud55c \ubc29\ubc95\uc73c\ub85c \uace0\uc9c0\ud558\ub294 \ubc29\uc548\uc744 \ub9c8\ub828\ud560 \uac83",
+      "text": "\uc815\uae30\uacb0\uc81c \ubc29\uc2dd\uc73c\ub85c \uad6c\uc785\ud558\ub294 \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed\uc5d0 \ub300\ud574 \uacb0\uc81c \uc2b9\uc778 \uc694\uccad \uc608\uc815\uc778 \uae08\uc561\uc774 \uc99d\uac00\ud558\uac70\ub098 \uc720\ub8cc\uc804\ud658 \ub418\ub294 \uacbd\uc6b0, \uc774\uc640 \uad00\ub828\ud55c \uc0ac\ud56d\uc744 \uc815\uae30\uacb0\uc81c \uc2b9\uc778\uc694\uccad 7\uc77c \uc804\uae4c\uc9c0 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc5d0\uac8c \uc6b0\ud3b8, \ubb38\uc790\uba54\uc2dc\uc9c0, \uc804\uc790\uc6b0\ud3b8 \ub4f1 \uc774\uc640 \uc720\uc0ac\ud55c \ubc29\ubc95\uc73c\ub85c \uace0\uc9c0\ud558\ub294 \ubc29\uc548\uc744 \ub9c8\ub828\ud560 \uac83",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 568.18,
+            "r": 559.3337999999999,
+            "b": 559.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "2. \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc815\uae30\uacb0\uc81c\uc758 \ucca0\ud68c, \ucde8\uc18c, \ud658\ubd88\uc694\uad6c \ub4f1\uc744 \ud558\ub294 \uacbd\uc6b0 \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed\uc758 \ud2b9\uc131, \uc0ac\uc6a9\uc5ec\ubd80, \uc0ac\uc6a9\uae30\uac04",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\ub4f1\uc774 \uc815\uae30\uacb0\uc81c\uc758 \ucca0\ud68c, \ucde8\uc18c, \ud658\ubd88\uc694\uad6c \ub4f1\uc744 \ud558\ub294 \uacbd\uc6b0 \ubb3c\ud488\uc774\ub098 \uc6a9\uc5ed\uc758 \ud2b9\uc131, \uc0ac\uc6a9\uc5ec\ubd80, \uc0ac\uc6a9\uae30\uac04",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 66.0,
+            "t": 548.18,
+            "r": 339.4207599999999,
+            "b": 539.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "\ub4f1\uc744 \uace0\ub824\ud558\uc5ec \uacf5\uc815\ud55c \uae30\uc900\uc744 \ub9c8\ub828\ud560 \uac83<\uc2e0\uc124 2021. 10. 28.>",
+      "text": "\ub4f1\uc744 \uace0\ub824\ud558\uc5ec \uacf5\uc815\ud55c \uae30\uc900\uc744 \ub9c8\ub828\ud560 \uac83<\uc2e0\uc124 2021. 10. 28.>",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 44.0,
+            "t": 518.18,
+            "r": 549.06,
+            "b": 489.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "\uc81c25\uc870\uc7588(\uac70\ub798\uc870\uac74 \uc8fc\uc9c0\ubc29\ubc95 \ub4f1) \uc2dc\ud589\uaddc\uce59 \uc81c3\uc870\uc81c2\ud56d\uc81c3\ud638\uc5d0\uc11c \"\uc790\uae08\uc744 \uc735\ud1b5\ud55c \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\"\uc774\ub780 \ub2e8\uae30\uce74\ub4dc\ub300 \ucd9c(\ud604\uae08\uc11c\ube44\uc2a4)\uc744 \uc774\uc6a9\ud55c \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc744 \ub9d0\ud55c\ub2e4.",
+      "text": "\uc81c25\uc870\uc7588(\uac70\ub798\uc870\uac74 \uc8fc\uc9c0\ubc29\ubc95 \ub4f1) \uc2dc\ud589\uaddc\uce59 \uc81c3\uc870\uc81c2\ud56d\uc81c3\ud638\uc5d0\uc11c \"\uc790\uae08\uc744 \uc735\ud1b5\ud55c \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\"\uc774\ub780 \ub2e8\uae30\uce74\ub4dc\ub300 \ucd9c(\ud604\uae08\uc11c\ube44\uc2a4)\uc744 \uc774\uc6a9\ud55c \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc744 \ub9d0\ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 44.0,
+            "t": 468.18,
+            "r": 556.7199999999999,
+            "b": 439.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "\uc81c26\uc870(\uc57d\uad00\uc758 \uc791\uc131 \ubc0f \uc6b4\uc6a9 \uae30\uc900) \u2460 \ubc95 \uc81c24\uc870\uc81c6\ud638\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ub2e4\uc74c \uac01\ud638\uc5d0\uc11c \uc815\ud55c \uae30\uc900\uc5d0 \ub530\ub77c \uc57d\uad00\uc744 \uc791\uc131\u318d\uc6b4\uc6a9\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc81c26\uc870(\uc57d\uad00\uc758 \uc791\uc131 \ubc0f \uc6b4\uc6a9 \uae30\uc900) \u2460 \ubc95 \uc81c24\uc870\uc81c6\ud638\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ub2e4\uc74c \uac01\ud638\uc5d0\uc11c \uc815\ud55c \uae30\uc900\uc5d0 \ub530\ub77c \uc57d\uad00\uc744 \uc791\uc131\u318d\uc6b4\uc6a9\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 428.18,
+            "r": 296.91999999999996,
+            "b": 419.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "1. \uc2e0\uc758\uc131\uc2e4\uc758 \uc6d0\uce59\uc5d0 \ub530\ub77c \uacf5\uc815\ud558\uac8c \uc791\uc131\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc2e0\uc758\uc131\uc2e4\uc758 \uc6d0\uce59\uc5d0 \ub530\ub77c \uacf5\uc815\ud558\uac8c \uc791\uc131\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 408.18,
+            "r": 296.91999999999996,
+            "b": 399.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "2. \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc790\uc758 \uad8c\uc775\uc744 \ucd5c\ub300\ud55c \ubcf4\ud638\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc790\uc758 \uad8c\uc775\uc744 \ucd5c\ub300\ud55c \ubcf4\ud638\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 388.18,
+            "r": 310.42999999999995,
+            "b": 379.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "3. \uac74\uc804\ud55c \uae08\uc735\uac70\ub798\uc9c8\uc11c\uac00 \uc720\uc9c0\ub420 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uac74\uc804\ud55c \uae08\uc735\uac70\ub798\uc9c8\uc11c\uac00 \uc720\uc9c0\ub420 \uc218 \uc788\ub3c4\ub85d \ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 368.18,
+            "r": 497.44999999999993,
+            "b": 359.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "4. \uc2e0\uc6a9\uce74\ub4dc \ubd80\uc815\uc0ac\uc6a9\uc5d0 \ub300\ud574\uc11c\ub294 \uc2e0\uc6a9\uce74\ub4dc\uc774\uc6a9\uc790\uc5d0\uac8c \ubd80\ub2f9\ud558\uac8c \ucc45\uc784\uc744 \uc804\uac00\ud558\uc9c0 \uc544\ub2c8\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc \ubd80\uc815\uc0ac\uc6a9\uc5d0 \ub300\ud574\uc11c\ub294 \uc2e0\uc6a9\uce74\ub4dc\uc774\uc6a9\uc790\uc5d0\uac8c \ubd80\ub2f9\ud558\uac8c \ucc45\uc784\uc744 \uc804\uac00\ud558\uc9c0 \uc544\ub2c8\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 348.18,
+            "r": 450.96,
+            "b": 339.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "5. \uc57d\uad00\uc758 \ub73b\uc774 \uba85\ubc31\ud558\uc9c0 \uc54a\uc744 \uacbd\uc6b0\uc5d0\ub294 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc790\uc5d0\uac8c \uc720\ub9ac\ud558\uac8c \ud574\uc11d\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc57d\uad00\uc758 \ub73b\uc774 \uba85\ubc31\ud558\uc9c0 \uc54a\uc744 \uacbd\uc6b0\uc5d0\ub294 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc790\uc5d0\uac8c \uc720\ub9ac\ud558\uac8c \ud574\uc11d\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 328.18000000000006,
+            "r": 356.91999999999996,
+            "b": 319.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "6. \uc57d\uad00\uc758\uaddc\uc81c\uc5d0\uad00\ud55c\ubc95\ub960 \ub4f1 \uad00\uacc4\ubc95\ub839\uc5d0 \uc704\ubc30\ub418\uc9c0 \uc544\ub2c8\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc57d\uad00\uc758\uaddc\uc81c\uc5d0\uad00\ud55c\ubc95\ub960 \ub4f1 \uad00\uacc4\ubc95\ub839\uc5d0 \uc704\ubc30\ub418\uc9c0 \uc544\ub2c8\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 308.18000000000006,
+            "r": 560.41119,
+            "b": 279.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "7. \uc57d\uad00\uc744 \uc81c\uc815\ud558\uac70\ub098 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0 \uad00\uacc4\ubc95\ub839 \ub4f1 \uc704\ubc18 \uc5ec\ubd80, \uae08\uc735\uc774\uc6a9\uc790\uc758 \uad8c\uc775 \uce68\ud574 \ubc0f \ubd84\uc7c1 \ubc1c\uc0dd \uc18c\uc9c0 \ub4f1\uc5d0 \ub300 \ud558\uc5ec \uc900\ubc95\uac10\uc2dc\uc778\uc758 \uc2ec\uc758\ub97c \uac70\uccd0\uc57c \ud55c\ub2e4.",
+      "text": "\uc57d\uad00\uc744 \uc81c\uc815\ud558\uac70\ub098 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0 \uad00\uacc4\ubc95\ub839 \ub4f1 \uc704\ubc18 \uc5ec\ubd80, \uae08\uc735\uc774\uc6a9\uc790\uc758 \uad8c\uc775 \uce68\ud574 \ubc0f \ubd84\uc7c1 \ubc1c\uc0dd \uc18c\uc9c0 \ub4f1\uc5d0 \ub300 \ud558\uc5ec \uc900\ubc95\uac10\uc2dc\uc778\uc758 \uc2ec\uc758\ub97c \uac70\uccd0\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 268.18000000000006,
+            "r": 542.8699999999998,
+            "b": 259.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "8. \uc57d\uad00\uc758 \uc81c\u318d\uac1c\uc815 \uc808\ucc28, \uad00\ub9ac\ubc29\ubc95, \uacf5\uc2dc \ubc0f \uc784\uc9c1\uc6d0 \uad50\uc721 \ub4f1 \uc57d\uad00\uc758 \uc791\uc131\u318d\uc6b4\uc601\uc5d0 \uad00\ud55c \uae30\uc900\uc744 \uc815\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\uc57d\uad00\uc758 \uc81c\u318d\uac1c\uc815 \uc808\ucc28, \uad00\ub9ac\ubc29\ubc95, \uacf5\uc2dc \ubc0f \uc784\uc9c1\uc6d0 \uad50\uc721 \ub4f1 \uc57d\uad00\uc758 \uc791\uc131\u318d\uc6b4\uc601\uc5d0 \uad00\ud55c \uae30\uc900\uc744 \uc815\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 248.18000000000006,
+            "r": 560.9849999999996,
+            "b": 219.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ubc95 \uc81c24\uc870\uc81c6\ud638\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \ub2e4\uc74c \uac01\ud638\uc5d0\uc11c \uc815\ud55c \uc0ac\ud56d\uc744 \uc57d\uad00\uc5d0 \uaddc\uc815\ud558\uc5ec\uc57c \ud55c\ub2e4. [\ubcf8\ud56d \uc2e0\uc124 2002. 7. 4.]",
+      "text": "\u2461 \uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\ub294 \ubc95 \uc81c24\uc870\uc81c6\ud638\uc758 \uaddc\uc815\uc5d0 \uc758\ud558\uc5ec \ub2e4\uc74c \uac01\ud638\uc5d0\uc11c \uc815\ud55c \uc0ac\ud56d\uc744 \uc57d\uad00\uc5d0 \uaddc\uc815\ud558\uc5ec\uc57c \ud55c\ub2e4. [\ubcf8\ud56d \uc2e0\uc124 2002. 7. 4.]",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 208.18000000000006,
+            "r": 274.73999999999995,
+            "b": 199.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "1. \uc2e0\uc6a9\uce74\ub4dc\uc758 \uac31\uc2e0\u318d\ub300\uccb4 \ubc1c\uae09 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc\uc758 \uac31\uc2e0\u318d\ub300\uccb4 \ubc1c\uae09 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 188.18000000000006,
+            "r": 264.73999999999995,
+            "b": 179.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "2. \uc2e0\uc6a9\uce74\ub4dc\uc758 \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc\uc758 \uc774\uc6a9\ud55c\ub3c4 \ucc45\uc815 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 168.18000000000006,
+            "r": 548.78,
+            "b": 159.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "3. \ubd84\uc2e4\u318d\ub3c4\ub09c\u318d\uc704\uc870\u318d\ubcc0\uc870\ub41c \uc2e0\uc6a9\uce74\ub4dc \ub4f1\uc758 \uc0ac\uc6a9\uc5d0 \ub530\ub978 \uce74\ub4dc\ud68c\uc0ac\u318d\ud68c\uc6d0\u318d\uac00\ub9f9\uc810\uac04\uc758 \ucc45\uc784 \ubd84\ub2f4\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\ubd84\uc2e4\u318d\ub3c4\ub09c\u318d\uc704\uc870\u318d\ubcc0\uc870\ub41c \uc2e0\uc6a9\uce74\ub4dc \ub4f1\uc758 \uc0ac\uc6a9\uc5d0 \ub530\ub978 \uce74\ub4dc\ud68c\uc0ac\u318d\ud68c\uc6d0\u318d\uac00\ub9f9\uc810\uac04\uc758 \ucc45\uc784 \ubd84\ub2f4\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 148.18000000000006,
+            "r": 482.2899999999999,
+            "b": 139.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "4. \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uae08\uc561\uc5d0 \ub300\ud55c \ud68c\uc6d0\uc758 \uc774\uc758\uc81c\uae30\uc2dc \ucc98\ub9ac\uc808\ucc28 \ubc0f \uce74\ub4dc\ud68c\uc0ac\uc758 \ucc45\uc784\ubd80\ub2f4\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uae08\uc561\uc5d0 \ub300\ud55c \ud68c\uc6d0\uc758 \uc774\uc758\uc81c\uae30\uc2dc \ucc98\ub9ac\uc808\ucc28 \ubc0f \uce74\ub4dc\ud68c\uc0ac\uc758 \ucc45\uc784\ubd80\ub2f4\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.0,
+            "t": 128.18000000000006,
+            "r": 291.75999999999993,
+            "b": 119.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "5. \ud68c\uc6d0\uacfc\uc758 \uacc4\uc57d\ud574\uc9c0 \uc0ac\uc720 \ubc0f \ud574\uc9c0 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\ud68c\uc6d0\uacfc\uc758 \uacc4\uc57d\ud574\uc9c0 \uc0ac\uc720 \ubc0f \ud574\uc9c0 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            6                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            6                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 778.18,
+            "r": 325.2699999999999,
+            "b": 769.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "6. \ud68c\uc6d0\uc758 \uc2e0\uc6a9\uc815\ubcf4\uc758 \uc81c\uacf5 \ubc0f \uc774\uc6a9\uc2dc \ud1b5\ubcf4 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\ud68c\uc6d0\uc758 \uc2e0\uc6a9\uc815\ubcf4\uc758 \uc81c\uacf5 \ubc0f \uc774\uc6a9\uc2dc \ud1b5\ubcf4 \uc808\ucc28\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 758.18,
+            "r": 414.4699999999999,
+            "b": 749.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "7. \uae30\ud0c0 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc808\ucc28, \uc5f0\ud68c\ube44 \ub4f1 \ud68c\uc6d0 \ubc0f \uac00\ub9f9\uc810\uc758 \uad8c\ub9ac\u318d\uc758\ubb34\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "text": "\uae30\ud0c0 \uc2e0\uc6a9\uce74\ub4dc \uc774\uc6a9\uc808\ucc28, \uc5f0\ud68c\ube44 \ub4f1 \ud68c\uc6d0 \ubc0f \uac00\ub9f9\uc810\uc758 \uad8c\ub9ac\u318d\uc758\ubb34\uc5d0 \uad00\ud55c \uc0ac\ud56d",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 44.0,
+            "t": 728.18,
+            "r": 556.0899999999999,
+            "b": 699.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "\uc81c26\uc870\uc7582(\uc57d\uad00\uc758 \uac1c\uc815 \ub4f1) \u2460 \uc2dc\ud589\ub839 \uc81c19\uc870\uc75822\uc81c2\ud56d\uc81c5\ud638\uc5d0\uc11c \"\uae08\uc735\uc704\uc6d0\ud68c\uac00 \uc815\ud558\uc5ec \uace0\uc2dc\ud558\ub294 \uacbd\uc6b0\"\ub780 \ub2e4\uc74c \uac01 \ud638\uc758 \uc5b4\ub290 \ud558\ub098\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\ub97c \ub9d0\ud55c\ub2e4.",
+      "text": "\uc81c26\uc870\uc7582(\uc57d\uad00\uc758 \uac1c\uc815 \ub4f1) \u2460 \uc2dc\ud589\ub839 \uc81c19\uc870\uc75822\uc81c2\ud56d\uc81c5\ud638\uc5d0\uc11c \"\uae08\uc735\uc704\uc6d0\ud68c\uac00 \uc815\ud558\uc5ec \uace0\uc2dc\ud558\ub294 \uacbd\uc6b0\"\ub780 \ub2e4\uc74c \uac01 \ud638\uc758 \uc5b4\ub290 \ud558\ub098\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\ub97c \ub9d0\ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 688.18,
+            "r": 560.0694300000002,
+            "b": 659.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "1. \ubd80\uac00\uc11c\ube44\uc2a4 \ub0b4\uc6a9\uc758 \ub3d9\uc77c\uc131\uc744 \uc720\uc9c0\ud558\uba74\uc11c \ubd80\uac00\uc11c\ube44\uc2a4\ub97c \uc81c\uacf5\ud558\ub294 \uc81c\ud734\uc5c5\uccb4\uc758 \ud3d0\uc5c5\u318d\ud734\uc5c5\u318d\ubd80\ub3c4\u318d\ud30c\uc0b0 \ub4f1\uc73c\ub85c \uc81c\ud734\uc5c5\uccb4\ub97c \ubcc0\uacbd\ud558\uae30 \uc704\ud574 \uae08\uc735\uc57d\uad00\uc744 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "text": "\ubd80\uac00\uc11c\ube44\uc2a4 \ub0b4\uc6a9\uc758 \ub3d9\uc77c\uc131\uc744 \uc720\uc9c0\ud558\uba74\uc11c \ubd80\uac00\uc11c\ube44\uc2a4\ub97c \uc81c\uacf5\ud558\ub294 \uc81c\ud734\uc5c5\uccb4\uc758 \ud3d0\uc5c5\u318d\ud734\uc5c5\u318d\ubd80\ub3c4\u318d\ud30c\uc0b0 \ub4f1\uc73c\ub85c \uc81c\ud734\uc5c5\uccb4\ub97c \ubcc0\uacbd\ud558\uae30 \uc704\ud574 \uae08\uc735\uc57d\uad00\uc744 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 648.18,
+            "r": 375.27,
+            "b": 639.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "2. \uace0\uc2dc\uc758 \uc81c\uc815 \ub610\ub294 \uac1c\uc815\uc5d0 \ub530\ub77c \uae08\uc735\uc57d\uad00\uc744 \uc81c\uc815\ud558\uac70\ub098 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "text": "\uace0\uc2dc\uc758 \uc81c\uc815 \ub610\ub294 \uac1c\uc815\uc5d0 \ub530\ub77c \uae08\uc735\uc57d\uad00\uc744 \uc81c\uc815\ud558\uac70\ub098 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 628.18,
+            "r": 560.0271999999993,
+            "b": 599.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "3. \uc815\ubd80 \ub610\ub294 \uc9c0\ubc29\uc790\uce58\ub2e8\uccb4\uc640\uc758 \ud611\uc57d \ub4f1\uc744 \ud1b5\ud574 \uacf5\uacf5\uc758 \ubaa9\uc801\ub9cc\uc744 \uc704\ud574 \ubd80\uac00\uc11c\ube44\uc2a4\uac00 \uc5c6\ub294 \uc0c1\ud488\uc758 \uc57d\uad00\uc744 \uc81c\uc815 \ub610 \ub294 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "text": "\uc815\ubd80 \ub610\ub294 \uc9c0\ubc29\uc790\uce58\ub2e8\uccb4\uc640\uc758 \ud611\uc57d \ub4f1\uc744 \ud1b5\ud574 \uacf5\uacf5\uc758 \ubaa9\uc801\ub9cc\uc744 \uc704\ud574 \ubd80\uac00\uc11c\ube44\uc2a4\uac00 \uc5c6\ub294 \uc0c1\ud488\uc758 \uc57d\uad00\uc744 \uc81c\uc815 \ub610 \ub294 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 588.18,
+            "r": 560.5469099999991,
+            "b": 539.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "4. \uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \ud574\uc678\uc774\uc6a9\uacfc \uad00\ub828\ub41c \ub300\uae08\uc758 \uacb0\uc81c\ub9dd\uc744 \uc81c\uacf5\ud558\ub294 \uc678\uad6d\ubc95\uc778\uc774 \uadf8 \uc81c\uacf5 \uc5ec\ubd80\ub97c \uacb0\uc815\ud558\ub294 \ubd80\uac00\uc11c\ube44\uc2a4 (\uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc120\ud0dd\ud558\uc5ec \uc81c\uacf5\ud558\ub294 \ubd80\uac00\uc11c\ube44\uc2a4\ub294 \uc81c\uc678\ud55c\ub2e4)\ub97c \uc77c\ubc29\uc801\uc73c\ub85c \ubcc0\uacbd\u318d\uc911\ub2e8\ud568\uc5d0 \ub530\ub77c \uc774\ub97c \ubc18\uc601\ud558 \uae30 \uc704\ud574 \uae08\uc735\uc57d\uad00\uc744 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "text": "\uc2e0\uc6a9\uce74\ub4dc\ub4f1\uc758 \ud574\uc678\uc774\uc6a9\uacfc \uad00\ub828\ub41c \ub300\uae08\uc758 \uacb0\uc81c\ub9dd\uc744 \uc81c\uacf5\ud558\ub294 \uc678\uad6d\ubc95\uc778\uc774 \uadf8 \uc81c\uacf5 \uc5ec\ubd80\ub97c \uacb0\uc815\ud558\ub294 \ubd80\uac00\uc11c\ube44\uc2a4 (\uc2e0\uc6a9\uce74\ub4dc\uc5c5\uc790\uac00 \uc120\ud0dd\ud558\uc5ec \uc81c\uacf5\ud558\ub294 \ubd80\uac00\uc11c\ube44\uc2a4\ub294 \uc81c\uc678\ud55c\ub2e4)\ub97c \uc77c\ubc29\uc801\uc73c\ub85c \ubcc0\uacbd\u318d\uc911\ub2e8\ud568\uc5d0 \ub530\ub77c \uc774\ub97c \ubc18\uc601\ud558 \uae30 \uc704\ud574 \uae08\uc735\uc57d\uad00\uc744 \uac1c\uc815\ud558\ub294 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 528.18,
+            "r": 562.7394300000007,
+            "b": 459.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            197
+          ]
+        }
+      ],
+      "orig": "\u2461 \uac10\ub3c5\uc6d0\uc7a5\uc740 \ubc95 \uc81c54\uc870\uc7583\uc81c1\ud56d \ub2e8\uc11c \ubc0f \uac19\uc740 \uc870 \uc81c4\ud56d\uc5d0 \ub530\ub77c \uc2e0\uace0 \ubc1b\uc740 \uc57d\uad00\uc744 10\uc601\uc5c5\uc77c \uc774\ub0b4\uc5d0 \uc2e0\uace0\uc218\ub9ac\ud558 \uac70\ub098 \ubcc0\uacbd\uba85\ub839\ud558\uc5ec\uc57c \ud55c\ub2e4(\uc790\ub8cc\ubcf4\uc644 \ub610\ub294 \uc790\ubb38\uc5d0 \uc18c\uc694\ub418\ub294 \uae30\uac04, \ubc95 \uc81c54\uc870\uc7583 \uc81c5\ud56d \ub0b4\uc9c0 \uc81c7\ud56d\uc758 \uacf5\uc815\uac70\ub798\uc704 \uc6d0\ud68c\uc5d0 \ub300\ud55c \ud1b5\ubcf4 \ubc0f \ud611\uc758\uc5d0 \ud544\uc694\ud55c \uae30\uac04\uc740 \uc0b0\uc785\ud558\uc9c0 \uc544\ub2c8\ud55c\ub2e4). \ub2e4\ub9cc, \ub2e4\uc74c \uac01 \ud638\uc758 \uacbd\uc6b0\ub294 \uc2e0\uace0\uc218\ub9ac \uae30\uac04\uc744 \uc5f0 \uc7a5\ud560 \uc218 \uc788\ub2e4.",
+      "text": "\u2461 \uac10\ub3c5\uc6d0\uc7a5\uc740 \ubc95 \uc81c54\uc870\uc7583\uc81c1\ud56d \ub2e8\uc11c \ubc0f \uac19\uc740 \uc870 \uc81c4\ud56d\uc5d0 \ub530\ub77c \uc2e0\uace0 \ubc1b\uc740 \uc57d\uad00\uc744 10\uc601\uc5c5\uc77c \uc774\ub0b4\uc5d0 \uc2e0\uace0\uc218\ub9ac\ud558 \uac70\ub098 \ubcc0\uacbd\uba85\ub839\ud558\uc5ec\uc57c \ud55c\ub2e4(\uc790\ub8cc\ubcf4\uc644 \ub610\ub294 \uc790\ubb38\uc5d0 \uc18c\uc694\ub418\ub294 \uae30\uac04, \ubc95 \uc81c54\uc870\uc7583 \uc81c5\ud56d \ub0b4\uc9c0 \uc81c7\ud56d\uc758 \uacf5\uc815\uac70\ub798\uc704 \uc6d0\ud68c\uc5d0 \ub300\ud55c \ud1b5\ubcf4 \ubc0f \ud611\uc758\uc5d0 \ud544\uc694\ud55c \uae30\uac04\uc740 \uc0b0\uc785\ud558\uc9c0 \uc544\ub2c8\ud55c\ub2e4). \ub2e4\ub9cc, \ub2e4\uc74c \uac01 \ud638\uc758 \uacbd\uc6b0\ub294 \uc2e0\uace0\uc218\ub9ac \uae30\uac04\uc744 \uc5f0 \uc7a5\ud560 \uc218 \uc788\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 448.18,
+            "r": 505.79999999999995,
+            "b": 439.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "1. \uc57d\uad00 \ub0b4\uc6a9\uc5d0 \uc624\ub958\uac00 \uc788\uac70\ub098 \ub0b4\uc6a9\uc774 \ubd88\ucda9\ubd84\ud558\uc5ec \uc57d\uad00\uc2ec\uc0ac\ub97c \uacc4\uc18d\ud558\uae30 \uace4\ub780\ud558\uc5ec \ubcf4\uc644\uc774 \ud544\uc694\ud55c \uacbd\uc6b0",
+      "text": "\uc57d\uad00 \ub0b4\uc6a9\uc5d0 \uc624\ub958\uac00 \uc788\uac70\ub098 \ub0b4\uc6a9\uc774 \ubd88\ucda9\ubd84\ud558\uc5ec \uc57d\uad00\uc2ec\uc0ac\ub97c \uacc4\uc18d\ud558\uae30 \uace4\ub780\ud558\uc5ec \ubcf4\uc644\uc774 \ud544\uc694\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 428.18,
+            "r": 495.7999999999999,
+            "b": 419.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "2. \uc57d\uad00\uc758 \ubc95\ub839\uc704\ubc18 \uc5ec\ubd80 \ub4f1\uc774 \uba85\ud655\ud558\uc9c0 \uc544\ub2c8\ud558\uc5ec \uae08\uc735\uc704\uc6d0\ud68c \ub4f1 \uc720\uad00\uae30\uad00\uacfc\uc758 \ud611\uc758\uac00 \ud544\uc694\ud55c \uacbd\uc6b0",
+      "text": "\uc57d\uad00\uc758 \ubc95\ub839\uc704\ubc18 \uc5ec\ubd80 \ub4f1\uc774 \uba85\ud655\ud558\uc9c0 \uc544\ub2c8\ud558\uc5ec \uae08\uc735\uc704\uc6d0\ud68c \ub4f1 \uc720\uad00\uae30\uad00\uacfc\uc758 \ud611\uc758\uac00 \ud544\uc694\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 408.18,
+            "r": 495.7999999999999,
+            "b": 399.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "3. \uc57d\uad00\uc774 \uc0ac\uc2e4\uc0c1 \uc2e0\uaddc\uc5c5\ubb34\ub97c \uc601\uc704\ud558\ub294 \ub0b4\uc6a9\uc774\uac70\ub098 \ub2e4\ub978 \uae08\uc735\uc5c5\uad8c\uc5d0 \uc601\ud5a5\uc744 \ubbf8\uce58\ub294 \uc601\ud5a5\uc774 \ud070 \uacbd\uc6b0",
+      "text": "\uc57d\uad00\uc774 \uc0ac\uc2e4\uc0c1 \uc2e0\uaddc\uc5c5\ubb34\ub97c \uc601\uc704\ud558\ub294 \ub0b4\uc6a9\uc774\uac70\ub098 \ub2e4\ub978 \uae08\uc735\uc5c5\uad8c\uc5d0 \uc601\ud5a5\uc744 \ubbf8\uce58\ub294 \uc601\ud5a5\uc774 \ud070 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 388.18,
+            "r": 392.2899999999999,
+            "b": 379.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "4. \uc57d\uad00\uc758 \ub0b4\uc6a9\uc0c1 \uae08\uc735\uc774\uc6a9\uc790\uc758 \ud53c\ud574 \ubc0f \ubd84\uc7c1 \ubc1c\uc0dd \uac00\ub2a5\uc131\uc774 \ub9e4\uc6b0 \ub192\uc740 \uacbd\uc6b0",
+      "text": "\uc57d\uad00\uc758 \ub0b4\uc6a9\uc0c1 \uae08\uc735\uc774\uc6a9\uc790\uc758 \ud53c\ud574 \ubc0f \ubd84\uc7c1 \ubc1c\uc0dd \uac00\ub2a5\uc131\uc774 \ub9e4\uc6b0 \ub192\uc740 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 368.18,
+            "r": 449.3099999999999,
+            "b": 359.20275344180226,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "5. \uae30\ud0c0 \ucc9c\uc7ac\uc9c0\ubcc0 \ubc0f \uadf8\uc5d0 \uc900\ud558\ub294 \uae34\uae09\ud558\uace0 \uc911\ub300\ud55c \uc0ac\uc720\ub85c \uae30\ud55c \ub0b4\uc5d0 \ucc98\ub9ac\uac00 \uace4\ub780\ud55c \uacbd\uc6b0",
+      "text": "\uae30\ud0c0 \ucc9c\uc7ac\uc9c0\ubcc0 \ubc0f \uadf8\uc5d0 \uc900\ud558\ub294 \uae34\uae09\ud558\uace0 \uc911\ub300\ud55c \uc0ac\uc720\ub85c \uae30\ud55c \ub0b4\uc5d0 \ucc98\ub9ac\uac00 \uace4\ub780\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 348.18,
+            "r": 559.6719600000002,
+            "b": 319.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "\u2462 \uac10\ub3c5\uc6d0\uc7a5\uc740 \uc81c2\ud56d\uc5d0 \ub530\ub77c \uc57d\uad00\uc744 \uc218\ub9ac\ud558\uac70\ub098 \ubcc0\uacbd\uba85\ub839\ud558\ub294 \uacbd\uc6b0 \ud574\ub2f9 \uc218\ub9ac\uc0ac\uc2e4 \ubc0f \ubcc0\uacbd\uba85\ub839 \ub0b4\uc6a9\uc744 \uc11c\uba74\uc73c\ub85c \ud574\ub2f9 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac\ub4f1 \ubc0f \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc5d0 \ud1b5\uc9c0\ud55c\ub2e4.",
+      "text": "\u2462 \uac10\ub3c5\uc6d0\uc7a5\uc740 \uc81c2\ud56d\uc5d0 \ub530\ub77c \uc57d\uad00\uc744 \uc218\ub9ac\ud558\uac70\ub098 \ubcc0\uacbd\uba85\ub839\ud558\ub294 \uacbd\uc6b0 \ud574\ub2f9 \uc218\ub9ac\uc0ac\uc2e4 \ubc0f \ubcc0\uacbd\uba85\ub839 \ub0b4\uc6a9\uc744 \uc11c\uba74\uc73c\ub85c \ud574\ub2f9 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac\ub4f1 \ubc0f \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc5d0 \ud1b5\uc9c0\ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 308.18000000000006,
+            "r": 561.6556600000001,
+            "b": 279.2027534418023,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "\u2463 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc7a5\uc740 \ubc95 \uc81c54\uc870\uc7583\uc81c1\ud56d \ubcf8\ubb38\uc5d0 \ub530\ub77c \ubcf4\uace0 \ubc1b\uc740 \uc57d\uad00\uc744 10\uc601\uc5c5\uc77c \uc774\ub0b4\uc5d0 \uc218\ub9ac\ud558\uc5ec\uc57c \ud55c \ub2e4. \uc774 \uacbd\uc6b0 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc7a5\uc740 \uc81c2\ud56d \ub2e8\uc11c\uc5d0\uc11c \uc815\ud558\ub294 \uac01 \ud638\uc758 \uc0ac\uc720\uc5d0 \ub530\ub77c \ucc98\ub9ac\uae30\uac04\uc744 \uc5f0\uc7a5\ud560 \uc218 \uc788\ub2e4.",
+      "text": "\u2463 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc7a5\uc740 \ubc95 \uc81c54\uc870\uc7583\uc81c1\ud56d \ubcf8\ubb38\uc5d0 \ub530\ub77c \ubcf4\uace0 \ubc1b\uc740 \uc57d\uad00\uc744 10\uc601\uc5c5\uc77c \uc774\ub0b4\uc5d0 \uc218\ub9ac\ud558\uc5ec\uc57c \ud55c \ub2e4. \uc774 \uacbd\uc6b0 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\uc7a5\uc740 \uc81c2\ud56d \ub2e8\uc11c\uc5d0\uc11c \uc815\ud558\ub294 \uac01 \ud638\uc758 \uc0ac\uc720\uc5d0 \ub530\ub77c \ucc98\ub9ac\uae30\uac04\uc744 \uc5f0\uc7a5\ud560 \uc218 \uc788\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 56.0,
+            "t": 268.18000000000006,
+            "r": 559.7686799999996,
+            "b": 239.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "\u2464 \ubc95 \uc81c54\uc870\uc7583\uc81c7\ud56d\uc5d0 \ub530\ub978 \ubcc0\uacbd\uba85\ub839\uc744 \ubc1b\uc740 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac\ub4f1 \ub610\ub294 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\ub294 \ub3d9 \uba85\ub839\uc5d0 \ub530\ub77c \uc57d\uad00\uc744 \uc218\uc815 \ub610\ub294 \ubcf4\uc644\ud558\uace0 \uc774\ub97c \uac10\ub3c5\uc6d0\uc7a5\uc5d0\uac8c \ubcf4\uace0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "text": "\u2464 \ubc95 \uc81c54\uc870\uc7583\uc81c7\ud56d\uc5d0 \ub530\ub978 \ubcc0\uacbd\uba85\ub839\uc744 \ubc1b\uc740 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\ud68c\uc0ac\ub4f1 \ub610\ub294 \uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\ud611\ud68c\ub294 \ub3d9 \uba85\ub839\uc5d0 \ub530\ub77c \uc57d\uad00\uc744 \uc218\uc815 \ub610\ub294 \ubcf4\uc644\ud558\uace0 \uc774\ub97c \uac10\ub3c5\uc6d0\uc7a5\uc5d0\uac8c \ubcf4\uace0\ud558\uc5ec\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 44.0,
+            "t": 218.18000000000006,
+            "r": 555.72,
+            "b": 169.20275344180232,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "\uc81c26\uc870\uc7585(\uad11\uace0\uc758 \uc790\uc728\uc2ec\uc758) \uc2dc\ud589\ub839 \uc81c19\uc870\uc75815\uc81c3\ud638\uc5d0 \ub530\ub77c \uae08\uc735\uc704\uc6d0\ud68c\uac00 \uc815\ud558\ub294 \uc5c5\ubb34\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc73c\ub85c\ubd80\ud130 \uc218\uc218\ub8cc\ub97c \ubc1b\uace0 \ub3d9 \ud68c\uc6d0\uc5d0\uac8c \uc0ac\ub9dd, \uc9c8\ubcd1, \uc2e4\uc5c5, \uc790\uc5f0\uc7ac\ud574 \ub4f1 \ud2b9\uc815\uc0ac\uace0 \ubc1c\uc0dd\uc2dc \ud68c\uc6d0\uc758 \ucc44\ubb34(\ubc95 \uc81c2\uc870\uc81c2\ud638\ub098\ubaa9\uacfc \uad00 \ub828\ud55c \ucc44\ubb34\uc5d0 \ud55c\ud568)\ub97c \uba74\uc81c\ud558\uac70\ub098 \uc720\uc608\ud558\ub294 \uc5c5\ubb34\ub97c \ub9d0\ud55c\ub2e4.<\uac1c\uc815 2021. 3. 25.>",
+      "text": "\uc81c26\uc870\uc7585(\uad11\uace0\uc758 \uc790\uc728\uc2ec\uc758) \uc2dc\ud589\ub839 \uc81c19\uc870\uc75815\uc81c3\ud638\uc5d0 \ub530\ub77c \uae08\uc735\uc704\uc6d0\ud68c\uac00 \uc815\ud558\ub294 \uc5c5\ubb34\ub294 \uc2e0\uc6a9\uce74\ub4dc\ud68c\uc6d0\uc73c\ub85c\ubd80\ud130 \uc218\uc218\ub8cc\ub97c \ubc1b\uace0 \ub3d9 \ud68c\uc6d0\uc5d0\uac8c \uc0ac\ub9dd, \uc9c8\ubcd1, \uc2e4\uc5c5, \uc790\uc5f0\uc7ac\ud574 \ub4f1 \ud2b9\uc815\uc0ac\uace0 \ubc1c\uc0dd\uc2dc \ud68c\uc6d0\uc758 \ucc44\ubb34(\ubc95 \uc81c2\uc870\uc81c2\ud638\ub098\ubaa9\uacfc \uad00 \ub828\ud55c \ucc44\ubb34\uc5d0 \ud55c\ud568)\ub97c \uba74\uc81c\ud558\uac70\ub098 \uc720\uc608\ud558\ub294 \uc5c5\ubb34\ub97c \ub9d0\ud55c\ub2e4.<\uac1c\uc815 2021. 3. 25.>",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            7                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            7                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 449.0,
+            "t": 813.18,
+            "r": 559.0,
+            "b": 804.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815",
+      "text": "\uc5ec\uc2e0\uc804\ubb38\uae08\uc735\uc5c5\uac10\ub3c5\uaddc\uc815"
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 96.0,
+            "t": 782.18,
+            "r": 232.33,
+            "b": 773.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\ubd80\uce59 <\uc81c2026-17\ud638,2026.5.6.>",
+      "text": "\ubd80\uce59 <\uc81c2026-17\ud638,2026.5.6.>"
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 36.0,
+            "t": 762.18,
+            "r": 192.22,
+            "b": 753.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "\uc774 \uaddc\uc815\uc740 \uace0\uc2dc\ud55c \ub0a0\ubd80\ud130 \uc2dc\ud589\ud55c\ub2e4.",
+      "text": "\uc774 \uaddc\uc815\uc740 \uace0\uc2dc\ud55c \ub0a0\ubd80\ud130 \uc2dc\ud589\ud55c\ub2e4."
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 44.94,
+            "t": 43.17999999999995,
+            "r": 550.0499999999993,
+            "b": 34.2027534418022,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\ubc95\uc81c\ucc98                                                            8                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\uc81c\ucc98                                                            8                                                   \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 515.3566284179688,
+            "t": 779.2771759033203,
+            "r": 563.591796875,
+            "b": 731.5298004150391,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 595.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    }
+  }
+}
