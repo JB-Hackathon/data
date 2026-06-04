@@ -1,0 +1,4420 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "\uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uae08\uc18c\ubc95 \uc801\uc6a9\uc0ac\ub840",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 157224334679973887,
+    "filename": "\uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uae08\uc18c\ubc95 \uc801\uc6a9\uc0ac\ub840.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "form_area"
+    },
+    {
+      "self_ref": "#/groups/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/116"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 23.999999,
+            "t": 824.9555838367862,
+            "r": 92.05234148936276,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "26. 5. 27. \uc624\ud6c4 1:45",
+      "text": "26. 5. 27. \uc624\ud6c4 1:45"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 250.39452456689435,
+            "t": 824.9555838367862,
+            "r": 442.8540864775156,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c",
+      "text": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 65.24999728125,
+            "t": 805.6844848206937,
+            "r": 267.1235556264764,
+            "b": 795.4079847350562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "text": "\uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 680.4299896389062,
+            "r": 109.01998645750037,
+            "b": 671.6729900037811,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\ubcf4\ub3c4\uc790\ub8cc",
+      "text": "\ubcf4\ub3c4\uc790\ub8cc",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 577.6799945456562,
+            "r": 550.3498124587568,
+            "b": 540.1049953575313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "[\ubcf4\ub3c4\uc790\ub8cc] \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc758 \uac74\uc804\ud55c \uc2dc\uc7a5\uc9c8\uc11c \ud655\ub9bd\uc744 \uc704\ud574 \uad00\ub828 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638 \ubc95 \uc801\uc6a9\uc0ac\ub840\ub97c \uc804\ud30c\ud588\uc2b5\ub2c8\ub2e4.",
+      "text": "[\ubcf4\ub3c4\uc790\ub8cc] \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc758 \uac74\uc804\ud55c \uc2dc\uc7a5\uc9c8\uc11c \ud655\ub9bd\uc744 \uc704\ud574 \uad00\ub828 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638 \ubc95 \uc801\uc6a9\uc0ac\ub840\ub97c \uc804\ud30c\ud588\uc2b5\ub2c8\ub2e4.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 401.41404577441403,
+            "t": 525.8429965136812,
+            "r": 537.7383852824582,
+            "b": 514.7339964211062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "2021-09-07 \uc870\ud68c\uc218 : 47085",
+      "text": "2021-09-07 \uc870\ud68c\uc218 : 47085"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.749997718749995,
+            "t": 483.9689982647312,
+            "r": 402.66430201054493,
+            "b": 472.73399817110624,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "\ub2f4\ub2f9\ubd80\uc11c \uae08\uc735\uc18c\ube44\uc790\uc815\ucc45\uacfc \ub2f4\ub2f9\uc790 \uae40\uc601\uadfc \uc0ac\ubb34\uad00 \uc5f0\ub77d\ucc98 02-2100-2642",
+      "text": "\ub2f4\ub2f9\ubd80\uc11c \uae08\uc735\uc18c\ube44\uc790\uc815\ucc45\uacfc \ub2f4\ub2f9\uc790 \uae40\uc601\uadfc \uc0ac\ubb34\uad00 \uc5f0\ub77d\ucc98 02-2100-2642"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 157.874993421875,
+            "t": 428.4944531510644,
+            "r": 439.24685660429685,
+            "b": 421.7519636570629,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "- \uc81c5\ucc28 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc2dc\ud589\uc0c1\ud669 \uc810\uac80\ubc18 \ud68c\uc758 \uac1c\ucd5c -",
+      "text": "- \uc81c5\ucc28 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc2dc\ud589\uc0c1\ud669 \uc810\uac80\ubc18 \ud68c\uc758 \uac1c\ucd5c -"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 382.7444550573144,
+            "r": 497.2645141306444,
+            "b": 361.0019661883129,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "\u25c8 \uc8fc\uc694 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc11c\ube44\uc2a4 \uc0ac\ub840\uc5d0 \ub300\ud574 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc801\uc6a9\ub300\uc0c1 \ud574\ub2f9\uc5ec\ubd80\ub97c \uac80\ud1a0\ud55c \uacb0\uacfc\ub97c \ud604\uc7a5\uc5d0 \uacf5\uc720\ud588\uc2b5\ub2c8\ub2e4.",
+      "text": "\u25c8 \uc8fc\uc694 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc11c\ube44\uc2a4 \uc0ac\ub840\uc5d0 \ub300\ud574 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc801\uc6a9\ub300\uc0c1 \ud574\ub2f9\uc5ec\ubd80\ub97c \uac80\ud1a0\ud55c \uacb0\uacfc\ub97c \ud604\uc7a5\uc5d0 \uacf5\uc720\ud588\uc2b5\ub2c8\ub2e4."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 339.085008626214,
+            "r": 482.9597258174975,
+            "b": 329.8509271056939,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "\u261e \uc0c1\uc138\ub0b4\uc6a9: [\ubcc4\ucca8] \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc801\uc6a9\uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc",
+      "text": "\u261e \uc0c1\uc138\ub0b4\uc6a9: [\ubcc4\ucca8] \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc801\uc6a9\uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 308.49445815106446,
+            "r": 503.744978860625,
+            "b": 287.501969250813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "- \uc77c\ubd80 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc758 \uc11c\ube44\uc2a4\uac00 '\ub2e8\uc21c \uad11\uace0\ub300\ud589'\uc774 \uc544\ub2c8\ub77c \uae08\uc18c\ubc95\uc0c1 '\uc911\uac1c\ud589\uc704'\uc5d0 \ud574\ub2f9\ud558\ub294\uc9c0\ub97c \uc911\uc810 \uac80\ud1a0\ud588\uc2b5\ub2c8\ub2e4.",
+      "text": "\uc77c\ubd80 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc758 \uc11c\ube44\uc2a4\uac00 '\ub2e8\uc21c \uad11\uace0\ub300\ud589'\uc774 \uc544\ub2c8\ub77c \uae08\uc18c\ubc95\uc0c1 '\uc911\uac1c\ud589\uc704'\uc5d0 \ud574\ub2f9\ud558\ub294\uc9c0\ub97c \uc911\uc810 \uac80\ud1a0\ud588\uc2b5\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 260.1663351647363,
+            "r": 517.994978266875,
+            "b": 238.75197128206298,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "\u25c8 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uacc4\ub3c4\uae30\uac04 * \uc774 \uae08\ub144 9.24\uc77c\ub85c \uc885\ub8cc\ub418\ub294 \ub9cc\ud07c \ud604\uc7a5\uc5d0\uc11c\ub294 \uc870\uc18d\ud788 \uc704\ubc95\uc758 \uc18c\uc9c0\ub97c \ud574\uc18c\ud574\uc57c \ud560 \uac83\uc785\ub2c8\ub2e4.",
+      "text": "\u25c8 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uacc4\ub3c4\uae30\uac04 * \uc774 \uae08\ub144 9.24\uc77c\ub85c \uc885\ub8cc\ub418\ub294 \ub9cc\ud07c \ud604\uc7a5\uc5d0\uc11c\ub294 \uc870\uc18d\ud788 \uc704\ubc95\uc758 \uc18c\uc9c0\ub97c \ud574\uc18c\ud574\uc57c \ud560 \uac83\uc785\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 216.2444619948144,
+            "r": 487.994979516875,
+            "b": 194.50197312581292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "* \uae08\uc735\uc704\ub294 \uae08\uc18c\ubc95 \uc81c\uc815\uc73c\ub85c \uc2e0\uc124\u00b7\uac15\ud654\ub41c \uaddc\uc81c \uc704\ubc18\uc5d0 \ub300\ud574\uc11c\ub294 \ubc95 \uc2dc\ud589 \ud6c4 6\uac1c\uc6d4 \uac04 ('21.3.25~9.24) \uc6d0\uce59\uc801\uc73c\ub85c \uc81c\uc7ac\ud558\uc9c0 \uc54a\uace0 \uacc4\ub3c4\ud574\ub098\uac00\uae30\ub85c \uc758\uacb0('21.5.19.)",
+      "text": "\uae08\uc735\uc704\ub294 \uae08\uc18c\ubc95 \uc81c\uc815\uc73c\ub85c \uc2e0\uc124\u00b7\uac15\ud654\ub41c \uaddc\uc81c \uc704\ubc18\uc5d0 \ub300\ud574\uc11c\ub294 \ubc95 \uc2dc\ud589 \ud6c4 6\uac1c\uc6d4 \uac04 ('21.3.25~9.24) \uc6d0\uce59\uc801\uc73c\ub85c \uc81c\uc7ac\ud558\uc9c0 \uc54a\uace0 \uacc4\ub3c4\ud574\ub098\uac00\uae30\ub85c \uc758\uacb0('21.5.19.)",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 173.59561110878622,
+            "r": 495.26060421414064,
+            "b": 150.25197496956298,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "\u27a1 \uc774\ubc88 \uc870\uce58\ub85c \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc744 \uac70\uccd0 \uccb4\uacb0\ub41c \uae08\uc735\uc0c1\ud488 \uacc4\uc57d\uacfc \uad00\ub828\ud558\uc5ec \uc18c\ube44\uc790\ubcf4\ud638 \uc0ac\uac01\uc9c0\ub300\uac00 \ubc29\uc9c0\ub420 \uac83\uc73c\ub85c \uae30\ub300\ud569\ub2c8\ub2e4.",
+      "text": "\u27a1 \uc774\ubc88 \uc870\uce58\ub85c \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc744 \uac70\uccd0 \uccb4\uacb0\ub41c \uae08\uc735\uc0c1\ud488 \uacc4\uc57d\uacfc \uad00\ub828\ud558\uc5ec \uc18c\ube44\uc790\ubcf4\ud638 \uc0ac\uac01\uc9c0\ub300\uac00 \ubc29\uc9c0\ub420 \uac83\uc73c\ub85c \uae30\ub300\ud569\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.49999468749999,
+            "t": 127.38261997873894,
+            "r": 467.58660151429444,
+            "b": 116.97817231201361,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "< \uc81c5\ucc28 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc2dc\ud589\uc0c1\ud669 \uc810\uac80\ubc18 \ud68c\uc758(\uc601\uc0c1) \uac1c\uc694 >",
+      "text": "< \uc81c5\ucc28 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc2dc\ud589\uc0c1\ud669 \uc810\uac80\ubc18 \ud68c\uc758(\uc601\uc0c1) \uac1c\uc694 >"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 68.999997125,
+            "t": 98.13262119748902,
+            "r": 242.18629834972413,
+            "b": 87.72817353076357,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "\u25b6 (\uc77c\uc2dc) 2021. 9. 7. 15\uc2dc~16\uc2dc",
+      "text": "(\uc77c\uc2dc) 2021. 9. 7. 15\uc2dc~16\uc2dc",
+      "enumerated": false,
+      "marker": "\u25b6"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 68.999997125,
+            "t": 68.13262244748898,
+            "r": 500.2519126907397,
+            "b": 57.72817478076354,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "\u25b6 (\ucc38\uc11d) \uae08\uc735\uc704(\uae08\uc735\uc18c\ube44\uc790\uad6d\uc7a5 \uc8fc\uc7ac), \uae08\uac10\uc6d0, \uae08\uc735\uad8c 9\uac1c \ud611\ud68c(\ub2f4\ub2f9\uc790 \u261e\ucc38\uace0)",
+      "text": "(\ucc38\uc11d) \uae08\uc735\uc704(\uae08\uc735\uc18c\ube44\uc790\uad6d\uc7a5 \uc8fc\uc7ac), \uae08\uac10\uc6d0, \uae08\uc735\uad8c 9\uac1c \ud611\ud68c(\ub2f4\ub2f9\uc790 \u261e\ucc38\uace0)",
+      "enumerated": false,
+      "marker": "\u25b6"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 23.999999,
+            "t": 21.896904147389705,
+            "r": 159.55561182672633,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "https://www.fsc.go.kr/no010101/76485",
+      "text": "https://www.fsc.go.kr/no010101/76485"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 560.0624766640625,
+            "t": 21.896904147389705,
+            "r": 571.1886015753511,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1/5",
+      "text": "1/5"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 23.999999,
+            "t": 824.9555838367862,
+            "r": 92.05234148936276,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "26. 5. 27. \uc624\ud6c4 1:45",
+      "text": "26. 5. 27. \uc624\ud6c4 1:45"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 250.39452456689435,
+            "t": 824.9555838367862,
+            "r": 442.8540864775156,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c",
+      "text": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 65.24999728125,
+            "t": 812.1325914474888,
+            "r": 424.17538834184484,
+            "b": 795.4079847350562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "\u25b6 (\uc8fc\uc694 \ub17c\uc758\uc0ac\ud56d) \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uad00\ub828 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc774\uc288 \uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "text": "(\uc8fc\uc694 \ub17c\uc758\uc0ac\ud56d) \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uad00\ub828 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc774\uc288 \uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": "\u25b6"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 742.7444400573145,
+            "r": 97.994995766875,
+            "b": 736.0019505633129,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "1. \ubc30 \uacbd",
+      "text": "1. \ubc30 \uacbd"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 714.5252224690527,
+            "r": 523.2839466373216,
+            "b": 689.2281484682634,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "\u25a1 \uc77c\ubd80 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc758 \uae08\uc735\uc0c1\ud488 \uad00\ub828 \uc11c\ube44\uc2a4\uc5d0 \ub300\ud574 \ud604\uc7a5\uc5d0\uc11c \uae08\uc18c\ubc95\uc0c1 '\uc911\uac1c\ud589\uc704'\uc5d0 \ud574\ub2f9\uc5ec\ubd80\uc5d0 \ub300\ud55c \ub17c\ub780\uc774 \uc788\uc5b4\uc654\uc2b5\ub2c8\ub2e4.",
+      "text": "\u25a1 \uc77c\ubd80 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc758 \uae08\uc735\uc0c1\ud488 \uad00\ub828 \uc11c\ube44\uc2a4\uc5d0 \ub300\ud574 \ud604\uc7a5\uc5d0\uc11c \uae08\uc18c\ubc95\uc0c1 '\uc911\uac1c\ud589\uc704'\uc5d0 \ud574\ub2f9\uc5ec\ubd80\uc5d0 \ub300\ud55c \ub17c\ub780\uc774 \uc788\uc5b4\uc654\uc2b5\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 670.2752243128027,
+            "r": 499.9753501085131,
+            "b": 645.600913949444,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "\u3147 \uae08\uc735\ud50c\ub7ab\ud3fc\uc5d0\uc11c\ub294 \uad00\ub828 \uc11c\ube44\uc2a4\uac00 '\ub2e8\uc21c \uad11\uace0\ub300\ud589'\uc5d0 \ubd88\uacfc \ud558\ubbc0\ub85c \uae08\uc18c\ubc95 \uc801\uc6a9\ub300\uc0c1\uc774 \uc544\ub2c8\ub77c \ud310\ub2e8 \ud558\uace0 \uc601\uc5c5\ud574\uc654\uc2b5\ub2c8\ub2e4.",
+      "text": "\u3147 \uae08\uc735\ud50c\ub7ab\ud3fc\uc5d0\uc11c\ub294 \uad00\ub828 \uc11c\ube44\uc2a4\uac00 '\ub2e8\uc21c \uad11\uace0\ub300\ud589'\uc5d0 \ubd88\uacfc \ud558\ubbc0\ub85c \uae08\uc18c\ubc95 \uc801\uc6a9\ub300\uc0c1\uc774 \uc544\ub2c8\ub77c \ud310\ub2e8 \ud558\uace0 \uc601\uc5c5\ud574\uc654\uc2b5\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 625.5742593846202,
+            "r": 483.17771660841447,
+            "b": 597.2727909631159,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "\u25a1 \uc774\uc640 \uad00\ub828\ud558\uc5ec \ucd5c\uadfc \uae08\uc735\uc704\u00b7\uae08\uac10\uc6d0\uc740 \uc77c\ubd80 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc758 \uc11c\ube44\uc2a4\ub97c \ubbf8\ub4f1\ub85d \uc911\uac1c\ud589\uc704\ub85c \ud310\ub2e8 \ud558\uace0 \uc2dc\uc815\uc744 \uc694\uad6c * \ud55c \ubc14 \uc788\uc2b5\ub2c8\ub2e4. (\u261e\ubcc4\ucca8\uc790\ub8cc \ucc38\uace0)",
+      "text": "\u25a1 \uc774\uc640 \uad00\ub828\ud558\uc5ec \ucd5c\uadfc \uae08\uc735\uc704\u00b7\uae08\uac10\uc6d0\uc740 \uc77c\ubd80 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc758 \uc11c\ube44\uc2a4\ub97c \ubbf8\ub4f1\ub85d \uc911\uac1c\ud589\uc704\ub85c \ud310\ub2e8 \ud558\uace0 \uc2dc\uc815\uc744 \uc694\uad6c * \ud55c \ubc14 \uc788\uc2b5\ub2c8\ub2e4. (\u261e\ubcc4\ucca8\uc790\ub8cc \ucc38\uace0)",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 576.2444469948144,
+            "r": 426.494982079375,
+            "b": 569.5019575008129,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "* \uae08\uc18c\ubc95 \uc2dc\ud589 \ud6c4 6\uac1c\uc6d4('21.3.25.\u223c9.24.)\uc740 \uacc4\ub3c4\uae30\uac04\uc774\ub77c \uc81c\uc7ac\ud558\uc9c0 \uc54a\uc74c",
+      "text": "\uae08\uc18c\ubc95 \uc2dc\ud589 \ud6c4 6\uac1c\uc6d4('21.3.25.\u223c9.24.)\uc740 \uacc4\ub3c4\uae30\uac04\uc774\ub77c \uc81c\uc7ac\ud558\uc9c0 \uc54a\uc74c",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 548.595595483786,
+            "r": 522.4715405803516,
+            "b": 522.7281554057635,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "\u27a1 \ud604\uc7a5 \uc601\uc5c5\ud589\uc704\uc758 \uae08\uc18c\ubc95 \uc801\uc6a9\ub300\uc0c1 \uc5ec\ubd80\uc5d0 \ub300\ud55c \ud310\ub2e8 \uc744 \ub3d5\uae30 \uc704\ud574 \uc8fc\uc694 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc11c\ube44\uc2a4 \uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc\ub97c \uc81c\uacf5\ud558\uace0\uc790 \ud569\ub2c8\ub2e4.",
+      "text": "\u27a1 \ud604\uc7a5 \uc601\uc5c5\ud589\uc704\uc758 \uae08\uc18c\ubc95 \uc801\uc6a9\ub300\uc0c1 \uc5ec\ubd80\uc5d0 \ub300\ud55c \ud310\ub2e8 \uc744 \ub3d5\uae30 \uc704\ud574 \uc8fc\uc694 \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc11c\ube44\uc2a4 \uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc\ub97c \uc81c\uacf5\ud558\uace0\uc790 \ud569\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 487.74445068231455,
+            "r": 165.494992954375,
+            "b": 481.001961188313,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "2. \uc0ac\ub840\uac80\ud1a0 \uae30\ubcf8\ubc29\ud5a5",
+      "text": "\uc0ac\ub840\uac80\ud1a0 \uae30\ubcf8\ubc29\ud5a5",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 459.06352901802677,
+            "r": 533.3277947030076,
+            "b": 436.7519630320629,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            60
+          ]
+        }
+      ],
+      "orig": "[1] \uae08\uc735\uc18c\ube44\uc790 \uad8c\uc775\ubcf4\ud638 \ubc0f \uac74\uc804\ud55c \uc2dc\uc7a5\uc9c8\uc11c \uad6c\ucd95 \uc744 \ubaa9\uc801\uc73c\ub85c \ud558\ub294 \uae08\uc18c\ubc95 \ucde8\uc9c0\ub97c \uc6b0\uc120 \ud558\uc5ec \ud310\ub2e8\ud588\uc2b5\ub2c8\ub2e4.",
+      "text": "\uae08\uc735\uc18c\ube44\uc790 \uad8c\uc775\ubcf4\ud638 \ubc0f \uac74\uc804\ud55c \uc2dc\uc7a5\uc9c8\uc11c \uad6c\ucd95 \uc744 \ubaa9\uc801\uc73c\ub85c \ud558\ub294 \uae08\uc18c\ubc95 \ucde8\uc9c0\ub97c \uc6b0\uc120 \ud558\uc5ec \ud310\ub2e8\ud588\uc2b5\ub2c8\ub2e4.",
+      "enumerated": true,
+      "marker": "[1]"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 414.24445374481445,
+            "r": 514.5496659104298,
+            "b": 392.50196487581286,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            80
+          ]
+        }
+      ],
+      "orig": "* \uae08\uc735\uc0c1\ud488 \ud310\ub9e4\uc5d0 \uad00\ud55c \uc790\uaca9\u00b7\ucc45\uc784 \uc5c6\ub294 \uc790\ub85c \uc778\ud55c \ubd88\uc644\uc804\ud310\ub9e4, \uc911\uac1c\uc218\uc218\ub8cc \uc0c1\uc2b9 \ubc0f \uc628\ub77c\uc778 \uc54c\uace0\ub9ac\uc998 \ud3b8\ud5a5\uc131 \ub4f1\uc5d0 \ub530\ub978 \uc18c\ube44\uc790 \ud53c\ud574\ub97c \ubc29\uc9c0\ud560 \ud544\uc694",
+      "text": "\uae08\uc735\uc0c1\ud488 \ud310\ub9e4\uc5d0 \uad00\ud55c \uc790\uaca9\u00b7\ucc45\uc784 \uc5c6\ub294 \uc790\ub85c \uc778\ud55c \ubd88\uc644\uc804\ud310\ub9e4, \uc911\uac1c\uc218\uc218\ub8cc \uc0c1\uc2b9 \ubc0f \uc628\ub77c\uc778 \uc54c\uace0\ub9ac\uc998 \ud3b8\ud5a5\uc131 \ub4f1\uc5d0 \ub530\ub978 \uc18c\ube44\uc790 \ud53c\ud574\ub97c \ubc29\uc9c0\ud560 \ud544\uc694",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 371.1326098224889,
+            "r": 507.2543781143999,
+            "b": 346.23281607316414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "[2]\u00a0\uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc11c\ube44\uc2a4\uc758 \ubaa9\uc801 \uc774 \uc815\ubcf4\uc81c\uacf5 \uc790\uccb4\uac00 \uc544\ub2c8\ub77c \ud310\ub9e4\ub97c \ubaa9\uc801 \uc73c\ub85c \ud558\ub294 \uacbd\uc6b0\ub294 \uc77c\ubc18\uc801\uc73c\ub85c \uc911\uac1c \ub85c \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+      "text": "\uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uc11c\ube44\uc2a4\uc758 \ubaa9\uc801 \uc774 \uc815\ubcf4\uc81c\uacf5 \uc790\uccb4\uac00 \uc544\ub2c8\ub77c \ud310\ub9e4\ub97c \ubaa9\uc801 \uc73c\ub85c \ud558\ub294 \uacbd\uc6b0\ub294 \uc77c\ubc18\uc801\uc73c\ub85c \uc911\uac1c \ub85c \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+      "enumerated": true,
+      "marker": "[2]"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 325.74445743231456,
+            "r": 519.6721365549957,
+            "b": 304.00196856331297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "* \ud310\ub2e8\ub300\uc0c1\uc744 \ud2b9\uc815 \uc601\uc5c5\ud589\uc704\uc5d0 \ud55c\uc815\ud558\uc9c0 \uc54a\uace0 \ud310\ub9e4\uacfc\uc815 \uc804\ubc18 \ubc0f \ud310\ub9e4\uc5c5\uc790\uc640\uc758 \uacc4\uc57d\ub0b4\uc6a9(\uc608: \ud310\ub9e4\uc2e4\uc801\uc5d0 \ub530\ub978 \uc218\uc218\ub8cc \uc9c0\uae09) \ub4f1 \uc81c\ubc18\uc0ac\ud56d\uc744 \uac1d\uad00\uc801\uc73c\ub85c \ud310\ub2e8",
+      "text": "\ud310\ub2e8\ub300\uc0c1\uc744 \ud2b9\uc815 \uc601\uc5c5\ud589\uc704\uc5d0 \ud55c\uc815\ud558\uc9c0 \uc54a\uace0 \ud310\ub9e4\uacfc\uc815 \uc804\ubc18 \ubc0f \ud310\ub9e4\uc5c5\uc790\uc640\uc758 \uacc4\uc57d\ub0b4\uc6a9(\uc608: \ud310\ub9e4\uc2e4\uc801\uc5d0 \ub530\ub978 \uc218\uc218\ub8cc \uc9c0\uae09) \ub4f1 \uc81c\ubc18\uc0ac\ud56d\uc744 \uac1d\uad00\uc801\uc73c\ub85c \ud310\ub2e8",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 282.07427369712025,
+            "r": 518.9597243174975,
+            "b": 257.73281976066403,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "[3]\u00a0\uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc774 \uae08\uc735\uc0c1\ud488 \ud310\ub9e4\uc5c5\uc790\uac00 \uc544\ub2d8\uc5d0\ub3c4 \uc18c\ube44\uc790\uac00 \ud50c\ub7ab\ud3fc\uacfc\uc758 \uacc4\uc57d\uc73c\ub85c \uc624\uc778\ud560 \uac00\ub2a5\uc131 \uc774 \uc788\ub294\uc9c0\ub97c \uac10\uc548\ud588\uc2b5\ub2c8\ub2e4.",
+      "text": "\uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc\uc774 \uae08\uc735\uc0c1\ud488 \ud310\ub9e4\uc5c5\uc790\uac00 \uc544\ub2d8\uc5d0\ub3c4 \uc18c\ube44\uc790\uac00 \ud50c\ub7ab\ud3fc\uacfc\uc758 \uacc4\uc57d\uc73c\ub85c \uc624\uc778\ud560 \uac00\ub2a5\uc131 \uc774 \uc788\ub294\uc9c0\ub97c \uac10\uc548\ud588\uc2b5\ub2c8\ub2e4.",
+      "enumerated": true,
+      "marker": "[3]"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 237.24446111981445,
+            "r": 488.95591697683597,
+            "b": 215.50197225081286,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "* \uc18c\ube44\uc790\uc758 \ud50c\ub7ab\ud3fc\uc5d0 \ub300\ud55c \uc2e0\ub8b0\uac00 \uacc4\uc57d \uc758\uc0ac\uacb0\uc815\uc758 \uc911\uc694\uc694\uc18c \u4e2d \ud558\ub098\uc784\uc5d0\ub3c4 \ud50c\ub7ab\ud3fc\uc774 \ubc95\uc801\ucc45\uc784\uc744 \uc9c0\uc9c0 \uc54a\ub294 \uc0c1\ud669 \ubc29\uc9c0 \ud544\uc694",
+      "text": "\uc18c\ube44\uc790\uc758 \ud50c\ub7ab\ud3fc\uc5d0 \ub300\ud55c \uc2e0\ub8b0\uac00 \uacc4\uc57d \uc758\uc0ac\uacb0\uc815\uc758 \uc911\uc694\uc694\uc18c \u4e2d \ud558\ub098\uc784\uc5d0\ub3c4 \ud50c\ub7ab\ud3fc\uc774 \ubc95\uc801\ucc45\uc784\uc744 \uc9c0\uc9c0 \uc54a\ub294 \uc0c1\ud669 \ubc29\uc9c0 \ud544\uc694",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 193.58501468871407,
+            "r": 515.4565964134612,
+            "b": 169.23282344816414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "[4]\u00a0\uc790\ub3d9\ucc28\ubcf4\ud5d8 \ub4f1 \uc758\ubb34\ubcf4\ud5d8, \uc2e0\uc6a9\ub300\ucd9c \ub4f1\uacfc \uac19\uc774 \uad6c\uc870\uac00 \ub2e8\uc21c\ud55c \uae08\uc735\uc0c1\ud488 \uc77c\uc218\ub85d \uc911\uac1c\ub85c \uc778\uc815\ub420 \uc5ec\uc9c0 \uac00 \ub9ce\uc744 \uac83\uc785\ub2c8\ub2e4.",
+      "text": "\uc790\ub3d9\ucc28\ubcf4\ud5d8 \ub4f1 \uc758\ubb34\ubcf4\ud5d8, \uc2e0\uc6a9\ub300\ucd9c \ub4f1\uacfc \uac19\uc774 \uad6c\uc870\uac00 \ub2e8\uc21c\ud55c \uae08\uc735\uc0c1\ud488 \uc77c\uc218\ub85d \uc911\uac1c\ub85c \uc778\uc815\ub420 \uc5ec\uc9c0 \uac00 \ub9ce\uc744 \uac83\uc785\ub2c8\ub2e4.",
+      "enumerated": true,
+      "marker": "[4]"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 148.74446480731456,
+            "r": 492.494979329375,
+            "b": 127.00197593831297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "* \uae08\uc735\uc0c1\ud488 \uac04 \ucc28\ubcc4\ud654 \uc815\ub3c4\uac00 \ub0ae\uc544 \ud310\ub9e4\ub9dd \uc758\uc874\ub3c4\uac00 \ub192\uc544\uc9c8\uc218\ub85d \ub9ce\uc740 \uac00\uc785\uc790\ub97c \ubcf4\uc720\ud55c \ud50c\ub7ab\ud3fc\uc758 \uc5ed\ud560\uc774 \ucee4\uc9c0\uae30 \ub54c\ubb38",
+      "text": "\uae08\uc735\uc0c1\ud488 \uac04 \ucc28\ubcc4\ud654 \uc815\ub3c4\uac00 \ub0ae\uc544 \ud310\ub9e4\ub9dd \uc758\uc874\ub3c4\uac00 \ub192\uc544\uc9c8\uc218\ub85d \ub9ce\uc740 \uac00\uc785\uc790\ub97c \ubcf4\uc720\ud55c \ud50c\ub7ab\ud3fc\uc758 \uc5ed\ud560\uc774 \ucee4\uc9c0\uae30 \ub54c\ubb38",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 89.49446727606448,
+            "r": 301.45123738328124,
+            "b": 82.75197778206291,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "3. \uc8fc\uc694\uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc(\uc0c1\uc138\ub0b4\uc6a9 \u261e\ubcc4\ucca8\uc790\ub8cc \ucc38\uace0)",
+      "text": "\uc8fc\uc694\uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc(\uc0c1\uc138\ub0b4\uc6a9 \u261e\ubcc4\ucca8\uc790\ub8cc \ucc38\uace0)",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 23.999999,
+            "t": 21.896904147389705,
+            "r": 159.55561182672633,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "https://www.fsc.go.kr/no010101/76485",
+      "text": "https://www.fsc.go.kr/no010101/76485"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 560.0624766640625,
+            "t": 21.896904147389705,
+            "r": 571.1886015753511,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "2/5",
+      "text": "2/5"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 23.999999,
+            "t": 824.9555838367862,
+            "r": 92.05234148936276,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "26. 5. 27. \uc624\ud6c4 1:45",
+      "text": "26. 5. 27. \uc624\ud6c4 1:45"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 250.39452456689435,
+            "t": 824.9555838367862,
+            "r": 442.8540864775156,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c",
+      "text": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 808.5849890637143,
+            "r": 267.1235556264764,
+            "b": 795.4079847350562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "[1] \uae08\uc735\uc0c1\ud488 \uc815\ubcf4\uc81c\uacf5 \uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "text": "\uae08\uc735\uc0c1\ud488 \uc815\ubcf4\uc81c\uacf5 \uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "enumerated": true,
+      "marker": "[1]"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 74.74498818562536,
+            "t": 784.7444383073147,
+            "r": 282.99889805837876,
+            "b": 778.0019488133131,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\uccab \ud654\uba74\uc5d0\uc11c '\uacb0\uc81c, \ub300\ucd9c, \ubcf4\ud5d8 \ub4f1'\uacfc \ud568\uaed8",
+      "text": "\uccab \ud654\uba74\uc5d0\uc11c '\uacb0\uc81c, \ub300\ucd9c, \ubcf4\ud5d8 \ub4f1'\uacfc \ud568\uaed8"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 770.4944389010647,
+            "r": 200.744991485625,
+            "b": 763.7519494070631,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "'\ud22c\uc790'\ub97c \uc81c\uacf5\uc11c\ube44\uc2a4\ub85c \ud45c\uc2dc",
+      "text": "'\ud22c\uc790'\ub97c \uc81c\uacf5\uc11c\ube44\uc2a4\ub85c \ud45c\uc2dc",
+      "hyperlink": "https://www.fsc.go.kr/index",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 786.3455855775363,
+            "r": 74.74499728537498,
+            "b": 775.3505856359114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u2776",
+      "text": "\u2776"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 742.0955874212865,
+            "r": 290.4988977458787,
+            "b": 719.501951250813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "\u2777 \ud380\ub4dc \ub4f1 \uc0c1\ud488\uc815\ubcf4 \ud655\uc778 \ubc0f '\uccad\uc57d \u2192 \uc1a1\uae08 \u2192 \uacc4\uc57d\ub0b4\uc5ed \uad00\ub9ac' \uac00\ub2a5",
+      "text": "\u2777 \ud380\ub4dc \ub4f1 \uc0c1\ud488\uc815\ubcf4 \ud655\uc778 \ubc0f '\uccad\uc57d \u2192 \uc1a1\uae08 \u2192 \uacc4\uc57d\ub0b4\uc5ed \uad00\ub9ac' \uac00\ub2a5",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 697.8455892650364,
+            "r": 284.49889799587874,
+            "b": 660.251953719563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "\u2778 \uc18c\ube44\uc790 \uc2dc\uac01\uc5d0\uc11c \ubaa8\ub4e0 \uacc4\uc57d\uc808\ucc28\uac00 \ud50c\ub7ab\ud3fc \ub0b4\uc5d0\uc11c \uc774\ub8e8\uc5b4\uc9c0\uba70, \ud310\ub9e4\uc5c5\uc790\ub294 \ud654\uba74 \ucd5c\ud558\ub2e8\uc5d0 \uac00\uc7a5 \uc791\uac8c \ud45c\uae30",
+      "text": "\u2778 \uc18c\ube44\uc790 \uc2dc\uac01\uc5d0\uc11c \ubaa8\ub4e0 \uacc4\uc57d\uc808\ucc28\uac00 \ud50c\ub7ab\ud3fc \ub0b4\uc5d0\uc11c \uc774\ub8e8\uc5b4\uc9c0\uba70, \ud310\ub9e4\uc5c5\uc790\ub294 \ud654\uba74 \ucd5c\ud558\ub2e8\uc5d0 \uac00\uc7a5 \uc791\uac8c \ud45c\uae30",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 639.3455917025364,
+            "r": 235.7488962771289,
+            "b": 628.3505917609115,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "\u2779 \ud310\ub9e4\uc2e4\uc801\uc5d0 \ub530\ub77c \uc218\uc218\ub8cc\ub97c \uc218\ub839",
+      "text": "\u2779 \ud310\ub9e4\uc2e4\uc801\uc5d0 \ub530\ub77c \uc218\uc218\ub8cc\ub97c \uc218\ub839",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 616.563522455527,
+            "r": 188.95973806749754,
+            "b": 607.3616528472877,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "[2] \uae08\uc735\uc0c1\ud488 \ube44\uad50\u00b7\ucd94\ucc9c",
+      "text": "[2] \uae08\uc735\uc0c1\ud488 \ube44\uad50\u00b7\ucd94\ucc9c",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 592.8455936400366,
+            "r": 274.5028009123828,
+            "b": 552.728154155764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "\u25b6'[1]'\uc758 \ud2b9\uc9d5( \u2776 ~ \u2779 )\uc774 \ub300\uccb4\ub85c \uacf5\ud1b5\ub418\uba70 \uae08\uc735\uc0c1\ud488 \ube44\uad50\u00b7\ucd94\ucc9c \uc11c\ube44\uc2a4 \uc81c\uacf5(\uc608: ' A\ud50c\ub7ab\ud3fc\uc774 \ucd94\ucc9c\ud558\ub294 \uc778\uae30 \ubcf4\ud5d8 ')",
+      "text": "\u25b6'[1]'\uc758 \ud2b9\uc9d5( \u2776 ~ \u2779 )\uc774 \ub300\uccb4\ub85c \uacf5\ud1b5\ub418\uba70 \uae08\uc735\uc0c1\ud488 \ube44\uad50\u00b7\ucd94\ucc9c \uc11c\ube44\uc2a4 \uc81c\uacf5(\uc608: ' A\ud50c\ub7ab\ud3fc\uc774 \ucd94\ucc9c\ud558\ub294 \uc778\uae30 \ubcf4\ud5d8 ')",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 525.0850008762142,
+            "r": 201.70973753624756,
+            "b": 515.829444747507,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "[3] \ub9de\ucda4\ud615 \uae08\uc735\uc815\ubcf4 \uc81c\uacf5",
+      "text": "[3] \ub9de\ucda4\ud615 \uae08\uc735\uc815\ubcf4 \uc81c\uacf5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 499.38260447873915,
+            "r": 121.97395968357178,
+            "b": 488.97815681201394,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "[\ubcf4\ud5d8\uc0c1\ub2f4]",
+      "text": "[\ubcf4\ud5d8\uc0c1\ub2f4]",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 468.9944514635648,
+            "r": 269.744988610625,
+            "b": 447.251962594563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u25b6\uac00\uc785\uc790\uac00 \ubcf4\ud5d8\uc0c1\ub2f4 \uc758\ub8b0 \uc2dc \ubcf4\ud5d8\ub300\ub9ac\uc810 \uc18c\uc18d \uc124\uacc4\uc0ac\ub97c \uc5f0\uacb0",
+      "text": "\u25b6\uac00\uc785\uc790\uac00 \ubcf4\ud5d8\uc0c1\ub2f4 \uc758\ub8b0 \uc2dc \ubcf4\ud5d8\ub300\ub9ac\uc810 \uc18c\uc18d \uc124\uacc4\uc0ac\ub97c \uc5f0\uacb0",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 417.63260788498917,
+            "r": 212.2786471708763,
+            "b": 407.22816021826395,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "[\uac00\uc785 \ubcf4\ud5d8\uc0c1\ud488 \ubd84\uc11d\uc11c\ube44\uc2a4]",
+      "text": "[\uac00\uc785 \ubcf4\ud5d8\uc0c1\ud488 \ubd84\uc11d\uc11c\ube44\uc2a4]",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 387.24445486981483,
+            "r": 269.744988610625,
+            "b": 350.501966625813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "\u25b6\uac00\uc785\uc790\uac00 \ubcf4\ud5d8\uc0c1\ud488 \uc815\ubcf4\ub97c \uc81c\uacf5\ud558\uba74, \ud50c\ub7ab\ud3fc\uacfc \uc81c\ud734\ud558\ub294 \ud2b9\uc815 \ubcf4\ud5d8\ud68c\uc0ac\uc5d0\uc11c \uadf8 \uc815\ubcf4\uc5d0 \ub300\ud55c \ubd84\uc11d\uacb0\uacfc\ub97c \uc81c\uacf5",
+      "text": "\u25b6\uac00\uc785\uc790\uac00 \ubcf4\ud5d8\uc0c1\ud488 \uc815\ubcf4\ub97c \uc81c\uacf5\ud558\uba74, \ud50c\ub7ab\ud3fc\uacfc \uc81c\ud734\ud558\ub294 \ud2b9\uc815 \ubcf4\ud5d8\ud68c\uc0ac\uc5d0\uc11c \uadf8 \uc815\ubcf4\uc5d0 \ub300\ud55c \ubd84\uc11d\uacb0\uacfc\ub97c \uc81c\uacf5",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 63.749997343749996,
+            "t": 327.99445733856476,
+            "r": 281.744988110625,
+            "b": 292.00196906331314,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "\u25b6\ubd84\uc11d\uacb0\uacfc\uc5d0\uc11c\ub294 \uac00\uc785\uc790\uac00 \ubcf4\uc644\ud574\uc57c\ud560 \ubcf4\uc7a5\uc0ac\ud56d\uacfc \uad00\ub828 \ubcf4\ud5d8\uc0c1\ud488(\ubd84\uc11d\uc11c\ube44\uc2a4 \uc81c\uacf5 \ubcf4\ud5d8\ud68c\uc0ac\uc758 \uc0c1\ud488)\uc744 \ucd94\ucc9c",
+      "text": "\u25b6\ubd84\uc11d\uacb0\uacfc\uc5d0\uc11c\ub294 \uac00\uc785\uc790\uac00 \ubcf4\uc644\ud574\uc57c\ud560 \ubcf4\uc7a5\uc0ac\ud56d\uacfc \uad00\ub828 \ubcf4\ud5d8\uc0c1\ud488(\ubd84\uc11d\uc11c\ube44\uc2a4 \uc81c\uacf5 \ubcf4\ud5d8\ud68c\uc0ac\uc758 \uc0c1\ud488)\uc744 \ucd94\ucc9c",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 251.49446052606493,
+            "r": 120.49499482937499,
+            "b": 244.75197103206312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "4. \ud5a5\ud6c4 \uacc4\ud68d",
+      "text": "4. \ud5a5\ud6c4 \uacc4\ud68d",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 222.07427619712064,
+            "r": 524.990191991228,
+            "b": 179.8509333556941,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "\u25a1 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95\uc0c1 \uc911\uac1c\ud589\uc704\uc5d0 \ud574\ub2f9\ud558\uc9c0\ub9cc \ud604\ud589 \uae08\uc735\ubc95\ub839\uc0c1 \uc9c4\uc785\uaddc\uc81c \ub85c \uc778\ud574 \uc911\uac1c\uc5c5 \ub4f1\ub85d\uc774 \uc5b4\ub824\uc6b4 \uacbd\uc6b0 \uc640 \uad00\ub828\ud574\uc11c\ub294 \ud5a5\ud6c4 \ucd94\uac00 \uac80\ud1a0\ub97c \uac70\uccd0 \uc815\ucc45\ubc29\ud5a5\uc774\ub098 \uc870\uce58\uacc4\ud68d*\uc744 \uc54c\ub9b4 \uacc4\ud68d \uc785\ub2c8\ub2e4.",
+      "text": "\u25a1 \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95\uc0c1 \uc911\uac1c\ud589\uc704\uc5d0 \ud574\ub2f9\ud558\uc9c0\ub9cc \ud604\ud589 \uae08\uc735\ubc95\ub839\uc0c1 \uc9c4\uc785\uaddc\uc81c \ub85c \uc778\ud574 \uc911\uac1c\uc5c5 \ub4f1\ub85d\uc774 \uc5b4\ub824\uc6b4 \uacbd\uc6b0 \uc640 \uad00\ub828\ud574\uc11c\ub294 \ud5a5\ud6c4 \ucd94\uac00 \uac80\ud1a0\ub97c \uac70\uccd0 \uc815\ucc45\ubc29\ud5a5\uc774\ub098 \uc870\uce58\uacc4\ud68d*\uc744 \uc54c\ub9b4 \uacc4\ud68d \uc785\ub2c8\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 158.49446440106487,
+            "r": 445.1231063969532,
+            "b": 151.75197490706307,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "* \ubcf4\ud5d8\uc0c1\ud488\uc758 \uacbd\uc6b0 \uc628\ub77c\uc778 \ud50c\ub7ab\ud3fc\uc758 \ubcf4\ud5d8\ub300\ub9ac\uc810 \ub4f1\ub85d\uc744 \ud5c8\uc6a9\ud560 \uacc4\ud68d(\uae30\ubc1c\ud45c)",
+      "text": "\ubcf4\ud5d8\uc0c1\ud488\uc758 \uacbd\uc6b0 \uc628\ub77c\uc778 \ud50c\ub7ab\ud3fc\uc758 \ubcf4\ud5d8\ub300\ub9ac\uc810 \ub4f1\ub85d\uc744 \ud5c8\uc6a9\ud560 \uacc4\ud68d(\uae30\ubc1c\ud45c)",
+      "enumerated": false,
+      "marker": "*"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 58.4999975625,
+            "t": 101.13262107248931,
+            "r": 404.2097290987476,
+            "b": 90.72817340576387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "[\ubcc4\ucca8] \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc801\uc6a9\uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc",
+      "text": "[\ubcc4\ucca8] \uc628\ub77c\uc778 \uae08\uc735\ud50c\ub7ab\ud3fc \uae08\uc735\uc18c\ube44\uc790\ubcf4\ud638\ubc95 \uc801\uc6a9\uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 786.3455855775363,
+            "r": 313.994987316625,
+            "b": 775.3505856359114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u27a1",
+      "text": "\u27a1"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 317.7538967602537,
+            "t": 785.3135154242772,
+            "r": 381.4636400465013,
+            "b": 776.1009085119441,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\uc911\uac1c\uc5d0 \ud574\ub2f9",
+      "text": "\uc911\uac1c\uc5d0 \ud574\ub2f9"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 755.4944395260649,
+            "r": 520.244978173125,
+            "b": 748.7519500320631,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u25b6\uc804\ubc18\uc801\uc73c\ub85c \ud50c\ub7ab\ud3fc\uc774 \ud310\ub9e4\ub97c \ub298\ub9ac\uae30 \uc704\ud55c",
+      "text": "\u25b6\uc804\ubc18\uc801\uc73c\ub85c \ud50c\ub7ab\ud3fc\uc774 \ud310\ub9e4\ub97c \ub298\ub9ac\uae30 \uc704\ud55c"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 740.4944401510649,
+            "r": 433.994981766875,
+            "b": 733.751950657063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "\uc11c\ube44\uc2a4\ub97c \uc801\uadf9\uc801\uc73c\ub85c \uc81c\uacf5",
+      "text": "\uc11c\ube44\uc2a4\ub97c \uc801\uadf9\uc801\uc73c\ub85c \uc81c\uacf5"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 711.2444413698148,
+            "r": 527.744977860625,
+            "b": 689.501952500813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "\u25b6\uc18c\ube44\uc790\ub294 \uae08\uc735\uc0c1\ud488 \uacc4\uc57d\uc8fc\uccb4\ub97c \ud50c\ub7ab\ud3fc\uc73c\ub85c \uc778\uc9c0\ud560 \uac00\ub2a5\uc131\uc774 \ub192\uc74c",
+      "text": "\u25b6\uc18c\ube44\uc790\ub294 \uae08\uc735\uc0c1\ud488 \uacc4\uc57d\uc8fc\uccb4\ub97c \ud50c\ub7ab\ud3fc\uc73c\ub85c \uc778\uc9c0\ud560 \uac00\ub2a5\uc131\uc774 \ub192\uc74c",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 592.8455936400366,
+            "r": 381.4636400465013,
+            "b": 581.8505936984114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\u27a1 \uc911\uac1c\uc5d0 \ud574\ub2f9",
+      "text": "\u27a1 \uc911\uac1c\uc5d0 \ud574\ub2f9",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 561.9944475885649,
+            "r": 497.744979110625,
+            "b": 540.251958719563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "\u25b6\uae08\uc735\uc0c1\ud488 \ucd94\ucc9c\uc740 \ud310\ub9e4\uacfc\uc815 \uc911 \ud558\ub098\uc778 '\uc7a0\uc7ac\uace0\uac1d \ubc1c\uad74 \ubc0f \uac00\uc785\uc720\ub3c4'\uc5d0 \ud574\ub2f9",
+      "text": "\u25b6\uae08\uc735\uc0c1\ud488 \ucd94\ucc9c\uc740 \ud310\ub9e4\uacfc\uc815 \uc911 \ud558\ub098\uc778 '\uc7a0\uc7ac\uace0\uac1d \ubc1c\uad74 \ubc0f \uac00\uc785\uc720\ub3c4'\uc5d0 \ud574\ub2f9",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 499.8455975150365,
+            "r": 516.2488883396288,
+            "b": 488.8505975734114,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u27a1 \ud50c\ub7ab\ud3fc\uc774 \ud310\ub9e4\uc5c5\uc790\uc778\uc9c0\uc5d0 \ub530\ub77c \ub2ec\ub77c\uc9d0",
+      "text": "\u27a1 \ud50c\ub7ab\ud3fc\uc774 \ud310\ub9e4\uc5c5\uc790\uc778\uc9c0\uc5d0 \ub530\ub77c \ub2ec\ub77c\uc9d0",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 469.59574049280775,
+            "r": 494.9597253174975,
+            "b": 460.2328113231641,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u25b6(\ud310\ub9e4\uc5c5\uc790\uac00 \uc544\ub2cc \uacbd\uc6b0) \uc790\ubb38\uc11c\ube44\uc2a4",
+      "text": "\u25b6(\ud310\ub9e4\uc5c5\uc790\uac00 \uc544\ub2cc \uacbd\uc6b0) \uc790\ubb38\uc11c\ube44\uc2a4",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 440.31352979927726,
+            "r": 432.7097279112475,
+            "b": 431.1009228869442,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\u25b6(\ud310\ub9e4\uc5c5\uc790\uc778 \uacbd\uc6b0) \uc911\uac1c",
+      "text": "\u25b6(\ud310\ub9e4\uc5c5\uc790\uc778 \uacbd\uc6b0) \uc911\uac1c",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 418.0956009212865,
+            "r": 381.4636400465013,
+            "b": 407.1006009796614,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\u27a1 \uc911\uac1c\uc5d0 \ud574\ub2f9",
+      "text": "\u27a1 \uc911\uac1c\uc5d0 \ud574\ub2f9",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 302.999987375,
+            "t": 387.24445486981483,
+            "r": 514.2449784231251,
+            "b": 350.501966625813,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "\u25b6\ubd84\uc11d\uc5d0 \uadf8\uce58\uc9c0 \uc54a\uace0 \uad00\ub828 \uc0c1\ud488\ucd94\ucc9c \ubc0f \uac00\uc785\uc9c0\uc6d0(\ubcf4\ud5d8\uc124\uacc4 \ub4f1)\ub3c4 \uc774\ub8e8\uc5b4\uc9c0\ub294 \uc810\uc744 \uac10\uc548",
+      "text": "\u25b6\ubd84\uc11d\uc5d0 \uadf8\uce58\uc9c0 \uc54a\uace0 \uad00\ub828 \uc0c1\ud488\ucd94\ucc9c \ubc0f \uac00\uc785\uc9c0\uc6d0(\ubcf4\ud5d8\uc124\uacc4 \ub4f1)\ub3c4 \uc774\ub8e8\uc5b4\uc9c0\ub294 \uc810\uc744 \uac10\uc548",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 23.999999,
+            "t": 21.896904147389705,
+            "r": 159.55561182672633,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "https://www.fsc.go.kr/no010101/76485",
+      "text": "https://www.fsc.go.kr/no010101/76485"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 560.0624766640625,
+            "t": 21.896904147389705,
+            "r": 571.1886015753511,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "3/5",
+      "text": "3/5"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 23.999999,
+            "t": 824.9555838367862,
+            "r": 92.05234148936276,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "26. 5. 27. \uc624\ud6c4 1:45",
+      "text": "26. 5. 27. \uc624\ud6c4 1:45"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 250.39452456689435,
+            "t": 824.9555838367862,
+            "r": 442.8540864775156,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c",
+      "text": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.24999728125,
+            "t": 805.6844848206937,
+            "r": 267.1235556264764,
+            "b": 795.4079847350562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "text": "\uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 794.9759853689562,
+            "r": 125.27393305705257,
+            "b": 782.3639852638563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\ucca8\ubd80\ud30c\uc77c (4)",
+      "text": "\ucca8\ubd80\ud30c\uc77c (4)"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.99999724999999,
+            "t": 482.3009983258313,
+            "r": 94.97998092550063,
+            "b": 472.8929982474316,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\uc774\uc804\uae00",
+      "text": "\uc774\uc804\uae00"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 65.99999724999999,
+            "t": 463.9799991856563,
+            "r": 274.4637565410097,
+            "b": 396.8640013263563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "[ \ubcf4\ub3c4\uc790\ub8cc] \uff62 \uc0c1\ud638\uc800\ucd95\uc740\ud589\ubc95 \uac1c\uc815\uc548 \uff63 \uad6d\ubb34 \ud68c\uc758 \ud1b5\uacfc - \uc800\ucd95\uc740\ud589\uc758 \uc9c0\uc810 \uc124\uce58\uac00 \uc6a9\uc774\ud574 \uc9c0\uace0, \uc800\ucd95\uc740\ud589 \uc784\uc6d0\uc758 \uc5f0\ub300\ubcc0\uc81c \ucc45\uc784\uc774 \uacbd \uac10\ub418\ub294 \ub4f1 \uacbd\uc601\uc790\uc728\uc131\uc774 \ud655\ub300\ub429\ub2c8\ub2e4 -",
+      "text": "[ \ubcf4\ub3c4\uc790\ub8cc] \uff62 \uc0c1\ud638\uc800\ucd95\uc740\ud589\ubc95 \uac1c\uc815\uc548 \uff63 \uad6d\ubb34 \ud68c\uc758 \ud1b5\uacfc - \uc800\ucd95\uc740\ud589\uc758 \uc9c0\uc810 \uc124\uce58\uac00 \uc6a9\uc774\ud574 \uc9c0\uace0, \uc800\ucd95\uc740\ud589 \uc784\uc6d0\uc758 \uc5f0\ub300\ubcc0\uc81c \ucc45\uc784\uc774 \uacbd \uac10\ub418\ub294 \ub4f1 \uacbd\uc601\uc790\uc728\uc131\uc774 \ud655\ub300\ub429\ub2c8\ub2e4 -"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 320.62498664062497,
+            "t": 482.3114983259185,
+            "r": 349.6049703161256,
+            "b": 472.8929982474316,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\ub2e4\uc74c\uae00",
+      "text": "\ub2e4\uc74c\uae00"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 320.62498664062497,
+            "t": 463.4519991812564,
+            "r": 526.3047647226336,
+            "b": 398.3640013388564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "[ \ubcf4\ub3c4\uc790\ub8cc] \ub514(D)-\ud14c\uc2a4\ud2b8\ubca0\ub4dc \uc0ac\uc5c5 \ucc38\uc5ec\uc790 \ub97c \uc120\uc815\ud558\uc600\uc2b5\ub2c8\ub2e4. - \ub514(D)-\ud14c\uc2a4\ud2b8\ubca0\ub4dc\ub97c \ud1b5\ud574 \ud601\uc2e0\uc801\uc778 \ud540\ud14c\ud06c \uae30\uc220\u00b7\uc544\uc774\ub514\uc5b4\uc758 \uc2e4 \ud604\uac00\ub2a5\uc131\uc744 \uc2dc\ud5d8\ud560 \ucd1d 20\uac1c \ucc38\uc5ec\uc790 \uc120\uc815",
+      "text": "[ \ubcf4\ub3c4\uc790\ub8cc] \ub514(D)-\ud14c\uc2a4\ud2b8\ubca0\ub4dc \uc0ac\uc5c5 \ucc38\uc5ec\uc790 \ub97c \uc120\uc815\ud558\uc600\uc2b5\ub2c8\ub2e4. - \ub514(D)-\ud14c\uc2a4\ud2b8\ubca0\ub4dc\ub97c \ud1b5\ud574 \ud601\uc2e0\uc801\uc778 \ud540\ud14c\ud06c \uae30\uc220\u00b7\uc544\uc774\ub514\uc5b4\uc758 \uc2e4 \ud604\uac00\ub2a5\uc131\uc744 \uc2dc\ud5d8\ud560 \ucd1d 20\uac1c \ucc38\uc5ec\uc790 \uc120\uc815"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 760.7041367837497,
+            "r": 345.8712982224953,
+            "b": 747.2339867336065,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "210907_\ubcf4\ub3c4\uc790\ub8cc_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uc911\uac1c\ud589\uc704\uc0ac\ub840.hwp  (176 KB)",
+      "text": "210907_\ubcf4\ub3c4\uc790\ub8cc_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uc911\uac1c\ud589\uc704\uc0ac\ub840.hwp  (176 KB)"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 729.2041380962497,
+            "r": 341.0314584241553,
+            "b": 715.7339880461064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "210907_\ubcf4\ub3c4\uc790\ub8cc_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uc911\uac1c\ud589\uc704\uc0ac\ub840.pdf  (274 KB)",
+      "text": "210907_\ubcf4\ub3c4\uc790\ub8cc_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uc911\uac1c\ud589\uc704\uc0ac\ub840.pdf  (274 KB)"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 697.7041394087497,
+            "r": 330.4494238650734,
+            "b": 684.2339893586064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "210907_\ubcc4\ucca8_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uae08\uc18c\ubc95\uc801\uc6a9\uc0ac\ub840.hwp  (82 KB)",
+      "text": "210907_\ubcc4\ucca8_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uae08\uc18c\ubc95\uc801\uc6a9\uc0ac\ub840.hwp  (82 KB)"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 666.2041407212497,
+            "r": 331.37520882649903,
+            "b": 652.7339906711064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "210907_\ubcc4\ucca8_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uae08\uc18c\ubc95\uc801\uc6a9\uc0ac\ub840.pdf  (383 KB)",
+      "text": "210907_\ubcc4\ucca8_\uc628\ub77c\uc778\ud50c\ub7ab\ud3fc_\uae08\uc18c\ubc95\uc801\uc6a9\uc0ac\ub840.pdf  (383 KB)"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 276.03514849853497,
+            "t": 586.2959940549564,
+            "r": 320.19511571053624,
+            "b": 575.5439939653562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\ubaa9\ub85d\uc73c\ub85c",
+      "text": "\ubaa9\ub85d\uc73c\ub85c"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 103.49999568749999,
+            "t": 273.5820070865062,
+            "r": 147.6599628995013,
+            "b": 262.7940069966063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\ub9e4\uc6b0\ub9cc\uc871",
+      "text": "\ub9e4\uc6b0\ub9cc\uc871"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 204.6679639721678,
+            "t": 273.5820070865062,
+            "r": 226.7479531041682,
+            "b": 262.7940069966063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\ub9cc\uc871",
+      "text": "\ub9cc\uc871"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 283.7578006767578,
+            "t": 273.5460070862065,
+            "r": 305.8377898087582,
+            "b": 262.7820069965061,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\ubcf4\ud1b5",
+      "text": "\ubcf4\ud1b5"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "checkbox_unselected",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 362.8476448813475,
+            "t": 273.5820070865062,
+            "r": 395.9676230533483,
+            "b": 262.7820069965061,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\ubd88\ub9cc\uc871",
+      "text": "\ubd88\ub9cc\uc871"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 452.97654362597655,
+            "t": 273.5820070865062,
+            "r": 508.1764998779781,
+            "b": 262.7940069966063,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "\ub9e4\uc6b0\ubd88\ub9cc\uc871",
+      "text": "\ub9e4\uc6b0\ubd88\ub9cc\uc871"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 276.03514849853497,
+            "t": 228.53400896110645,
+            "r": 320.19511571053624,
+            "b": 217.78200887150626,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\ud3c9\uac00\ud558\uae30",
+      "text": "\ud3c9\uac00\ud558\uae30"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 51.749997843749995,
+            "t": 137.03401277360638,
+            "r": 153.78590504425372,
+            "b": 126.28201268400619,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\uae08\uc735\uc704\uc6d0\ud68c \uc720\uad00\uae30\uad00",
+      "text": "\uae08\uc735\uc704\uc6d0\ud68c \uc720\uad00\uae30\uad00"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 534.5507627270506,
+            "t": 137.02792263585582,
+            "r": 552.9461590514608,
+            "b": 127.78023512816628,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\uc774\ub3d9",
+      "text": "\uc774\ub3d9"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 52.4999978125,
+            "t": 89.0340147736066,
+            "r": 154.5359050130037,
+            "b": 78.28201468400641,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\uae08\uc735\uc11c\ube44\uc2a4 \ud3ec\ud138\ubaa8\uc74c",
+      "text": "\uae08\uc735\uc11c\ube44\uc2a4 \ud3ec\ud138\ubaa8\uc74c"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 535.3007626958006,
+            "t": 89.02792463585604,
+            "r": 553.6961590202108,
+            "b": 79.78023712816696,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\uc774\ub3d9",
+      "text": "\uc774\ub3d9"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 59.24999753125,
+            "t": 301.2960059299563,
+            "r": 202.6858556349557,
+            "b": 288.63600582445645,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "\ucf58\ud150\uce20 \ub0b4\uc6a9\uc5d0 \ub9cc\uc871\ud558\uc168\ub098\uc694?",
+      "text": "\ucf58\ud150\uce20 \ub0b4\uc6a9\uc5d0 \ub9cc\uc871\ud558\uc168\ub098\uc694?"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 23.999999,
+            "t": 21.896904147389705,
+            "r": 159.55561182672633,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "https://www.fsc.go.kr/no010101/76485",
+      "text": "https://www.fsc.go.kr/no010101/76485"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 560.0624766640625,
+            "t": 21.896904147389705,
+            "r": 571.1886015753511,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "4/5",
+      "text": "4/5"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 23.999999,
+            "t": 824.9555838367862,
+            "r": 92.05234148936276,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "26. 5. 27. \uc624\ud6c4 1:45",
+      "text": "26. 5. 27. \uc624\ud6c4 1:45"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 250.39452456689435,
+            "t": 824.9555838367862,
+            "r": 442.8540864775156,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c",
+      "text": "\uc0c1\uc138\ud654\uba74 -\ubcf4\ub3c4\uc790\ub8cc -\uc704\uc6d0\ud68c \uc18c\uc2dd -\uc54c\ub9bc\ub9c8\ub2f9 -\uae08\uc735\uc704\uc6d0\ud68c"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 65.24999728125,
+            "t": 805.6844848206937,
+            "r": 267.1235556264764,
+            "b": 795.4079847350562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4.",
+      "text": "\uc774 \ub204\ub9ac\uc9d1\uc740 \ub300\ud55c\ubbfc\uad6d \uacf5\uc2dd \uc804\uc790\uc815\ubd80 \ub204\ub9ac\uc9d1\uc785\ub2c8\ub2e4."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 787.9559857229566,
+            "r": 93.1799913385002,
+            "b": 775.4819856190062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\uc774\uc6a9\uc548\ub0b4",
+      "text": "\uc774\uc6a9\uc548\ub0b4",
+      "hyperlink": "https://www.fsc.go.kr/index"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 758.0339868986067,
+            "r": 142.85991059950348,
+            "b": 747.2819868090065,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "\uae08\uc735\ud589\uc815\uc11c\ube44\uc2a4\ud5cc\uc7a5",
+      "text": "\uae08\uc735\ud589\uc815\uc11c\ube44\uc2a4\ud5cc\uc7a5"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 160.8632782973631,
+            "t": 758.2379869003063,
+            "r": 249.18320166936616,
+            "b": 747.1259868077069,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\ubc29\uce68",
+      "text": "\uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\ubc29\uce68",
+      "hyperlink": "https://www.fsc.go.kr/ut020103"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 731.8319879927568,
+            "r": 229.78588647758764,
+            "b": 721.0319879027567,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\uc804\uc790\uc6b0\ud3b8 \ubb34\ub2e8\uc218\uc9d1\uac70\ubd80 \uc800\uc791\uad8c\uc815\ucc45",
+      "text": "\uc804\uc790\uc6b0\ud3b8 \ubb34\ub2e8\uc218\uc9d1\uac70\ubd80 \uc800\uc791\uad8c\uc815\ucc45"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 705.5459890862068,
+            "r": 196.66295550770985,
+            "b": 694.7819889965064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "\ub204\ub9ac\uc9d1\uc9c0\ub3c4 \ub204\ub9ac\uc9d1 \uac1c\uc120\uc81c\uc548",
+      "text": "\ub204\ub9ac\uc9d1\uc9c0\ub3c4 \ub204\ub9ac\uc9d1 \uac1c\uc120\uc81c\uc548"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 214.66405355566405,
+            "t": 705.5819890865065,
+            "r": 272.540004596166,
+            "b": 694.7819889965064,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\uc18c\uc2dd\uc9c0 \uc2e0\uccad",
+      "text": "\uc18c\uc2dd\uc9c0 \uc2e0\uccad"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 679.3319901802566,
+            "r": 150.45591455800331,
+            "b": 668.5319900902565,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\ucd5c\uc2e0\uc18c\uc2dd(RSS)\uc11c\ube44\uc2a4",
+      "text": "\ucd5c\uc2e0\uc18c\uc2dd(RSS)\uc11c\ube44\uc2a4"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.4999981875,
+            "t": 613.2059930042066,
+            "r": 108.66448776831282,
+            "b": 600.7319929002562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\uae08\uc735\uc704 \ubb38\uc758",
+      "text": "\uae08\uc735\uc704 \ubb38\uc758",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 583.5509941070815,
+            "r": 284.29328928744565,
+            "b": 572.4839940148569,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "03171 \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc885\ub85c\uad6c \uc138\uc885\ub300\ub85c 209 \uae08\uc735\uc704\uc6d0\ud68c",
+      "text": "03171 \uc11c\uc6b8\ud2b9\ubcc4\uc2dc \uc885\ub85c\uad6c \uc138\uc885\ub300\ub85c 209 \uae08\uc735\uc704\uc6d0\ud68c"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 559.5614951071694,
+            "r": 173.25805781913897,
+            "b": 548.4839950148568,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "\ub300\ud45c\uc804\ud654 : 02-2100-2500",
+      "text": "\ub300\ud45c\uc804\ud654 : 02-2100-2500"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 535.5509961070817,
+            "r": 241.25382542153176,
+            "b": 524.4839960148566,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\uc815\ubd80\ubbfc\uc6d0\uc548\ub0b4\ucf5c\uc13c\ud130 \uad6d\ubc88\uc5c6\uc774 : 110(\ubb34\ub8cc)",
+      "text": "\uc815\ubd80\ubbfc\uc6d0\uc548\ub0b4\ucf5c\uc13c\ud130 \uad6d\ubc88\uc5c6\uc774 : 110(\ubb34\ub8cc)"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 62.24999740625,
+            "t": 510.80099713833135,
+            "r": 273.85630208809516,
+            "b": 499.73399704610677,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "\uae08\uac10\uc6d0\ucf5c\uc13c\ud130 : 1332(\uc720\ub8cc, \ud1b5\ud654\ub8cc\ub294 \ubc1c\uc2e0\uc790 \ubd80\ub2f4)",
+      "text": "\uae08\uac10\uc6d0\ucf5c\uc13c\ud130 : 1332(\uc720\ub8cc, \ud1b5\ud654\ub8cc\ub294 \ubc1c\uc2e0\uc790 \ubd80\ub2f4)"
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 203.22655403222655,
+            "t": 445.0739998906066,
+            "r": 393.00337378130877,
+            "b": 434.3744998014446,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u24d2 FINANCIAL SERVICES COMMISSION.",
+      "text": "\u24d2 FINANCIAL SERVICES COMMISSION.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 241.72264992822247,
+            "t": 426.73800063780675,
+            "r": 354.52406114491345,
+            "b": 415.7340005461066,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "ALL RIGHTS RESERVED.",
+      "text": "ALL RIGHTS RESERVED."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 23.999999,
+            "t": 21.896904147389705,
+            "r": 159.55561182672633,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "https://www.fsc.go.kr/no010101/76485",
+      "text": "https://www.fsc.go.kr/no010101/76485"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 560.0624766640625,
+            "t": 21.896904147389705,
+            "r": 571.1886015753511,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "5/5",
+      "text": "5/5"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.92642593383789,
+            "t": 784.138370513916,
+            "r": 187.55477905273438,
+            "b": 745.4321365356445,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.97205352783203,
+            "t": 784.1919937133789,
+            "r": 187.4671173095703,
+            "b": 745.5356750488281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 45.0745849609375,
+            "t": 807.8215675354004,
+            "r": 59.35527038574219,
+            "b": 796.4097290039062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 56.847267150878906,
+            "t": 784.2569808959961,
+            "r": 98.119384765625,
+            "b": 744.92138671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 45.25910568237305,
+            "t": 807.7818832397461,
+            "r": 59.58266830444336,
+            "b": 796.3417549133301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 56.91854476928711,
+            "t": 784.1737251281738,
+            "r": 187.6682586669922,
+            "b": 745.5274276733398,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 45.20347213745117,
+            "t": 807.7391510009766,
+            "r": 59.464359283447266,
+            "b": 796.4225730895996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/105"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 56.9375114440918,
+            "t": 784.1199645996094,
+            "r": 187.5037078857422,
+            "b": 745.6539306640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 210.67648315429688,
+            "t": 361.47027587890625,
+            "r": 382.2923889160156,
+            "b": 336.7054443359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 57.41972351074219,
+            "t": 63.22332763671875,
+            "r": 538.5419921875,
+            "b": 38.8935546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 152.24999365624998,
+              "t": 786.3456997755358,
+              "r": 203.95973744249756,
+              "b": 795.6871543369924,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "\uc8fc\uc694 \ub0b4\uc6a9",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 365.24998478124996,
+              "t": 786.3349624714423,
+              "r": 469.4597263799975,
+              "b": 795.579781296056,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "\uad00\ub828 \uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 152.24999365624998,
+                "t": 786.3456997755358,
+                "r": 203.95973744249756,
+                "b": 795.6871543369924,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "\uc8fc\uc694 \ub0b4\uc6a9",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 365.24998478124996,
+                "t": 786.3349624714423,
+                "r": 469.4597263799975,
+                "b": 795.579781296056,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "\uad00\ub828 \uc0ac\ub840 \uac80\ud1a0\uacb0\uacfc",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 594.9599609375,
+        "height": 841.9199829101562
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 594.9599609375,
+        "height": 841.9199829101562
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 594.9599609375,
+        "height": 841.9199829101562
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 594.9599609375,
+        "height": 841.9199829101562
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 594.9599609375,
+        "height": 841.9199829101562
+      },
+      "page_no": 5
+    }
+  }
+}
