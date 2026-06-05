@@ -9,7 +9,6 @@ import re
 from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
 
 import psycopg
 from psycopg import Connection
@@ -21,6 +20,7 @@ DEFAULT_ISSUING_AUTHORITY = "unknown"
 DEFAULT_DOCUMENT_TYPE = "other"
 DOCUMENT_SUFFIXES = {".pdf", ".hwp", ".hwpx", ".doc", ".docx", ".txt", ".md"}
 DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+JsonObject = dict[str, object]
 
 
 @dataclass(frozen=True, slots=True)
@@ -77,12 +77,15 @@ def load_reference_data(
     return LoadStats(documents=len(document_ids), chunks=chunks)
 
 
-def _reset_reference_tables(conn: Connection[Any]) -> None:
+DbConnection = Connection[tuple[object, ...]]
+
+
+def _reset_reference_tables(conn: DbConnection) -> None:
     with conn.cursor() as cur:
         cur.execute("TRUNCATE reference_document_chunks, reference_documents RESTART IDENTITY CASCADE")
 
 
-def _load_reference_document_metadata(metadata_path: Path) -> dict[str, dict[str, Any]]:
+def _load_reference_document_metadata(metadata_path: Path) -> dict[str, JsonObject]:
     if not metadata_path.exists():
         return {}
 
@@ -90,7 +93,7 @@ def _load_reference_document_metadata(metadata_path: Path) -> dict[str, dict[str
     if not isinstance(payload, list):
         raise RuntimeError(f"{metadata_path} must contain a JSON array")
 
-    metadata_by_path: dict[str, dict[str, Any]] = {}
+    metadata_by_path: dict[str, JsonObject] = {}
     for index, item in enumerate(payload, start=1):
         if not isinstance(item, dict):
             raise RuntimeError(f"{metadata_path} item {index} must be an object")
@@ -103,11 +106,11 @@ def _load_reference_document_metadata(metadata_path: Path) -> dict[str, dict[str
 
 
 def _upsert_reference_documents(
-    conn: Connection[Any],
+    conn: DbConnection,
     *,
     raw_files: Iterable[Path],
     raw_dir: Path,
-    metadata_by_path: dict[str, dict[str, Any]],
+    metadata_by_path: dict[str, JsonObject],
 ) -> dict[str, int]:
     document_ids: dict[str, int] = {}
 
@@ -149,20 +152,23 @@ def _upsert_reference_documents(
             document_id = cur.fetchone()
             if document_id is None:
                 raise RuntimeError(f"failed to upsert reference document: {source_file_path}")
+            raw_document_id = document_id[0]
+            if not isinstance(raw_document_id, int) or isinstance(raw_document_id, bool):
+                raise RuntimeError(f"document_id must be an integer: {source_file_path}")
 
-            document_ids[source_file_path] = int(document_id[0])
+            document_ids[source_file_path] = raw_document_id
 
     return document_ids
 
 
-def _metadata_str(metadata: dict[str, Any], key: str) -> str | None:
+def _metadata_str(metadata: JsonObject, key: str) -> str | None:
     value = metadata.get(key)
     if value is None or isinstance(value, str):
         return value
     raise RuntimeError(f"reference document metadata field {key} must be null or a string")
 
 
-def _metadata_date(metadata: dict[str, Any], key: str) -> str | None:
+def _metadata_date(metadata: JsonObject, key: str) -> str | None:
     value = _metadata_str(metadata, key)
     if value is None or DATE_PATTERN.match(value):
         return value
@@ -170,7 +176,7 @@ def _metadata_date(metadata: dict[str, Any], key: str) -> str | None:
 
 
 def _upsert_reference_chunks(
-    conn: Connection[Any],
+    conn: DbConnection,
     *,
     chunks_path: Path,
     document_ids: dict[str, int],
@@ -228,7 +234,7 @@ def _upsert_reference_chunks(
     return inserted
 
 
-def _chunk_metadata(payload: dict[str, Any]) -> dict[str, Any]:
+def _chunk_metadata(payload: JsonObject) -> JsonObject:
     metadata_keys = (
         "chunk_id",
         "source_id",
@@ -246,10 +252,6 @@ def _vector_literal(values: list[float]) -> str:
     return "[" + ",".join(str(value) for value in values) + "]"
 
 
-def _posix_path(path: Path) -> str:
-    return path.as_posix()
-
-
 def _source_file_path(path: Path, *, raw_dir: Path) -> str:
     try:
         relative_path = path.relative_to(raw_dir)
@@ -258,34 +260,35 @@ def _source_file_path(path: Path, *, raw_dir: Path) -> str:
     return Path(raw_dir.name, relative_path).as_posix()
 
 
-def _required_str(payload: dict[str, Any], key: str, *, line_no: int) -> str:
+def _required_str(payload: JsonObject, key: str, *, line_no: int) -> str:
     value = payload.get(key)
     if not isinstance(value, str):
         raise RuntimeError(f"line {line_no}: {key} must be a string")
     return value
 
 
-def _optional_str(payload: dict[str, Any], key: str) -> str | None:
+def _optional_str(payload: JsonObject, key: str) -> str | None:
     value = payload.get(key)
     if value is None or isinstance(value, str):
         return value
     raise RuntimeError(f"{key} must be null or a string")
 
 
-def _required_int(payload: dict[str, Any], key: str, *, line_no: int) -> int:
+def _required_int(payload: JsonObject, key: str, *, line_no: int) -> int:
     value = payload.get(key)
     if not isinstance(value, int) or isinstance(value, bool):
         raise RuntimeError(f"line {line_no}: {key} must be an integer")
     return value
 
 
-def _required_embedding(payload: dict[str, Any], *, line_no: int) -> list[float]:
+def _required_embedding(payload: JsonObject, *, line_no: int) -> list[float]:
     value = payload.get("embedding")
     if not isinstance(value, list) or not value:
-        raise RuntimeError(
-            f"line {line_no}: embedding must be a non-empty list. "
-            "Run `python -m jb_hackathon_data.run_embed_pipeline` before loading chunks into DB."
+        message = (
+            f"line {line_no}: embedding must be a non-empty list. Run "
+            "`python -m jb_hackathon_data.embed_google_chunks` before loading chunks into DB."
         )
+        raise RuntimeError(message)
 
     values: list[float] = []
     for item in value:

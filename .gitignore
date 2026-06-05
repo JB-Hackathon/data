@@ -5,6 +5,8 @@ postgres_data/*
 .env
 
 .venv/
+.env
+.tmp/
 
 __pycache__/
 *.py[cod]
@@ -20,5 +22,3 @@ test-results/
 .hypothesis/
 
 evidence/
-
-

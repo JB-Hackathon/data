@@ -95,11 +95,11 @@ DB 적재 전에는 청크 파일에 임베딩이 포함되어 있어야 합니�
 
 ```bash
 uv run python -m jb_hackathon_data.run_embed_pipeline \
-  --chunks outputs/chunking/rag_chunks.raw.jsonl \
+  --input outputs/chunking/rag_chunks.raw.jsonl \
   --out outputs/chunking/rag_chunks.jsonl
 ```
 
-현재 DB 적재 스크립트는 `outputs/chunking/rag_chunks.jsonl`에 포함된 `embedding` 값을 사용합니다. 임베딩 모델은 기본값으로 `nlpai-lab/KURE-v1`을 사용합니다.
+현재 DB 적재 스크립트는 `outputs/chunking/rag_chunks.jsonl`에 포함된 `embedding` 값을 사용합니다. 임베딩 모델은 기본값으로 Google `gemini-embedding-2`를 사용하며, API 키는 gitignore 처리된 `.env`의 `GEMINI_API_KEY` 또는 `GOOGLE_API_KEY`에서 읽습니다.
 
 ### 2.2 PostgreSQL DB 초기 구축 및 Reference Document 데이터 추가
 

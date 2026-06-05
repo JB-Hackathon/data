@@ -8,15 +8,24 @@ from __future__ import annotations
 
 import argparse
 import os
+from collections.abc import Mapping
 from dataclasses import dataclass
-from typing import Any
+from typing import LiteralString
 
 import psycopg
 from psycopg.rows import dict_row
 
+from jb_hackathon_data.embedding_pipeline import ensure_google_api_key, load_env_file
+from jb_hackathon_data.google_embedding_provider import (
+    DEFAULT_MODEL,
+    DEFAULT_OUTPUT_DIMENSIONALITY,
+    GoogleEmbeddingProvider,
+)
+from jb_hackathon_data.io_utils import resolve_root_path
+
 
 DEFAULT_DATABASE_URL = "postgresql://jbuser:jbpass@localhost:5432/jbdb"
-DEFAULT_EMBEDDING_MODEL_ID = "nlpai-lab/KURE-v1"
+DEFAULT_QUERY_TASK_TYPE = "RETRIEVAL_QUERY"
 DEFAULT_RRF_K = 60
 
 
@@ -40,7 +49,13 @@ class SearchResult:
 def main() -> None:
     args = _parse_args()
     database_url = args.database_url or os.getenv("DATABASE_URL") or DEFAULT_DATABASE_URL
-    query_embedding = embed_query(args.query, model_id=args.embedding_model_id)
+    load_env_file(resolve_root_path(args.env_file))
+    ensure_google_api_key()
+    query_embedding = embed_query(
+        args.query,
+        model=args.embedding_model,
+        output_dimensionality=args.output_dimensionality,
+    )
 
     results = search_reference_documents(
         database_url=database_url,
@@ -60,43 +75,22 @@ def main() -> None:
         print(build_rag_prompt(query=args.query, results=results))
 
 
-def embed_query(query: str, *, model_id: str = DEFAULT_EMBEDDING_MODEL_ID) -> list[float]:
+def embed_query(
+    query: str,
+    *,
+    model: str = DEFAULT_MODEL,
+    output_dimensionality: int = DEFAULT_OUTPUT_DIMENSIONALITY,
+) -> list[float]:
     """Embed the user query with the same model used for stored chunks."""
-
-    try:
-        from sentence_transformers import SentenceTransformer
-    except ImportError:
-        return _embed_query_with_transformers(query, model_id=model_id)
-
-    model = SentenceTransformer(model_id)
-    embedding = model.encode(query, normalize_embeddings=True)
-    return [float(value) for value in embedding.tolist()]
-
-
-def _embed_query_with_transformers(query: str, *, model_id: str) -> list[float]:
-    try:
-        import torch
-        import torch.nn.functional as functional
-        from transformers import AutoModel, AutoTokenizer
-    except ImportError as exc:
-        raise RuntimeError(
-            "Query embedding requires sentence-transformers, or transformers and torch. "
-            "Install one option first, for example: uv add sentence-transformers"
-        ) from exc
-
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModel.from_pretrained(model_id)
-    model.eval()
-
-    encoded = tokenizer(query, padding=True, truncation=True, return_tensors="pt")
-    with torch.no_grad():
-        output = model(**encoded)
-
-    token_embeddings = output.last_hidden_state
-    attention_mask = encoded["attention_mask"].unsqueeze(-1).expand(token_embeddings.size()).float()
-    pooled = torch.sum(token_embeddings * attention_mask, dim=1) / torch.clamp(attention_mask.sum(dim=1), min=1e-9)
-    normalized = functional.normalize(pooled, p=2, dim=1)
-    return [float(value) for value in normalized[0].tolist()]
+    provider = GoogleEmbeddingProvider(
+        model=model,
+        output_dimensionality=output_dimensionality,
+        task_type=DEFAULT_QUERY_TASK_TYPE,
+    )
+    vectors = provider.embed_documents((query,))
+    if len(vectors) != 1:
+        raise RuntimeError("Google query embedding response count does not match input")
+    return list(vectors[0])
 
 
 def search_reference_documents(
@@ -111,7 +105,7 @@ def search_reference_documents(
     document_type: str | None = None,
     issuing_authority: str | None = None,
 ) -> list[SearchResult]:
-    params: dict[str, Any] = {
+    params: dict[str, object] = {
         "query": query,
         "query_embedding": _vector_literal(query_embedding),
         "top_k": top_k,
@@ -122,31 +116,32 @@ def search_reference_documents(
         "issuing_authority": issuing_authority,
     }
 
-    with psycopg.connect(database_url, row_factory=dict_row) as conn, conn.cursor() as cur:
+    with psycopg.connect(database_url) as conn, conn.cursor(row_factory=dict_row) as cur:
         cur.execute(_hybrid_search_sql(), params)
         rows = cur.fetchall()
 
-    return [
-        SearchResult(
-            chunk_id=row["chunk_id"],
-            document_id=row["document_id"],
-            title=row["title"],
-            document_type=row["document_type"],
-            issuing_authority=row["issuing_authority"],
-            source_file_path=row["source_file_path"],
-            chunk_index=row["chunk_index"],
-            chunk_text=row["chunk_text"],
-            rrf_score=float(row["rrf_score"]),
-            vector_rank=row["vector_rank"],
-            text_rank=row["text_rank"],
-            vector_score=float(row["vector_score"]) if row["vector_score"] is not None else None,
-            text_score=float(row["text_score"]) if row["text_score"] is not None else None,
-        )
-        for row in rows
-    ]
+    return [_search_result_from_row(row) for row in rows]
 
 
-def _hybrid_search_sql() -> str:
+def _search_result_from_row(row: Mapping[str, object]) -> SearchResult:
+    return SearchResult(
+        chunk_id=_int_field(row, "chunk_id"),
+        document_id=_int_field(row, "document_id"),
+        title=_str_field(row, "title"),
+        document_type=_str_field(row, "document_type"),
+        issuing_authority=_str_field(row, "issuing_authority"),
+        source_file_path=_str_field(row, "source_file_path"),
+        chunk_index=_int_field(row, "chunk_index"),
+        chunk_text=_str_field(row, "chunk_text"),
+        rrf_score=_float_field(row, "rrf_score"),
+        vector_rank=_optional_int_field(row, "vector_rank"),
+        text_rank=_optional_int_field(row, "text_rank"),
+        vector_score=_optional_float_field(row, "vector_score"),
+        text_score=_optional_float_field(row, "text_score"),
+    )
+
+
+def _hybrid_search_sql() -> LiteralString:
     return """
     WITH query AS (
       SELECT
@@ -257,6 +252,7 @@ def print_results(results: list[SearchResult]) -> None:
         print(f"document_type={result.document_type} authority={result.issuing_authority}")
         print(f"source={result.source_file_path} chunk_index={result.chunk_index}")
         print(
+        (
             "score="
             f"{result.rrf_score:.6f} "
             f"vector_rank={result.vector_rank} "
@@ -264,6 +260,7 @@ def print_results(results: list[SearchResult]) -> None:
             f"vector_score={_format_optional_score(result.vector_score)} "
             f"text_score={_format_optional_score(result.text_score)}"
         )
+    )
         print(_preview(result.chunk_text))
 
 
@@ -279,6 +276,45 @@ def _vector_literal(values: list[float]) -> str:
     return "[" + ",".join(str(value) for value in values) + "]"
 
 
+def _int_field(row: Mapping[str, object], key: str) -> int:
+    value = row[key]
+    if isinstance(value, int) and not isinstance(value, bool):
+        return value
+    raise RuntimeError(f"{key} must be an integer")
+
+
+def _optional_int_field(row: Mapping[str, object], key: str) -> int | None:
+    value = row[key]
+    if value is None:
+        return None
+    if isinstance(value, int) and not isinstance(value, bool):
+        return value
+    raise RuntimeError(f"{key} must be null or an integer")
+
+
+def _str_field(row: Mapping[str, object], key: str) -> str:
+    value = row[key]
+    if isinstance(value, str):
+        return value
+    raise RuntimeError(f"{key} must be a string")
+
+
+def _float_field(row: Mapping[str, object], key: str) -> float:
+    value = row[key]
+    if isinstance(value, int | float) and not isinstance(value, bool):
+        return float(value)
+    raise RuntimeError(f"{key} must be numeric")
+
+
+def _optional_float_field(row: Mapping[str, object], key: str) -> float | None:
+    value = row[key]
+    if value is None:
+        return None
+    if isinstance(value, int | float) and not isinstance(value, bool):
+        return float(value)
+    raise RuntimeError(f"{key} must be null or numeric")
+
+
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("query", help="User query to search against reference documents.")
@@ -287,9 +323,20 @@ def _parse_args() -> argparse.Namespace:
         help="PostgreSQL connection URL. Defaults to DATABASE_URL or local jbdb.",
     )
     parser.add_argument(
-        "--embedding-model-id",
-        default=DEFAULT_EMBEDDING_MODEL_ID,
-        help="Embedding model id. Must match the stored chunk embedding model.",
+        "--env-file",
+        default=".env",
+        help="Env file containing GEMINI_API_KEY or GOOGLE_API_KEY.",
+    )
+    parser.add_argument(
+        "--embedding-model",
+        default=DEFAULT_MODEL,
+        help="Google embedding model. Must match the stored chunk embedding model.",
+    )
+    parser.add_argument(
+        "--output-dimensionality",
+        type=int,
+        default=DEFAULT_OUTPUT_DIMENSIONALITY,
+        help="Google embedding output dimension. Must match the stored vectors.",
     )
     parser.add_argument("--top-k", type=int, default=5, help="Number of final RRF results.")
     parser.add_argument("--vector-limit", type=int, default=30, help="Candidate size from vector search.")
