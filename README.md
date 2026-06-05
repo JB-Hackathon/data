@@ -22,6 +22,8 @@ ComplianceJB 프로젝트의 PostgreSQL/pgvector 기반 데이터베이스와 RA
 | `review_content_chunks` | 심의 콘텐츠 RAG 검색용 청크/임베딩 |
 | `reference_documents` | 준법 자문 참고 문서 |
 | `reference_document_chunks` | 참고 문서 RAG 검색용 청크/임베딩 |
+| `chat_threads` | 심의 콘텐츠 버전별 채팅 thread |
+| `chat_messages` | 채팅 메시지 |
 
 ## 2. DB 구축
 
