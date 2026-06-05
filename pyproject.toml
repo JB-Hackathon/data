@@ -12,6 +12,8 @@ dependencies = [
     "olefile>=0.47",
     "typer>=0.21.2",
     "unhwp>=0.5.0",
+    "psycopg[binary]>=3.2.0",
+    "sentence-transformers>=5.5.1",
 ]
 
 [build-system]
