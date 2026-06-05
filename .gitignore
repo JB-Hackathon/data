@@ -3,3 +3,20 @@ postgres_data/*
 
 # env files
 .env
+
+.venv/
+
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+junit.xml
+test-results/
+.hypothesis/
+
+evidence/

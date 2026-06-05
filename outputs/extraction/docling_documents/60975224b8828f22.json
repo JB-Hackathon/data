@@ -1,0 +1,842 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "\uac1c\uc778\uc815\ubcf4 \ubcf4\ud638\ubc95 \uc81c15\uc870 \uac1c\uc778\uc815\ubcf4 \uc218\uc9d1\u00b7\uc774\uc6a9",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9845066558361432258,
+    "filename": "\uac1c\uc778\uc815\ubcf4 \ubcf4\ud638\ubc95 \uc81c15\uc870 \uac1c\uc778\uc815\ubcf4 \uc218\uc9d1\u00b7\uc774\uc6a9.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 23.999999,
+            "t": 824.9555838367862,
+            "r": 92.05234148936276,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "26. 5. 27. \uc624\ud6c4 2:02",
+      "text": "26. 5. 27. \uc624\ud6c4 2:02"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.5859247255859,
+            "t": 824.9555838367862,
+            "r": 386.6591978439696,
+            "b": 816.9605839201613,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "\ubc95\ub839 | \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130",
+      "text": "\ubc95\ub839 | \uad6d\uac00\ubc95\ub839\uc815\ubcf4\uc13c\ud130"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 242.99998987499998,
+            "t": 736.6365400313415,
+            "r": 352.47244625114746,
+            "b": 724.9752123922302,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\uac1c\uc778\uc815\ubcf4 \ubcf4\ud638\ubc95",
+      "text": "\uac1c\uc778\uc815\ubcf4 \ubcf4\ud638\ubc95",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 178.124992578125,
+            "t": 712.7793632910156,
+            "r": 418.12498257812496,
+            "b": 707.2602722247238,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "[\uc2dc\ud589 2025. 10. 2.] [\ubc95\ub960 \uc81c20897\ud638, 2025. 4. 1., \uc77c\ubd80\uac1c\uc815]",
+      "text": "[\uc2dc\ud589 2025. 10. 2.] [\ubc95\ub960 \uc81c20897\ud638, 2025. 4. 1., \uc77c\ubd80\uac1c\uc815]"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.24999753125,
+            "t": 678.6345160809051,
+            "r": 205.8783605623596,
+            "b": 667.2154369668564,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\uc81c3\uc7a5 \uac1c\uc778\uc815\ubcf4\uc758 \ucc98\ub9ac",
+      "text": "\uc81c3\uc7a5 \uac1c\uc778\uc815\ubcf4\uc758 \ucc98\ub9ac",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 59.24999753125,
+            "t": 650.1345172684051,
+            "r": 303.3783564998596,
+            "b": 638.7154381543563,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\uc81c1\uc808 \uac1c\uc778\uc815\ubcf4\uc758 \uc218\uc9d1, \uc774\uc6a9, \uc81c\uacf5 \ub4f1",
+      "text": "\uc81c1\uc808 \uac1c\uc778\uc815\ubcf4\uc758 \uc218\uc9d1, \uc774\uc6a9, \uc81c\uacf5 \ub4f1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 70.4999970625,
+            "t": 620.7946213441722,
+            "r": 531.3899782337501,
+            "b": 571.739237494649,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "\uc81c15\uc870(\uac1c\uc778\uc815\ubcf4\uc758 \uc218\uc9d1\u318d\uc774\uc6a9) \u2460 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\ub294 \ub2e4\uc74c \uac01 \ud638\uc758 \uc5b4\ub290 \ud558\ub098\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\uc5d0\ub294 \uac1c\uc778\uc815\ubcf4\ub97c \uc218\uc9d1\ud560 \uc218 \uc788\uc73c\uba70 \uadf8 \uc218\uc9d1 \ubaa9\uc801\uc758 \ubc94\uc704\uc5d0\uc11c \uc774\uc6a9\ud560 \uc218 \uc788\ub2e4. \u00a0<\uac1c \uc815 2023. 3. 14.>",
+      "text": "\uc81c15\uc870(\uac1c\uc778\uc815\ubcf4\uc758 \uc218\uc9d1\u318d\uc774\uc6a9) \u2460 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\ub294 \ub2e4\uc74c \uac01 \ud638\uc758 \uc5b4\ub290 \ud558\ub098\uc5d0 \ud574\ub2f9\ud558\ub294 \uacbd\uc6b0\uc5d0\ub294 \uac1c\uc778\uc815\ubcf4\ub97c \uc218\uc9d1\ud560 \uc218 \uc788\uc73c\uba70 \uadf8 \uc218\uc9d1 \ubaa9\uc801\uc758 \ubc94\uc704\uc5d0\uc11c \uc774\uc6a9\ud560 \uc218 \uc788\ub2e4. \u00a0<\uac1c \uc815 2023. 3. 14.>"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 557.4173387898242,
+            "r": 238.13999045249994,
+            "b": 550.7392383696491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "1. \uc815\ubcf4\uc8fc\uccb4\uc758 \ub3d9\uc758\ub97c \ubc1b\uc740 \uacbd\uc6b0",
+      "text": "\uc815\ubcf4\uc8fc\uccb4\uc758 \ub3d9\uc758\ub97c \ubc1b\uc740 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 536.4173396648242,
+            "r": 474.38998060874997,
+            "b": 529.7392392446491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "2. \ubc95\ub960\uc5d0 \ud2b9\ubcc4\ud55c \uaddc\uc815\uc774 \uc788\uac70\ub098 \ubc95\ub839\uc0c1 \uc758\ubb34\ub97c \uc900\uc218\ud558\uae30 \uc704\ud558\uc5ec \ubd88\uac00\ud53c\ud55c \uacbd\uc6b0",
+      "text": "\ubc95\ub960\uc5d0 \ud2b9\ubcc4\ud55c \uaddc\uc815\uc774 \uc788\uac70\ub098 \ubc95\ub839\uc0c1 \uc758\ubb34\ub97c \uc900\uc218\ud558\uae30 \uc704\ud558\uc5ec \ubd88\uac00\ud53c\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 516.1673405085742,
+            "r": 463.1399810775,
+            "b": 509.4892400883991,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "3. \uacf5\uacf5\uae30\uad00\uc774 \ubc95\ub839 \ub4f1\uc5d0\uc11c \uc815\ud558\ub294 \uc18c\uad00 \uc5c5\ubb34\uc758 \uc218\ud589\uc744 \uc704\ud558\uc5ec \ubd88\uac00\ud53c\ud55c \uacbd\uc6b0",
+      "text": "\uacf5\uacf5\uae30\uad00\uc774 \ubc95\ub839 \ub4f1\uc5d0\uc11c \uc815\ud558\ub294 \uc18c\uad00 \uc5c5\ubb34\uc758 \uc218\ud589\uc744 \uc704\ud558\uc5ec \ubd88\uac00\ud53c\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 495.1673413835742,
+            "r": 530.639978265,
+            "b": 468.2392418071491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "4. \uc815\ubcf4\uc8fc\uccb4\uc640 \uccb4\uacb0\ud55c \uacc4\uc57d\uc744 \uc774\ud589\ud558\uac70\ub098 \uacc4\uc57d\uc744 \uccb4\uacb0\ud558\ub294 \uacfc\uc815\uc5d0\uc11c \uc815\ubcf4\uc8fc\uccb4\uc758 \uc694\uccad\uc5d0 \ub530 \ub978 \uc870\uce58\ub97c \uc774\ud589\ud558\uae30 \uc704\ud558\uc5ec \ud544\uc694\ud55c \uacbd\uc6b0",
+      "text": "\uc815\ubcf4\uc8fc\uccb4\uc640 \uccb4\uacb0\ud55c \uacc4\uc57d\uc744 \uc774\ud589\ud558\uac70\ub098 \uacc4\uc57d\uc744 \uccb4\uacb0\ud558\ub294 \uacfc\uc815\uc5d0\uc11c \uc815\ubcf4\uc8fc\uccb4\uc758 \uc694\uccad\uc5d0 \ub530 \ub978 \uc870\uce58\ub97c \uc774\ud589\ud558\uae30 \uc704\ud558\uc5ec \ud544\uc694\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 453.91734310232414,
+            "r": 529.1399783275,
+            "b": 426.2392435571491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "5. \uba85\ubc31\ud788 \uc815\ubcf4\uc8fc\uccb4 \ub610\ub294 \uc81c3\uc790\uc758 \uae09\ubc15\ud55c \uc0dd\uba85, \uc2e0\uccb4, \uc7ac\uc0b0\uc758 \uc774\uc775\uc744 \uc704\ud558\uc5ec \ud544\uc694\ud558\ub2e4\uace0 \uc778 \uc815\ub418\ub294 \uacbd\uc6b0",
+      "text": "\uba85\ubc31\ud788 \uc815\ubcf4\uc8fc\uccb4 \ub610\ub294 \uc81c3\uc790\uc758 \uae09\ubc15\ud55c \uc0dd\uba85, \uc2e0\uccb4, \uc7ac\uc0b0\uc758 \uc774\uc775\uc744 \uc704\ud558\uc5ec \ud544\uc694\ud558\ub2e4\uace0 \uc778 \uc815\ub418\ub294 \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 412.66734482107415,
+            "r": 528.38997835875,
+            "b": 364.7392461196491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "6. \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\uc758 \uc815\ub2f9\ud55c \uc774\uc775\uc744 \ub2ec\uc131\ud558\uae30 \uc704\ud558\uc5ec \ud544\uc694\ud55c \uacbd\uc6b0\ub85c\uc11c \uba85\ubc31\ud558\uac8c \uc815\ubcf4\uc8fc\uccb4 \uc758 \uad8c\ub9ac\ubcf4\ub2e4 \uc6b0\uc120\ud558\ub294 \uacbd\uc6b0. \uc774 \uacbd\uc6b0 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\uc758 \uc815\ub2f9\ud55c \uc774\uc775\uacfc \uc0c1\ub2f9\ud55c \uad00\ub828\uc774 \uc788 \uace0 \ud569\ub9ac\uc801\uc778 \ubc94\uc704\ub97c \ucd08\uacfc\ud558\uc9c0 \uc544\ub2c8\ud558\ub294 \uacbd\uc6b0\uc5d0 \ud55c\ud55c\ub2e4.",
+      "text": "\uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\uc758 \uc815\ub2f9\ud55c \uc774\uc775\uc744 \ub2ec\uc131\ud558\uae30 \uc704\ud558\uc5ec \ud544\uc694\ud55c \uacbd\uc6b0\ub85c\uc11c \uba85\ubc31\ud558\uac8c \uc815\ubcf4\uc8fc\uccb4 \uc758 \uad8c\ub9ac\ubcf4\ub2e4 \uc6b0\uc120\ud558\ub294 \uacbd\uc6b0. \uc774 \uacbd\uc6b0 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\uc758 \uc815\ub2f9\ud55c \uc774\uc775\uacfc \uc0c1\ub2f9\ud55c \uad00\ub828\uc774 \uc788 \uace0 \ud569\ub9ac\uc801\uc778 \ubc94\uc704\ub97c \ucd08\uacfc\ud558\uc9c0 \uc544\ub2c8\ud558\ub294 \uacbd\uc6b0\uc5d0 \ud55c\ud55c\ub2e4.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 350.4173474148242,
+            "r": 403.13998357749995,
+            "b": 343.7392469946491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "7. \uacf5\uc911\uc704\uc0dd \ub4f1 \uacf5\uacf5\uc758 \uc548\uc804\uacfc \uc548\ub155\uc744 \uc704\ud558\uc5ec \uae34\uae09\ud788 \ud544\uc694\ud55c \uacbd\uc6b0",
+      "text": "\uacf5\uc911\uc704\uc0dd \ub4f1 \uacf5\uacf5\uc758 \uc548\uc804\uacfc \uc548\ub155\uc744 \uc704\ud558\uc5ec \uae34\uae09\ud788 \ud544\uc694\ud55c \uacbd\uc6b0",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.4999966875,
+            "t": 329.4173482898242,
+            "r": 526.88997842125,
+            "b": 281.48924958839905,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "\u2461 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\ub294 \uc81c1\ud56d\uc81c1\ud638\uc5d0 \ub530\ub978 \ub3d9\uc758\ub97c \ubc1b\uc744 \ub54c\uc5d0\ub294 \ub2e4\uc74c \uac01 \ud638\uc758 \uc0ac\ud56d\uc744 \uc815\ubcf4\uc8fc \uccb4\uc5d0\uac8c \uc54c\ub824\uc57c \ud55c\ub2e4. \ub2e4\uc74c \uac01 \ud638\uc758 \uc5b4\ub290 \ud558\ub098\uc758 \uc0ac\ud56d\uc744 \ubcc0\uacbd\ud558\ub294 \uacbd\uc6b0\uc5d0\ub3c4 \uc774\ub97c \uc54c\ub9ac\uace0 \ub3d9 \uc758\ub97c \ubc1b\uc544\uc57c \ud55c\ub2e4.",
+      "text": "\u2461 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\ub294 \uc81c1\ud56d\uc81c1\ud638\uc5d0 \ub530\ub978 \ub3d9\uc758\ub97c \ubc1b\uc744 \ub54c\uc5d0\ub294 \ub2e4\uc74c \uac01 \ud638\uc758 \uc0ac\ud56d\uc744 \uc815\ubcf4\uc8fc \uccb4\uc5d0\uac8c \uc54c\ub824\uc57c \ud55c\ub2e4. \ub2e4\uc74c \uac01 \ud638\uc758 \uc5b4\ub290 \ud558\ub098\uc758 \uc0ac\ud56d\uc744 \ubcc0\uacbd\ud558\ub294 \uacbd\uc6b0\uc5d0\ub3c4 \uc774\ub97c \uc54c\ub9ac\uace0 \ub3d9 \uc758\ub97c \ubc1b\uc544\uc57c \ud55c\ub2e4.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 267.91735085232415,
+            "r": 234.38999060874997,
+            "b": 261.2392504321491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "1. \uac1c\uc778\uc815\ubcf4\uc758 \uc218\uc9d1\u318d\uc774\uc6a9 \ubaa9\uc801",
+      "text": "\uac1c\uc778\uc815\ubcf4\uc758 \uc218\uc9d1\u318d\uc774\uc6a9 \ubaa9\uc801",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 246.91735172732422,
+            "r": 234.38999060874997,
+            "b": 240.23925130714906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "2. \uc218\uc9d1\ud558\ub824\ub294 \uac1c\uc778\uc815\ubcf4\uc758 \ud56d\ubaa9",
+      "text": "\uc218\uc9d1\ud558\ub824\ub294 \uac1c\uc778\uc815\ubcf4\uc758 \ud56d\ubaa9",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 226.66735257107416,
+            "r": 241.88999029624995,
+            "b": 219.98925215089912,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "3. \uac1c\uc778\uc815\ubcf4\uc758 \ubcf4\uc720 \ubc0f \uc774\uc6a9 \uae30\uac04",
+      "text": "\uac1c\uc778\uc815\ubcf4\uc758 \ubcf4\uc720 \ubc0f \uc774\uc6a9 \uae30\uac04",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 78.74999671875,
+            "t": 205.66735344607412,
+            "r": 523.1399785775,
+            "b": 177.98925390089914,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "4. \ub3d9\uc758\ub97c \uac70\ubd80\ud560 \uad8c\ub9ac\uac00 \uc788\ub2e4\ub294 \uc0ac\uc2e4 \ubc0f \ub3d9\uc758 \uac70\ubd80\uc5d0 \ub530\ub978 \ubd88\uc774\uc775\uc774 \uc788\ub294 \uacbd\uc6b0\uc5d0\ub294 \uadf8 \ubd88 \uc774\uc775\uc758 \ub0b4\uc6a9",
+      "text": "\ub3d9\uc758\ub97c \uac70\ubd80\ud560 \uad8c\ub9ac\uac00 \uc788\ub2e4\ub294 \uc0ac\uc2e4 \ubc0f \ub3d9\uc758 \uac70\ubd80\uc5d0 \ub530\ub978 \ubd88\uc774\uc775\uc774 \uc788\ub294 \uacbd\uc6b0\uc5d0\ub294 \uadf8 \ubd88 \uc774\uc775\uc758 \ub0b4\uc6a9",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.4999966875,
+            "t": 164.41735516482413,
+            "r": 529.1399783275,
+            "b": 157.7392547446491,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "\u2462 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\ub294 \ub2f9\ucd08 \uc218\uc9d1 \ubaa9\uc801\uacfc \ud569\ub9ac\uc801\uc73c\ub85c \uad00\ub828\ub41c \ubc94\uc704\uc5d0\uc11c \uc815\ubcf4\uc8fc\uccb4\uc5d0\uac8c \ubd88\uc774\uc775",
+      "text": "\u2462 \uac1c\uc778\uc815\ubcf4\ucc98\ub9ac\uc790\ub294 \ub2f9\ucd08 \uc218\uc9d1 \ubaa9\uc801\uacfc \ud569\ub9ac\uc801\uc73c\ub85c \uad00\ub828\ub41c \ubc94\uc704\uc5d0\uc11c \uc815\ubcf4\uc8fc\uccb4\uc5d0\uac8c \ubd88\uc774\uc775",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.999996625,
+            "t": 143.4173560398242,
+            "r": 524.3062283882813,
+            "b": 95.48925733839906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "\uc774 \ubc1c\uc0dd\ud558\ub294\uc9c0 \uc5ec\ubd80, \uc554\ud638\ud654 \ub4f1 \uc548\uc804\uc131 \ud655\ubcf4\uc5d0 \ud544\uc694\ud55c \uc870\uce58\ub97c \ud558\uc600\ub294\uc9c0 \uc5ec\ubd80 \ub4f1\uc744 \uace0\ub824\ud558 \uc5ec \ub300\ud1b5\ub839\ub839\uc73c\ub85c \uc815\ud558\ub294 \ubc14\uc5d0 \ub530\ub77c \uc815\ubcf4\uc8fc\uccb4\uc758 \ub3d9\uc758 \uc5c6\uc774 \uac1c\uc778\uc815\ubcf4\ub97c \uc774\uc6a9\ud560 \uc218 \uc788\ub2e4. \u00a0< \uc2e0\uc124 2020. 2. 4.>",
+      "text": "\uc774 \ubc1c\uc0dd\ud558\ub294\uc9c0 \uc5ec\ubd80, \uc554\ud638\ud654 \ub4f1 \uc548\uc804\uc131 \ud655\ubcf4\uc5d0 \ud544\uc694\ud55c \uc870\uce58\ub97c \ud558\uc600\ub294\uc9c0 \uc5ec\ubd80 \ub4f1\uc744 \uace0\ub824\ud558 \uc5ec \ub300\ud1b5\ub839\ub839\uc73c\ub85c \uc815\ud558\ub294 \ubc14\uc5d0 \ub530\ub77c \uc815\ubcf4\uc8fc\uccb4\uc758 \ub3d9\uc758 \uc5c6\uc774 \uac1c\uc778\uc815\ubcf4\ub97c \uc774\uc6a9\ud560 \uc218 \uc788\ub2e4. \u00a0< \uc2e0\uc124 2020. 2. 4.>",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 23.999999,
+            "t": 21.896904147389705,
+            "r": 429.6283688369928,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=011357&lsJoLnkSeq=900078940&print=print",
+      "text": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=011357&lsJoLnkSeq=900078940&print=print"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 560.0624766640625,
+            "t": 21.896904147389705,
+            "r": 571.1886015753511,
+            "b": 17.510615400797406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1/1",
+      "text": "1/1"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 48.251529693603516,
+            "t": 797.0287590026855,
+            "r": 105.20519256591797,
+            "b": 774.1043167114258,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 444.037353515625,
+            "t": 791.0694923400879,
+            "r": 539.8131103515625,
+            "b": 775.1693878173828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 594.9599609375,
+        "height": 841.9199829101562
+      },
+      "page_no": 1
+    }
+  }
+}
