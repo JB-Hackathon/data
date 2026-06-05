@@ -23,9 +23,6 @@ ComplianceJB 프로젝트의 PostgreSQL/pgvector 기반 데이터베이스와 RA
 | `reference_documents` | 준법 자문 참고 문서 |
 | `reference_document_chunks` | 참고 문서 RAG 검색용 청크/임베딩 |
 
-
-
-
 ## 2. DB 구축
 
 ### 2.1 참고 문서 청킹 및 임베딩
@@ -75,8 +72,6 @@ uv run python -m jb_hackathon_data.run_chunk_pipeline \
 
 현재 DB 적재 스크립트는 `outputs/chunking/rag_chunks.jsonl`에 포함된 `embedding` 값을 사용합니다.
 
-
-
 ### 2.2 PostgreSQL DB 초기 구축 및 Reference Document 데이터 추가
 
 초기 프로젝트 구축 시에는 PostgreSQL 컨테이너를 먼저 생성한 뒤 참고 문서 데이터를 적재합니다.
@@ -114,9 +109,33 @@ uv run python -m jb_hackathon_data.db.load_reference_data
 DATABASE_URL=postgresql://jbuser:jbpass@localhost:5432/jbdb
 ```
 
+### 2.3 Reference Document Hybrid Search 샘플
 
+사용자 입력 쿼리를 기준으로 `reference_document_chunks`에서 벡터 검색과 `tsvector` 검색을 함께 수행하고, RRF로 결과를 결합하는 샘플 코드는 다음 파일에 있습니다.
 
+```text
+src/jb_hackathon_data/db/rag_search_sample.py
+```
 
+실행 예시는 다음과 같습니다.
+
+```bash
+uv run python -m jb_hackathon_data.db.rag_search_sample \
+  "대출 광고에서 최저금리를 표시할 때 유의할 점" \
+  --top-k 5 \
+  --show-prompt
+```
+
+특정 문서 유형이나 발행기관으로 검색 범위를 좁힐 수도 있습니다.
+
+```bash
+uv run python -m jb_hackathon_data.db.rag_search_sample \
+  "ETF 광고에서 투자 위험을 어떻게 표시해야 하나요?" \
+  --document-type examples \
+  --issuing-authority 금융감독원
+```
+
+첫 실행 시에는 쿼리 임베딩 모델을 내려받거나 로드하느라 시간이 걸릴 수 있습니다.
 
 ## 3. DB 실행
 
