@@ -49,6 +49,7 @@ raw/
 
 ```text
 outputs/extraction/raw_documents.jsonl
+outputs/chunking/rag_chunks.raw.jsonl
 outputs/chunking/rag_chunks.jsonl
 outputs/chunking/summary.json
 ```
@@ -66,11 +67,21 @@ uv run python -m jb_hackathon_data.run_clean_pipeline \
 ```bash
 uv run python -m jb_hackathon_data.run_chunk_pipeline \
   --results outputs/extraction/raw_documents.jsonl \
-  --out outputs/chunking/rag_chunks.jsonl \
+  --out outputs/chunking/rag_chunks.raw.jsonl \
   --summary-out outputs/chunking/summary.json
 ```
 
-현재 DB 적재 스크립트는 `outputs/chunking/rag_chunks.jsonl`에 포함된 `embedding` 값을 사용합니다.
+DB 적재 전에는 청크 파일에 임베딩이 포함되어 있어야 합니다.
+
+이미 `outputs/chunking/rag_chunks.jsonl`에 `embedding` 필드가 포함되어 있다면 이 단계는 생략해도 됩니다. 단, 위의 청킹 명령을 다시 실행해서 `rag_chunks.raw.jsonl`을 새로 만든 경우에는 다음 명령으로 임베딩을 추가해 최종 `rag_chunks.jsonl`을 생성합니다.
+
+```bash
+uv run python -m jb_hackathon_data.run_embed_pipeline \
+  --chunks outputs/chunking/rag_chunks.raw.jsonl \
+  --out outputs/chunking/rag_chunks.jsonl
+```
+
+현재 DB 적재 스크립트는 `outputs/chunking/rag_chunks.jsonl`에 포함된 `embedding` 값을 사용합니다. 임베딩 모델은 기본값으로 `nlpai-lab/KURE-v1`을 사용합니다.
 
 ### 2.2 PostgreSQL DB 초기 구축 및 Reference Document 데이터 추가
 
@@ -136,6 +147,8 @@ uv run python -m jb_hackathon_data.db.rag_search_sample \
 ```
 
 첫 실행 시에는 쿼리 임베딩 모델을 내려받거나 로드하느라 시간이 걸릴 수 있습니다.
+
+
 
 ## 3. DB 실행
 

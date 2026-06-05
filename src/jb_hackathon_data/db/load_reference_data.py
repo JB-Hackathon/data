@@ -282,7 +282,10 @@ def _required_int(payload: dict[str, Any], key: str, *, line_no: int) -> int:
 def _required_embedding(payload: dict[str, Any], *, line_no: int) -> list[float]:
     value = payload.get("embedding")
     if not isinstance(value, list) or not value:
-        raise RuntimeError(f"line {line_no}: embedding must be a non-empty list")
+        raise RuntimeError(
+            f"line {line_no}: embedding must be a non-empty list. "
+            "Run `python -m jb_hackathon_data.run_embed_pipeline` before loading chunks into DB."
+        )
 
     values: list[float] = []
     for item in value:
