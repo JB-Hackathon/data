@@ -2,6 +2,18 @@
 
 ComplianceJB 프로젝트의 PostgreSQL/pgvector 기반 데이터베이스와 RAG 참고 문서 데이터를 관리하는 폴더입니다.
 
+이 폴더에는 별도 `compose.yml`을 두지 않고, 프로젝트 루트의 `docker-compose.yml`에 정의된 `postgres-db` 서비스를 사용합니다.
+
+```text
+JB-Hackathon/
+  docker-compose.yml
+  data/
+    init/
+    raw/
+    outputs/
+    src/
+```
+
 ## 1. 서비스 DB ERD
 
 서비스 DB는 DrawDB에서 설계한 ERD를 기준으로 구성합니다.
@@ -56,15 +68,17 @@ outputs/chunking/rag_chunks.jsonl
 outputs/chunking/summary.json
 ```
 
-원본 문서를 다시 추출하려면 다음 명령을 사용합니다.
+원본 문서를 다시 추출하려면 `data` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
+cd ~/JB-Hackathon/data
+
 uv run python -m jb_hackathon_data.run_clean_pipeline \
   --raw-dir raw \
   --out outputs/extraction/raw_documents.jsonl
 ```
 
-추출 결과를 다시 청킹하려면 다음 명령을 사용합니다.
+추출 결과를 다시 청킹하려면 다음 명령을 실행합니다.
 
 ```bash
 uv run python -m jb_hackathon_data.run_chunk_pipeline \
@@ -75,7 +89,9 @@ uv run python -m jb_hackathon_data.run_chunk_pipeline \
 
 DB 적재 전에는 청크 파일에 임베딩이 포함되어 있어야 합니다.
 
-이미 `outputs/chunking/rag_chunks.jsonl`에 `embedding` 필드가 포함되어 있다면 이 단계는 생략해도 됩니다. 단, 위의 청킹 명령을 다시 실행해서 `rag_chunks.raw.jsonl`을 새로 만든 경우에는 다음 명령으로 임베딩을 추가해 최종 `rag_chunks.jsonl`을 생성합니다.
+이미 `outputs/chunking/rag_chunks.jsonl`에 `embedding` 필드가 포함되어 있다면 임베딩 생성 단계는 생략해도 됩니다.
+
+위의 청킹 명령을 다시 실행해서 `rag_chunks.raw.jsonl`을 새로 만든 경우에는 다음 명령으로 임베딩을 추가해 최종 `rag_chunks.jsonl`을 생성합니다.
 
 ```bash
 uv run python -m jb_hackathon_data.run_embed_pipeline \
@@ -87,13 +103,23 @@ uv run python -m jb_hackathon_data.run_embed_pipeline \
 
 ### 2.2 PostgreSQL DB 초기 구축 및 Reference Document 데이터 추가
 
-초기 프로젝트 구축 시에는 PostgreSQL 컨테이너를 먼저 생성한 뒤 참고 문서 데이터를 적재합니다.
+초기 프로젝트 구축 시에는 프로젝트 루트의 `postgres-db` 서비스만 먼저 실행합니다.
 
 ```bash
-docker compose up --build -d
+cd ~/JB-Hackathon
+
+docker compose up --build -d postgres-db
 ```
 
-컨테이너가 처음 생성될 때 `init/`의 SQL 파일이 실행됩니다.
+루트 `docker-compose.yml`의 `postgres-db` 서비스는 다음 data 폴더를 사용합니다.
+
+```yaml
+volumes:
+  - ./data/postgres_data:/var/lib/postgresql/data
+  - ./data/init:/docker-entrypoint-initdb.d
+```
+
+컨테이너가 처음 생성될 때 `data/init/`의 SQL 파일이 순서대로 실행됩니다.
 
 ```text
 init/
@@ -102,9 +128,11 @@ init/
   02-indexes.sql    # vector/full-text search index 생성
 ```
 
-DB가 정상적으로 올라온 뒤 참고 문서와 문서 청크 데이터를 적재합니다.
+DB가 정상적으로 올라온 뒤 `data` 폴더에서 참고 문서와 문서 청크 데이터를 적재합니다.
 
 ```bash
+cd ~/JB-Hackathon/data
+
 uv run python -m jb_hackathon_data.db.load_reference_data --reset
 ```
 
@@ -116,10 +144,16 @@ uv run python -m jb_hackathon_data.db.load_reference_data --reset
 uv run python -m jb_hackathon_data.db.load_reference_data
 ```
 
-기본 접속 정보는 다음과 같습니다.
+로컬 WSL에서 loader를 실행할 때 기본 접속 정보는 다음과 같습니다.
 
 ```text
 DATABASE_URL=postgresql://jbuser:jbpass@localhost:5432/jbdb
+```
+
+Docker Compose 내부의 다른 서비스에서 DB에 접속할 때는 host를 `postgres-db`로 사용합니다.
+
+```text
+DATABASE_URL=postgresql://jbuser:jbpass@postgres-db:5432/jbdb
 ```
 
 ### 2.3 Reference Document Hybrid Search 샘플
@@ -133,6 +167,8 @@ src/jb_hackathon_data/db/rag_search_sample.py
 실행 예시는 다음과 같습니다.
 
 ```bash
+cd ~/JB-Hackathon/data
+
 uv run python -m jb_hackathon_data.db.rag_search_sample \
   "대출 광고에서 최저금리를 표시할 때 유의할 점" \
   --top-k 5 \
@@ -150,26 +186,26 @@ uv run python -m jb_hackathon_data.db.rag_search_sample \
 
 첫 실행 시에는 쿼리 임베딩 모델을 내려받거나 로드하느라 시간이 걸릴 수 있습니다.
 
-
-
 ## 3. DB 실행
 
-이미 DB가 생성되어 있는 상태에서는 기존 컨테이너를 실행합니다.
+이미 DB가 생성되어 있는 상태에서는 프로젝트 루트에서 `postgres-db` 서비스만 실행합니다.
 
 ```bash
-docker compose up -d
+cd ~/JB-Hackathon
+
+docker compose up -d postgres-db
 ```
 
 컨테이너 상태를 확인합니다.
 
 ```bash
-docker compose ps
+docker compose ps postgres-db
 ```
 
 DB에 접속합니다.
 
 ```bash
-docker exec -it jb-data-postgres psql -U jbuser -d jbdb
+docker exec -it postgres-db-container psql -U jbuser -d jbdb
 ```
 
 테이블 생성 여부를 확인합니다.
@@ -190,14 +226,20 @@ SELECT count(*)
 FROM reference_document_chunks;
 ```
 
-컨테이너를 중지하려면 다음 명령을 사용합니다.
+컨테이너를 중지하려면 루트에서 다음 명령을 사용합니다.
 
 ```bash
 docker compose down
 ```
 
-DB volume까지 완전히 초기화하고 다시 구축하려면 2.2 절차를 다시 수행합니다.
+DB 데이터를 완전히 초기화하려면 `data/postgres_data`를 삭제한 뒤 다시 실행합니다.
 
 ```bash
-docker compose down -v
+cd ~/JB-Hackathon
+
+docker compose down
+sudo rm -rf ./data/postgres_data
+docker compose up --build -d postgres-db
 ```
+
+주의: `data/postgres_data/`는 로컬 DB volume 디렉터리이므로 Git에 올리지 않습니다.
