@@ -1,0 +1,937 @@
+[
+  {
+    "source_file_path": "raw/250131_(보도자료) 주요 금융상품 광고 점검결과 조치 및 유의사항 안내(대출상품 온라인 광고편).pdf",
+    "source_file_name": "250131_(보도자료) 주요 금융상품 광고 점검결과 조치 및 유의사항 안내(대출상품 온라인 광고편).pdf",
+    "metadata_source_file_name": "250131_(보도자료) 주요 금융상품 광고 점검결과 조치 및 유의사항 안내(대출상품 온라인 광고편).pdf",
+    "document_type": "examples",
+    "title": "금감원 대출상품 온라인광고 점검자료",
+    "issuing_authority": "금융감독원",
+    "issued_date": "2025-01-31",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "감독",
+      "document_category": "감독기관 사례",
+      "source_urls": [
+        "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=190507&menuNo=200218"
+      ],
+      "sections": [
+        {
+          "section_ref": "대출상품 온라인광고 편",
+          "section_summary": "최저금리, 중도상환수수료, 부대비용, 조건 누락",
+          "source_url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=190507&menuNo=200218"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/250207_(보도자료) 주요 금융상품 광고 점검결과 조치 및 유의사항 안내(② ETF 광고 편).pdf",
+    "source_file_name": "250207_(보도자료) 주요 금융상품 광고 점검결과 조치 및 유의사항 안내(② ETF 광고 편).pdf",
+    "metadata_source_file_name": "250207_(보도자료) 주요 금융상품 광고 점검결과 조치 및 유의사항 안내(② ETF 광고 편).pdf",
+    "document_type": "examples",
+    "title": "금감원 ETF 광고 점검자료",
+    "issuing_authority": "금융감독원",
+    "issued_date": "2025-02-07",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "감독",
+      "document_category": "감독기관 사례",
+      "source_urls": [
+        "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=190815&menuNo=200218"
+      ],
+      "sections": [
+        {
+          "section_ref": "ETF 광고 편",
+          "section_summary": "수익률 오인, 안전성 오인, 수수료 미기재",
+          "source_url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=190815&menuNo=200218"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/260522 금융투자회사의 영업 및 업무에 관한 규정 개정 전문.hwp",
+    "source_file_name": "260522 금융투자회사의 영업 및 업무에 관한 규정 개정 전문.hwp",
+    "metadata_source_file_name": "260522 금융투자회사의 영업 및 업무에 관한 규정 개정 전문.hwp",
+    "document_type": "internal_policy",
+    "title": "금융투자회사의 영업 및 업무에 관한 규정",
+    "issuing_authority": "금융투자협회",
+    "issued_date": "2026-05-22",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://law.kofia.or.kr/service/law/lawFullScreen.do?historySeq=0&seq=136"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2-34조~제2-42조",
+          "section_summary": "투자광고 정의, 의무표시, 금지행위, 수익률 기준, 위험고지, 사전승인",
+          "source_url": "https://law.kofia.or.kr/service/law/lawFullScreen.do?historySeq=0&seq=136"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/6._여신전문금융회사_등의_사후보고_약관_접수_및_처리업무에_관한_규정(2024._11._29._개정(6차)).hwp",
+    "source_file_name": "6._여신전문금융회사_등의_사후보고_약관_접수_및_처리업무에_관한_규정(2024._11._29._개정(6차)).hwp",
+    "metadata_source_file_name": null,
+    "document_type": "other",
+    "title": "6._여신전문금융회사_등의_사후보고_약관_접수_및_처리업무에_관한_규정(2024._11._29._개정(6차))",
+    "issuing_authority": "unknown",
+    "issued_date": null,
+    "metadata": {
+      "purpose": null,
+      "major_category": null,
+      "document_category": null,
+      "source_urls": [],
+      "sections": [],
+      "note": "No matching row found in README.xlsx"
+    }
+  },
+  {
+    "source_file_path": "raw/개인정보 보호법 제15조 개인정보 수집·이용.pdf",
+    "source_file_name": "개인정보 보호법 제15조 개인정보 수집·이용.pdf",
+    "metadata_source_file_name": "개인정보 보호법 제15조 개인정보 수집·이용.pdf",
+    "document_type": "law",
+    "title": "개인정보 보호법",
+    "issuing_authority": "개인정보보호위원회",
+    "issued_date": null,
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "법률",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=011357&lsJoLnkSeq=900078940&print=print"
+      ],
+      "sections": [
+        {
+          "section_ref": "제15조 제1항",
+          "section_summary": "개인정보 수집·이용 가능 요건",
+          "source_url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=011357&lsJoLnkSeq=900078940&print=print"
+        },
+        {
+          "section_ref": "제15조 제2항",
+          "section_summary": "개인정보 수집·이용 동의 시 고지사항",
+          "source_url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=011357&lsJoLnkSeq=900078940&print=print"
+        }
+      ],
+      "issued_date_note": "확인 필요"
+    }
+  },
+  {
+    "source_file_path": "raw/금융소비자 보호에 관한 감독규정(금융위원회고시)(제2025-27호)(20260101).pdf",
+    "source_file_name": "금융소비자 보호에 관한 감독규정(금융위원회고시)(제2025-27호)(20260101).pdf",
+    "metadata_source_file_name": "금융소비자 보호에 관한 감독규정(금융위원회고시)(제2025-27호)(20260101).pdf",
+    "document_type": "regulation",
+    "title": "금융소비자 보호에 관한 감독규정",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2026-01-01",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "행정규칙",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265200"
+      ],
+      "sections": [
+        {
+          "section_ref": "제16조",
+          "section_summary": "광고 주체 및 광고 기준",
+          "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265200"
+        },
+        {
+          "section_ref": "제17조",
+          "section_summary": "상품유형별 광고 내용 기준",
+          "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265200"
+        },
+        {
+          "section_ref": "제18조",
+          "section_summary": "광고 내용·방법, 가독성·청취가능성",
+          "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265200"
+        },
+        {
+          "section_ref": "제19조",
+          "section_summary": "광고 금지행위",
+          "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265200"
+        },
+        {
+          "section_ref": "제20조",
+          "section_summary": "협회심의 대상·절차",
+          "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000265200"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/금융소비자 보호에 관한 법률(법률)(제21065호)(20260102).pdf",
+    "source_file_name": "금융소비자 보호에 관한 법률(법률)(제21065호)(20260102).pdf",
+    "metadata_source_file_name": "금융소비자 보호에 관한 법률(법률)(제21065호)(20260102).pdf",
+    "document_type": "law",
+    "title": "금융소비자 보호에 관한 법률",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2026-01-02",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "법률",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+      ],
+      "sections": [
+        {
+          "section_ref": "제22조 제1항",
+          "section_summary": "금융상품 광고 주체·기본 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        },
+        {
+          "section_ref": "제22조 제2항",
+          "section_summary": "광고의 명확·공정한 전달 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        },
+        {
+          "section_ref": "제22조 제3항",
+          "section_summary": "금융상품 광고 포함사항",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        },
+        {
+          "section_ref": "제22조 제4항",
+          "section_summary": "손실보전·이익보장 오인 등 금지행위",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        },
+        {
+          "section_ref": "제22조 제5항",
+          "section_summary": "표시광고법 등 관계 법령 연계",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        },
+        {
+          "section_ref": "제22조 제6항",
+          "section_summary": "협회 확인·심의 관련 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        },
+        {
+          "section_ref": "제22조 제7항",
+          "section_summary": "광고 관련 세부 위임 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=013704"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/금융위 온라인 설명 가이드라인.pdf",
+    "source_file_name": "금융위 온라인 설명 가이드라인.pdf",
+    "metadata_source_file_name": "금융위 온라인 설명 가이드라인.pdf",
+    "document_type": "guideline",
+    "title": "금융위 온라인 금융상품 설명방안",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2022-08-11",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "감독",
+      "document_category": "감독기관 자료 (해석/운영기준)",
+      "source_urls": [
+        "https://www.fsc.go.kr/no010101/78276"
+      ],
+      "sections": [
+        {
+          "section_ref": "3개 분야 7개 원칙",
+          "section_summary": "온라인 설명 구성, 이해 지원, 상담채널 접근성",
+          "source_url": "https://www.fsc.go.kr/no010101/78276"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/금융위원회 특판 예적금 광고 유의사항.pdf",
+    "source_file_name": "금융위원회 특판 예적금 광고 유의사항.pdf",
+    "metadata_source_file_name": "금융위원회 특판 예적금 광고 유의사항.pdf",
+    "document_type": "guideline",
+    "title": "금융위 특판 예적금 광고 유의사항",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2023-09-14",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "감독",
+      "document_category": "감독기관 자료 (해석/운영기준)",
+      "source_urls": [
+        "https://www.fsc.go.kr/no010101/80751"
+      ],
+      "sections": [
+        {
+          "section_ref": "본문 (1)",
+          "section_summary": "최고금리·기본금리 표시",
+          "source_url": "https://www.fsc.go.kr/no010101/80751"
+        },
+        {
+          "section_ref": "본문 (2)",
+          "section_summary": "우대조건 표시",
+          "source_url": "https://www.fsc.go.kr/no010101/80751"
+        },
+        {
+          "section_ref": "본문 (3)",
+          "section_summary": "추첨확률·혜택 조건 표시",
+          "source_url": "https://www.fsc.go.kr/no010101/80751"
+        },
+        {
+          "section_ref": "본문 (4)",
+          "section_summary": "만기이자·실제 수익 오인 방지",
+          "source_url": "https://www.fsc.go.kr/no010101/80751"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/금융투자회사의 컴플라이언스 매뉴얼 공통·증권·선물편_게시용.hwp",
+    "source_file_name": "금융투자회사의 컴플라이언스 매뉴얼 공통·증권·선물편_게시용.hwp",
+    "metadata_source_file_name": "금융투자협회 컴플라이언스 매뉴얼 공통증권선물편(공식페이지_historySeq779_seq284).html",
+    "document_type": "internal_policy",
+    "title": "금융투자회사의 컴플라이언스 매뉴얼 공통·증권·선물편",
+    "issuing_authority": "금융투자협회",
+    "issued_date": null,
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=779&seq=284"
+      ],
+      "sections": [
+        {
+          "section_ref": "투자광고 / Compliance Checklist",
+          "section_summary": "투자광고 사내 준법감시인 승인, 협회 심사 의뢰, 심사필 표시, 편철보관 절차 예시 확인",
+          "source_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=779&seq=284"
+        }
+      ],
+      "issued_date_note": "확인 필요"
+    }
+  },
+  {
+    "source_file_path": "raw/별첨자료_금융광고규제가이드라인.pdf",
+    "source_file_name": "별첨자료_금융광고규제가이드라인.pdf",
+    "metadata_source_file_name": "별첨자료_금융광고규제가이드라인.pdf",
+    "document_type": "guideline",
+    "title": "금융광고규제 가이드라인",
+    "issuing_authority": "금융위원회·금융감독원",
+    "issued_date": "2021-06-08",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "감독",
+      "document_category": "감독기관 자료 (해석/운영기준)",
+      "source_urls": [
+        "https://www.fsc.go.kr/po010101/76045"
+      ],
+      "sections": [
+        {
+          "section_ref": "별첨 Ⅱ",
+          "section_summary": "금융상품 광고 해당 여부, 특정 소비자군 대상 광고, 광고성 보도자료 판단",
+          "source_url": "https://www.fsc.go.kr/po010101/76045"
+        },
+        {
+          "section_ref": "별첨 Ⅲ",
+          "section_summary": "광고 주체, 직접판매업자 확인, 심의절차 판단",
+          "source_url": "https://www.fsc.go.kr/po010101/76045"
+        },
+        {
+          "section_ref": "별첨 Ⅳ",
+          "section_summary": "광고 내용·방법, 중요사항, 혜택·불이익 균형 전달",
+          "source_url": "https://www.fsc.go.kr/po010101/76045"
+        },
+        {
+          "section_ref": "참고 1~3",
+          "section_summary": "정보 누락, 확정 표현, 비교우위, 조건 누락, 변동 가능성 누락 판단",
+          "source_url": "https://www.fsc.go.kr/po010101/76045"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/불법스팸 방지를 위한 정보통신망법 안내서(제7차 개정본)_KISA.pdf",
+    "source_file_name": "불법스팸 방지를 위한 정보통신망법 안내서(제7차 개정본)_KISA.pdf",
+    "metadata_source_file_name": "불법스팸 방지를 위한 정보통신망법 안내서(제7차 개정본)_KISA.pdf",
+    "document_type": "guideline",
+    "title": "KISA 불법스팸 방지 안내자료",
+    "issuing_authority": "한국인터넷진흥원",
+    "issued_date": "2026-03-04",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "그외",
+      "document_category": "공공기관 안내자료",
+      "source_urls": [
+        "https://spam.kisa.or.kr/spam/na/ntt/selectNttInfo.do?bbsId=1002&mi=1020&nttSn=3001"
+      ],
+      "sections": [
+        {
+          "section_ref": "제7차 개정본",
+          "section_summary": "광고성 정보 전송, 수신동의·수신거부 검토",
+          "source_url": "https://spam.kisa.or.kr/spam/na/ntt/selectNttInfo.do?bbsId=1002&mi=1020&nttSn=3001"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/신용카드 개인회원 표준약관(2026.05.12 시행)_여신금융협회.hwp",
+    "source_file_name": "신용카드 개인회원 표준약관(2026.05.12 시행)_여신금융협회.hwp",
+    "metadata_source_file_name": "신용카드 개인회원 표준약관(2026.05.12 시행)_여신금융협회.hwp",
+    "document_type": "internal_policy",
+    "title": "신용카드 개인회원 표준약관",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2026-05-12",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "표준약관",
+          "section_summary": "신용카드 혜택·수수료·이용조건·회원 약관 검토 시 원문 확인",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/여신전문금융업감독규정(금융위원회고시)(제2026-17호)(20260506).pdf",
+    "source_file_name": "여신전문금융업감독규정(금융위원회고시)(제2026-17호)(20260506).pdf",
+    "metadata_source_file_name": "여신전문금융업감독규정(금융위원회고시)(제2026-17호)(20260506).pdf",
+    "document_type": "regulation",
+    "title": "여신전문금융업감독규정",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2026-05-06",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "법령",
+      "document_category": "행정규칙",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조 제1항",
+          "section_summary": "여전업 관련 용어·범위 확인",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        },
+        {
+          "section_ref": "제23조의2",
+          "section_summary": "자동차금융·리스·할부 관련 검토",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        },
+        {
+          "section_ref": "제24조~제26조의5",
+          "section_summary": "여전업 세부 감독 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/여신전문금융업법(법률)(제21065호)(20251001).pdf",
+    "source_file_name": "여신전문금융업법(법률)(제21065호)(20251001).pdf",
+    "metadata_source_file_name": "여신전문금융업법(법률)(제21065호)(20251001).pdf",
+    "document_type": "law",
+    "title": "여신전문금융업법",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2025-10-01",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "법령",
+      "document_category": "법률",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조 제1호~제7호",
+          "section_summary": "여전업, 카드, 시설대여, 할부금융 등 정의",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        },
+        {
+          "section_ref": "제36조",
+          "section_summary": "여신전문금융업 업무 관련 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        },
+        {
+          "section_ref": "제39조",
+          "section_summary": "시설대여·할부금융 등 관련 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        },
+        {
+          "section_ref": "제50조의10",
+          "section_summary": "여신금융상품 광고 관련 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=000536"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/여신전문금융회사_등의_광고에_관한_규정(게시용)_FN.hwp",
+    "source_file_name": "여신전문금융회사_등의_광고에_관한_규정(게시용)_FN.hwp",
+    "metadata_source_file_name": "여신전문금융회사_등의_광고에_관한_규정(게시용)_FN.hwp",
+    "document_type": "internal_policy",
+    "title": "여신금융협회 광고 규정",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2022-05-02",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조~제13조",
+          "section_summary": "여전업 광고 범위, 의무표시, 금지행위",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        },
+        {
+          "section_ref": "제17조~제25조",
+          "section_summary": "심의 절차·광고 운영 기준",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/여신전문금융회사_등의_광고에_관한_규정_세부지침(게시용).hwp",
+    "source_file_name": "여신전문금융회사_등의_광고에_관한_규정_세부지침(게시용).hwp",
+    "metadata_source_file_name": "여신전문금융회사_등의_광고에_관한_규정_세부지침(게시용).hwp",
+    "document_type": "internal_policy",
+    "title": "여신금융협회 광고 세부지침 및 사례",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2022-05-02",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://customer.crefia.or.kr/common/forward.xx?url=%2Fcustomer%2Freceipt%2FfalseHype%2FfalseHypeCase",
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조제18조, 별표 14",
+          "section_summary": "온라인·배너·SNS 광고, 경고문구, 표시방식",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        },
+        {
+          "section_ref": "주요 사례 ①~⑤",
+          "section_summary": "혜택·자격·최상급 표현의 허위·과장 위험",
+          "source_url": "https://customer.crefia.or.kr/common/forward.xx?url=%2Fcustomer%2Freceipt%2FfalseHype%2FfalseHypeCase"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/예금자보호법(법률)(제21065호)(20260102).pdf",
+    "source_file_name": "예금자보호법(법률)(제21065호)(20260102).pdf",
+    "metadata_source_file_name": "예금자보호법(법률)(제21065호)(20260102).pdf",
+    "document_type": "law",
+    "title": "예금자보호법",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2026-01-02",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "법률",
+      "source_urls": [
+        "https://www.law.go.kr/법령/예금자보호법"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조",
+          "section_summary": "예금자보호 관련 정의",
+          "source_url": "https://www.law.go.kr/법령/예금자보호법"
+        },
+        {
+          "section_ref": "제29조",
+          "section_summary": "예금자보호 제도 관련 기준",
+          "source_url": "https://www.law.go.kr/법령/예금자보호법"
+        },
+        {
+          "section_ref": "제31조~제32조",
+          "section_summary": "보호한도, 보호상품·비보호상품 표시 참고",
+          "source_url": "https://www.law.go.kr/법령/예금자보호법"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/온라인 금융플랫폼 금소법 적용사례.pdf",
+    "source_file_name": "온라인 금융플랫폼 금소법 적용사례.pdf",
+    "metadata_source_file_name": "온라인 금융플랫폼 금소법 적용사례.pdf",
+    "document_type": "examples",
+    "title": "온라인 금융플랫폼 금소법 적용사례",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2021-09-07",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "감독",
+      "document_category": "감독기관 사례",
+      "source_urls": [
+        "https://www.fsc.go.kr/no010101/76485"
+      ],
+      "sections": [
+        {
+          "section_ref": "2. 사례검토 기본방향",
+          "section_summary": "플랫폼·제휴 구조의 판매중개 판단",
+          "source_url": "https://www.fsc.go.kr/no010101/76485"
+        },
+        {
+          "section_ref": "3. 주요사례",
+          "section_summary": "비교 플랫폼·판매대리 구조 확인",
+          "source_url": "https://www.fsc.go.kr/no010101/76485"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/은행 광고심의 기준 및 은행 광고심의 기준 세칙 1부.hwp",
+    "source_file_name": "은행 광고심의 기준 및 은행 광고심의 기준 세칙 1부.hwp",
+    "metadata_source_file_name": "은행 광고심의 기준 및 은행 광고심의 기준 세칙 1부.hwp",
+    "document_type": "internal_policy",
+    "title": "은행연합회 은행 광고심의 기준",
+    "issuing_authority": "은행연합회",
+    "issued_date": "2023-01-26",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://m.kfb.or.kr/publicdata/data_enact.php?gubun=A"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조~제10조",
+          "section_summary": "은행 광고 범위·기본 심의기준",
+          "source_url": "https://m.kfb.or.kr/publicdata/data_enact.php?gubun=A"
+        },
+        {
+          "section_ref": "제16조~제21조",
+          "section_summary": "의무표시·금지사항·광고심의 기준",
+          "source_url": "https://m.kfb.or.kr/publicdata/data_enact.php?gubun=A"
+        },
+        {
+          "section_ref": "제2조 제13조, 별표 15",
+          "section_summary": "금리, 우대조건, 필수고지 세부 기준",
+          "source_url": "https://m.kfb.or.kr/publicdata/data_enact.php?gubun=A"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/은행법(법률)(제19261호)(20230922).pdf",
+    "source_file_name": "은행법(법률)(제19261호)(20230922).pdf",
+    "metadata_source_file_name": "은행법(법률)(제19261호)(20230922).pdf",
+    "document_type": "law",
+    "title": "은행법",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2023-09-22",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "법령",
+      "document_category": "법률",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001549&urlMode=lsInfoP"
+      ],
+      "sections": [
+        {
+          "section_ref": "제2조 제1항 제1호",
+          "section_summary": "은행 정의",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001549&urlMode=lsInfoP"
+        },
+        {
+          "section_ref": "제2조 제1항 제2호",
+          "section_summary": "은행업 정의",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001549&urlMode=lsInfoP"
+        },
+        {
+          "section_ref": "제27조",
+          "section_summary": "은행 업무범위 확인 시 참고",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001549&urlMode=lsInfoP"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/은행업감독규정(금융위원회고시 제2026-10호)(20260401)_국가법령정보센터.pdf",
+    "source_file_name": "은행업감독규정(금융위원회고시 제2026-10호)(20260401)_국가법령정보센터.pdf",
+    "metadata_source_file_name": "은행업감독규정(금융위원회고시 제2026-10호)(20260401)_국가법령정보센터.pdf",
+    "document_type": "regulation",
+    "title": "은행업감독규정",
+    "issuing_authority": "금융위원회",
+    "issued_date": "2026-04-01",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "법령",
+      "document_category": "행정규칙",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276094&chrClsCd=010201"
+      ],
+      "sections": [
+        {
+          "section_ref": "제85조~제89조",
+          "section_summary": "약관·금융거래조건 공시 확인",
+          "source_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276094&chrClsCd=010201"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/인터넷 광고에 관한 심사지침(공정거래위원회예규)(제272호)(20161223).pdf",
+    "source_file_name": "인터넷 광고에 관한 심사지침(공정거래위원회예규)(제272호)(20161223).pdf",
+    "metadata_source_file_name": "인터넷 광고에 관한 심사지침(공정거래위원회예규)(제272호)(20161223).pdf",
+    "document_type": "regulation",
+    "title": "인터넷 광고에 관한 심사지침",
+    "issuing_authority": "공정거래위원회",
+    "issued_date": "2016-12-23",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "행정규칙",
+      "source_urls": [
+        "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000070477"
+      ],
+      "sections": [
+        {
+          "section_ref": "Ⅱ. 적용범위",
+          "section_summary": "인터넷 광고 적용 대상",
+          "source_url": "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000070477"
+        },
+        {
+          "section_ref": "Ⅲ. 용어",
+          "section_summary": "배너·검색·랜딩페이지 등 용어 기준",
+          "source_url": "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000070477"
+        },
+        {
+          "section_ref": "Ⅳ. 일반원칙",
+          "section_summary": "온라인 광고 일반 심사 원칙",
+          "source_url": "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000070477"
+        },
+        {
+          "section_ref": "Ⅴ. 세부심사지침",
+          "section_summary": "배너·검색·이용후기·랜딩페이지 검토",
+          "source_url": "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000070477"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/자동차 할부금융 표준약관(2024.10.15 개정)_여신금융협회.hwp",
+    "source_file_name": "자동차 할부금융 표준약관(2024.10.15 개정)_여신금융협회.hwp",
+    "metadata_source_file_name": "자동차 할부금융 표준약관(2024.10.15 개정)_여신금융협회.hwp",
+    "document_type": "internal_policy",
+    "title": "자동차 할부금융 표준약관",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2024-10-15",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "표준약관",
+          "section_summary": "자동차 할부금융 상품 조건·약관 검토 시 원문 확인",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/자동차리스 표준약관(2021.11.24 개정)_여신금융협회.hwp",
+    "source_file_name": "자동차리스 표준약관(2021.11.24 개정)_여신금융협회.hwp",
+    "metadata_source_file_name": "자동차리스 표준약관(2021.11.24 개정)_여신금융협회.hwp",
+    "document_type": "internal_policy",
+    "title": "자동차리스 표준약관",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2021-11-24",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "표준약관",
+          "section_summary": "자동차리스 리스료·보증금·잔존가치·중도해지 조건 검토 시 원문 확인",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/중고자동차 대출 표준약관(2025.12.23 개정)_여신금융협회.hwp",
+    "source_file_name": "중고자동차 대출 표준약관(2025.12.23 개정)_여신금융협회.hwp",
+    "metadata_source_file_name": "중고자동차 대출 표준약관(2025.12.23 개정)_여신금융협회.hwp",
+    "document_type": "internal_policy",
+    "title": "중고자동차 대출 표준약관",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2025-12-23",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "표준약관",
+          "section_summary": "중고자동차 대출 조건·상환·수수료 등 약관 검토 시 원문 확인",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/중고차금융 영업관행 개선을 위한 가이드라인(2025.09.05)_여신금융협회.hwp",
+    "source_file_name": "중고차금융 영업관행 개선을 위한 가이드라인(2025.09.05)_여신금융협회.hwp",
+    "metadata_source_file_name": "중고차금융 영업관행 개선을 위한 가이드라인(2025.09.05)_여신금융협회.hwp",
+    "document_type": "internal_policy",
+    "title": "중고차금융 영업관행 개선을 위한 가이드라인",
+    "issuing_authority": "여신금융협회",
+    "issued_date": "2025-09-05",
+    "metadata": {
+      "purpose": "상품 조건 검증",
+      "major_category": "협회",
+      "document_category": "자율규제",
+      "source_urls": [
+        "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+      ],
+      "sections": [
+        {
+          "section_ref": "가이드라인",
+          "section_summary": "중고차금융 영업 관행, 고객 안내, 조건 표시 검토 시 원문 확인",
+          "source_url": "https://www.crefia.or.kr/portal/infocenter/regulation/selfRegulation.xx"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/중요한 표시·광고사항 고시(공정거래위원회고시)(제2025-9호)(20251112).pdf",
+    "source_file_name": "중요한 표시·광고사항 고시(공정거래위원회고시)(제2025-9호)(20251112).pdf",
+    "metadata_source_file_name": "중요한 표시·광고사항 고시(공정거래위원회고시)(제2025-9호)(20251112).pdf",
+    "document_type": "regulation",
+    "title": "중요한 표시·광고사항 고시",
+    "issuing_authority": "공정거래위원회",
+    "issued_date": "2025-11-12",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "행정규칙",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000267710"
+      ],
+      "sections": [
+        {
+          "section_ref": "Ⅲ. 일반원칙",
+          "section_summary": "중요정보 해당 여부 판단",
+          "source_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000267710"
+        },
+        {
+          "section_ref": "Ⅳ. 분야별 중요정보",
+          "section_summary": "분야별 중요정보 표시 여부 확인",
+          "source_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000267710"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/추천·보증 등에 관한 표시·광고 심사지침(공정거래위원회예규)(제473호)(20241201).pdf",
+    "source_file_name": "추천·보증 등에 관한 표시·광고 심사지침(공정거래위원회예규)(제473호)(20241201).pdf",
+    "metadata_source_file_name": "추천·보증 등에 관한 표시·광고 심사지침(공정거래위원회예규)(제473호)(20241201).pdf",
+    "document_type": "regulation",
+    "title": "추천·보증 등에 관한 표시·광고 심사지침",
+    "issuing_authority": "공정거래위원회",
+    "issued_date": "2024-12-01",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "행정규칙",
+      "source_urls": [
+        "https://www.law.go.kr/admRulLsInfoP.do?admRulId=35032&efYd=0"
+      ],
+      "sections": [
+        {
+          "section_ref": "Ⅲ. 용어의 정의",
+          "section_summary": "추천·보증·경제적 이해관계 정의",
+          "source_url": "https://www.law.go.kr/admRulLsInfoP.do?admRulId=35032&efYd=0"
+        },
+        {
+          "section_ref": "Ⅳ. 일반원칙",
+          "section_summary": "협찬·후기·인플루언서 표시 원칙",
+          "source_url": "https://www.law.go.kr/admRulLsInfoP.do?admRulId=35032&efYd=0"
+        },
+        {
+          "section_ref": "Ⅴ. 세부심사지침",
+          "section_summary": "매체별 경제적 이해관계 표시 기준",
+          "source_url": "https://www.law.go.kr/admRulLsInfoP.do?admRulId=35032&efYd=0"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/표시 설명 확인제도 가이드라인(2024.2).pdf",
+    "source_file_name": "표시 설명 확인제도 가이드라인(2024.2).pdf",
+    "metadata_source_file_name": "표시 설명 확인제도 가이드라인(2024.2).pdf",
+    "document_type": "guideline",
+    "title": "KDIC 예금자보호 표시·설명 자료",
+    "issuing_authority": "예금보험공사",
+    "issued_date": "2024-02-01",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "그외",
+      "document_category": "공공기관 안내자료",
+      "source_urls": [
+        "https://www.kdic.or.kr/sp/dpstrprot/selectProtSystDataDwnldList.do"
+      ],
+      "sections": [
+        {
+          "section_ref": "표시·설명·확인 제도 안내자료",
+          "section_summary": "예금자보호 문구·보호한도 표시 방식",
+          "source_url": "https://www.kdic.or.kr/sp/dpstrprot/selectProtSystDataDwnldList.do"
+        }
+      ]
+    }
+  },
+  {
+    "source_file_path": "raw/표시ㆍ광고의 공정화에 관한 법률(법률)(제20712호)(20250121).pdf",
+    "source_file_name": "표시ㆍ광고의 공정화에 관한 법률(법률)(제20712호)(20250121).pdf",
+    "metadata_source_file_name": "표시ㆍ광고의 공정화에 관한 법률(법률)(제20712호)(20250121).pdf",
+    "document_type": "law",
+    "title": "표시·광고의 공정화에 관한 법률",
+    "issuing_authority": "공정거래위원회",
+    "issued_date": "2025-01-21",
+    "metadata": {
+      "purpose": "광고 심사",
+      "major_category": "법령",
+      "document_category": "법률",
+      "source_urls": [
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=002011"
+      ],
+      "sections": [
+        {
+          "section_ref": "제3조",
+          "section_summary": "거짓·과장 등 부당 표시광고 금지",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=002011"
+        },
+        {
+          "section_ref": "제4조",
+          "section_summary": "중요정보 표시 기준",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=002011"
+        },
+        {
+          "section_ref": "제5조",
+          "section_summary": "사실표현 실증자료",
+          "source_url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=002011"
+        }
+      ]
+    }
+  }
+]
