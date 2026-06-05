@@ -1,3 +1,9 @@
+# postgres_data
+postgres_data/*
+
+# env files
+.env
+
 .venv/
 
 __pycache__/
@@ -15,4 +21,4 @@ test-results/
 
 evidence/
 
-.env
+
